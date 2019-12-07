@@ -1,0 +1,305 @@
+---
+title: 2019-08-27-vim编辑器.md~
+categories: Linux
+---
+# Vim编辑器
+categories: Linux
+```
+test paragraph:
+My name is van, i'm an artist, a performance artist. i'm hired for people to 
+fulfill their fantasies, the deep dark fantesies.
+a
+```
+
+## Moving Cursor
+  * `i`: insert
+  * `I`: insert at front of line
+  * `a`: append
+  * `A`: append at end of line
+  * `o`: overline
+  * `O`: upperline
+  * `w`: word forward
+  * `b`: word backword
+  * `0`: move to the head of the line
+  * `$`: move o the end of line 
+  * `+`: go to the first letter next line
+  * `-`: first letter last line
+  * `e/E`: end of word
+  * `h,j,k,l`: left,up,down,right
+  * `4h`: repeat 'h' 4 times
+
+## Edit
+  * `c`: change the letter
+  * `cc`: change whole line
+  * `cw`: change word
+  * `c2b`: 2 words before the cursor
+  * `c$/C`: delete words from cursor to the end of this line(stay in insert mode)
+  * `c0`: cursor to the begin of the line
+  * `C`: delete words from the cursor to the end
+  * `s`: switch letter(will stay in the insert mode)
+  * `r`: replace(will stay in the cmd mode) 
+  * `R`: replace but will cover letters behind
+  * `u`: undo
+  * `U`: recover whole line
+  * `ctrl+r`: redo
+  * `ZZ`: save and quit
+  * `:e!`: ignore changes without quitting the file
+  * `:q!`: ignore changes and quit
+  * `x`: delete letter in the cursor(stay in cmd mode)
+  * `X`: delete letter before cursor
+  * `d`: delete and put them in clipboard 
+  * `dw`: delete word
+  * `dd`: delete line
+  * `db,d2b,2dd,d$=D,d0,...
+  * `p`: place the text behind the cursor
+  * `P`: place before cursor
+  * `y`: copy
+  * `yy/Y`: copy whole line
+  * `.`: repeat last command
+
+## Scrolling Screen
+```
+^f means [ctrl] + [f]
+```
+
+  * `^f`: forward scroll screen 
+  * `^b`: backward scroll screen
+  * `^d`: downward half screen
+  * `^u`: upward half screen
+  * `z[enter]`: move cursor to the top of screen 
+  * `z.`: move cursor to mid of screen
+  * `z-`: move cursor to end of screen
+  * `50z[enter]`: move line 50 to the top
+  * `H`: move cursor to the top of screen
+  * `M`: mid of screen
+  * `L`: buttom of screen
+  * `5H`: 5 lines down the screen
+  * `5L`: 5 lines up the screen
+  * `+/-`: move to the first letter of next/up line
+  * `^`: move to the first no space place
+  * `5|`: move to the 5th column of this line
+  * `e`: move to the end of letter
+  * `E`: move to the end of letter ignoring the punctuate
+  * `(`: move to the begining of current sentence
+  * `)`: ~ next sentence
+  * `{`: ~ current paragraph
+  * `}`: ~ next paragraph
+  * `[[`: ~ this section
+  * `]]`: ~ next section
+  * `Move based of Search
+  * `/`: search downwards
+  * `?`: search upwards
+  * `n`: repeat last search
+  * `N`: repeat last search but in the opposite direction
+  * `fw`: move cursor to the next place of 'w'(in this line)
+  * `Fw`: ~ last place ~
+  * `tw`: move cursor to the place before 'w'    
+  * `Tw`: ~ last place ~
+  * `;`: repeat last searching cmd
+  * `'`: ~ opposite direction
+  * `Move based on line number
+  * `set nu`: view line number
+  * `ctrl+G`: view info of this line
+  * `G`: go to the last line
+  * `55G`: go to 55th line
+  * `(command)(number)(object)
+  * `c17G`: change text from cursor to line 17
+  * `d{`: delete text from cursor to last paragraph
+  * `yH`: copy from cursor to head of screen
+
+## Open File
+  * `vi + file`: open file at last line
+  * `vi +10 file`: open file at 10th line
+  * `vi +/"pattern" file`: open file at first pattern
+  * `vi -R file`: open file in "ReadOnly"(this case, use `:w! to write and quit)
+  * `view file`: ditto
+
+## Mark
+  * `mx`: mark current place as x(can be any symble)
+  * `'x`: move cursor to the line marked with x
+  * `\`x`: move cursor to mark x
+  * ``` `` ```: return to last mark or the place of cursor before moving
+  * `''`: return to last mark or begining of the line 
+
+## ex Editor
+  * `:d[ln]`: delete + line number [ln]
+  * `:m`: move line
+  * `:co`/`t`: copy line
+  * `:3,18d`: delete line 3 to line 18
+  * `170,220m3`: move from line 170 to line 220 after line 3
+  * `23,29c100`: copy from line 23 to line 29 after line 100
+  * `set nu`: display line number
+  * `  to line 220 after line 3
+  * `23,29c100`: copy from line 23 to line 29 after line 100
+  * `set nu`: display line number
+  * `.$0%`: present/last/first/all line of this passage
+  * `20,.m$`: move from line 20 to present line to the end line
+  * `+/-`: reletive line number
+  * `.,.+10co.-20`: copy from present line to present +10 line after present -20 line  
+  * `/pattern/`: find line through pattern
+  * `(in vi)d/while`: delete words from cursor to 'while'
+  * `(in ex).,/while/d`: delete current to next match 'while'
+  * `g/pattern`: move to last 'pattern' in the article
+  * `g/pattern/p`: display all lines that match pattern
+  * `g!/pattern/p`: display any line not mathch 'pattern'
+  * `60,110g/pattern/p`: from line 60 to 110, search and display
+  * `|`: split commands
+  * `1,3d | s/thier/their`: del 1 to 3 line, sub 'thier' to 'their'(in current line,
+  * `  which is original line 4)
+  * `w!`: write in by force
+  * `1,30 w newfile.txt`: write line 1 to 30 to newfile.txt
+  * `1,30w >> newfile.txt`: append 1,30 to newfile.txt
+  * `r/read filename`: read a newfile and copy it to next line of cursor
+  * `100 r filename`: put the file to 100line
+  * `vi file1 file2; `:w; `:n `: edit file1, write file1, goto file2
+  * `args`: show all file in edit list
+  * `e file2`: switch to file2
+  * `#,%`: first file, second file
+  * `w %.new`: save present content in buffer to a new file
+  * `"f4yy, w, e letter, "fp`: yank line 4 into buffer 'f', save, switch to file
+  * `  'letter', place text
+  * `
+  * `Global Replacement
+  * `s/old/new/`: substitude one 'old' to 'new', in current line
+  * `s/old/new/g`: substitude all 'old' in the line
+  * `1,$s/old/new/g`: substitude whole passage
+  * `%s/old/new/g`: % == 1,$
+  * `1,$s/old/new/gc`: c means confirmation, mannually confirm each change.(y+enter
+  * `  to change, enter to pass)
+  * `g/pattern/s/old/new/g`: global search line with 'pattern', and sub 'old' to
+  * `  'new' in the matched line 
+  * `%s/Yae/& Sakura/`: substitude 'Yae' for 'Yae Sakura', '&' represents matched
+  * `  content
+  * `s/\(this\) \(that\)/\u\1 \l\2`: 'This That' => 'This that'
+  * `  !Attention, must use '\(','\)' so the matched pattern can be written in \1, \2
+  * `g/content/mo14`: search line with 'content' and move to line 14
+  * `1,10g/^/ 12,17 t $`: copy line 12 to line 17 to end of passage 10 times
+  * `g /^\d/.+2 w >> newfile`: search line begin with number, append 2 line next to it
+  * `  to a newfile
+  * `/^part2/,/^part3/ g /^Chapter/ .+2 w >> newfile`: search line begin with
+  * `  Chapter from line start with 'part2' to 'part3' and append 2 lines after it to
+  * `  new file
+  * `/^part2/,/^part3/ g /^Chapter/ .+2 w >> newfile | + t $`: append those lines to
+  * `  newfile and put one line after it to end of passage
+  * `
+  * `Chapter 7`: Advanced Edit
+  * `Customize vi
+  * `set option`: turn off option
+  * `set nooption`: turn off option
+  * `set all`: check all options
+  * `set wrapmargin=10`: right margin = 10, auto change line
+  * `config '.exrc' file`: vi will pre process commands in '.exrc', no need to input
+  * `  '`:' before commands. 
+  * `Unix Command
+  * `!ls`: add '!' before order to run in unix
+  * `sh`: open a shell window(press ^d to quit)
+  * `r !filename`: put contents in filename to this passage
+  * `
+  * `chapter 10`: vim-vi improved
+  * `50%`: go to line 50/100*(total line number)
+  * `v`: visual mode, can select words and put them into buffer
+  * `in visual mode
+  * `  as`: add a sentence to selected area
+  * `  is`: add inner sentence
+  * `  ap`: add paragraph
+  * `  ip`: add inner paragraph
+  * `  5aw`: add 5 words(including punctuations)
+  * `  5aW`: add 5 words(just words)
+  * `
+  * `chapter 11`: multi windows
+  * `CREATE NEW WINDOW
+  * `in command line
+  * `  vim -o file1 file2
+  * `  vim -o3 file1 file2`: open 3 windows in total
+  * `in ex mode
+  * `  vsplit`: split windows vertically
+  * `  split file2`: open file2 in another window horizontally
+  * `  [n]split file2`: display n lines of file2 horizontally. 
+  * `  if no file is specified, display another window in the same content of
+  * `    present window. New window will cut the screen evenly if no [n] is specified. 
+  * `  ^WS`: same as split 
+  * `  [n]new`: new window, creat a new file. 
+  * `  [n]vnew`: open a vertical window.
+  * `MOVE CURSOR 
+  * ` ^W+h/j/k/l`: move cursor between windows, in the direction of h/j/k/l
+  * `   +t`: move to upper left corner.
+  * `   +b`: move to buttom right corner.
+  * `   +p`: move to last visited window.
+  * `   +w`: move to window below or to the right.(will circle back)
+  * `MOVE WINDOW
+  * `  ^W+r`: Rotate the window below or to the right.
+  * `    +R`: Rotate the window in the opposite way.
+  * `    +x`: exchange position with ajacent window.
+  * `        3^W+x`: exchange position with 3rd window below it.
+  * `    +H/J/K/L`: move window to the left/bottom/top/right side of the screen.
+  * `    +T`: move window to the new page.
+  * `RESIZE WINDOW
+  * `  ^W+=`: justfy windows to the same size.
+  * `    +-`: cut one line of present window.
+  * `    ++`: add one line to present windwo.
+  * `    +>`: cut one column.
+  * `    +<`: add one column.
+  * `  `:resize +n`: add n lines to present window.
+  * `  `:resize n`: set width of present window to n lines.
+  * `  `:vertical resize n`: set column number.
+  * `NEW TAB
+  * `  `:tabnew filename`: open new file in a new tab.
+  * `  `:tabclose`: close present tab.
+  * `  `:tabonly`: close all but this tab.
+  * `QUIT TAB
+  * `  ^W+q`: If 'hidden' is set and this window is the last one, window will be
+  * `closed while buffer is saved. If 'hidden' not set or unsaved changes remain in
+  * `buffer, no change will be make.
+  * `    +c`: Close present window.
+  * `    +o`: Close all but this.
+  * `  `:only`: Close all but this. 
+  * `  `:close`: Close present window.
+  * `  `:quit`: Leave the file while keeping the buffer.
+  * `
+  * `chapter 12`: Vim Script
+  * `Edit .vimrc/.gvimrc. 
+  * `
+  * `chapter 13`: Other usage
+  * `FOLD
+  * `  zA`: Recursively switch the folding state. 
+  * `  zC`: Recursively close folds.
+  * `  zD`: Recursively delete folds.
+  * `  zE`: Remove all folds.
+  * `  zf`: Fold starts from present cursor position to next position.
+  * `  [n]zf`: Fold n lines.
+  * `  zM`: Set foldlevel to 0.
+  * `  zN`: Set foldenable.
+  * `  zn`: Reset foldenable.
+  * `  zi`: Switch value of foldenable.
+  * `  zo`: Recursively onpen folds.
+  * `  za`: Switch status of a fold.
+  * `  zd`: Delete a fold.
+  * `  zj`: Move cursor to the begining of next fold.
+  * `  zk`: Move cursor to the end of last fold.
+  * `  zr`: Increment value of fold level.
+  * `  zm`: Decrement value of fold level.
+  * `  `:mkview, `:loadview`: Save all folds.
+  * `examples`:
+  * `  3zF`: Fold 3 lines, including present line.
+  * `  3zfj`: Fold present line and 3 lines below.
+  * `  Firstly move cursor to { or }, then type zf%, will fold a code block. % move
+  * `between pairs of brackets.
+  * `  Fold from 'FOLD' to 'examples`: move cursor to FOLD, type zf/examples[enter]
+  * `  Everything do to the folded line will change all lines folded.
+  * `  `:set foldmethod=indent`: Fold based on indents.
+  * `  `:set foldlevel=0`: Only view zero level of fold.
+  * `  `:set foldmethod=syntax`: Fold based on syntax.
+  * `INDENT
+  * `  `:set ..indent
+  * `  autoindent
+  * `  cindent`: for c language.
+  * `  smartindent
+  * `COMPLETE KEY WORDS
+  * `  ^x`: Complete words.
+  * `  ^x^f`: Complete filename.
+  * `  ^x^n`: Find among candidates. (after that)^n`: Next completion choice. ^p`:
+  * `Previous choice.
+  * `  ^x^l`: Complete line.
+  * `  ^x^i`: Find keywords in present file and included files.
+  * `  ^x^s`: Give a candidate list of available words. Need to switch on spelling
+  * `check. `:set spell.
