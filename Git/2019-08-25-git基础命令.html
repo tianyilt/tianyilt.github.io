@@ -50,7 +50,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -203,12 +203,41 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Blog"><span class="toc-text">Why Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#对博客的理解"><span class="toc-text">对博客的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于叶落阁"><span class="toc-text">关于叶落阁</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客平台"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
+    <div class="article-meta">
+        
+        
+        
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2019-11-10 15:16:50'>2019-12-07 10:47</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#git基础命令"><span class="toc-text">git基础命令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#初始配置"><span class="toc-text">初始配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#提交和日志"><span class="toc-text">提交和日志</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#回滚"><span class="toc-text">回滚</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#远程仓库"><span class="toc-text">远程仓库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多分支"><span class="toc-text">多分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#上传大文件"><span class="toc-text">上传大文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#暂存状态"><span class="toc-text">暂存状态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#标签"><span class="toc-text">标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#杂项配置"><span class="toc-text">杂项配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#忽略文件"><span class="toc-text">忽略文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#命令别名"><span class="toc-text">命令别名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置git服务器"><span class="toc-text">配置git服务器</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -221,36 +250,112 @@
     }
 </style>
 </div>
-            <h1 id="Why-Blog"><a href="#Why-Blog" class="headerlink" title="Why Blog"></a>Why Blog</h1><h2 id="对博客的理解"><a href="#对博客的理解" class="headerlink" title="对博客的理解"></a>对博客的理解</h2><p>喜欢写Blog的人，会经历三个阶段。</p>
-<blockquote>
-<p>第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</p>
-</blockquote>
-<blockquote>
-<p>第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</p>
-</blockquote>
-<blockquote>
-<p>第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</p>
-</blockquote>
-<p>我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。</p>
-<p>通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。</p>
-<h2 id="关于叶落阁"><a href="#关于叶落阁" class="headerlink" title="关于叶落阁"></a>关于叶落阁</h2><p><strong>叶落阁</strong> 是阿杰（杨玉杰）的个人站。</p>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 生成，部署在 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>，主题 <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">3-hexo</a> 已经在github上开源</p>
-<p>主要功能：</p>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="git基础命令"><a href="#git基础命令" class="headerlink" title="git基础命令"></a>git基础命令</h1><h2 id="初始配置"><a href="#初始配置" class="headerlink" title="初始配置"></a>初始配置</h2><ul>
+<li><code>git  init</code> 初始化  </li>
+<li><code>git  status</code>  </li>
+</ul>
+<h2 id="提交和日志"><a href="#提交和日志" class="headerlink" title="提交和日志"></a>提交和日志</h2><ul>
+<li><code>git  add</code>  </li>
+<li><code>git  commit -m &#39;write something to explain the changes&#39;</code>  </li>
+<li><code>git  log --pretty=oneline</code>  </li>
+<li><code>git  log --graph --pretty=oneline --abbrev-commit</code> 可视化  </li>
+</ul>
+<h2 id="回滚"><a href="#回滚" class="headerlink" title="回滚"></a>回滚</h2><ul>
+<li><code>git  reset --hard HEAD^</code>  </li>
+<li><code>git  reset --hard version_id</code>  </li>
+<li><code>git  checkout -- &lt;filename&gt;</code> 丢弃工作区的修改，退回到版本库（或暂存区）最新版本  </li>
+<li><code>git  reset HEAD &lt;filename&gt;</code> 撤销暂存区的修改，重新放回工作区<br><code>rm &lt;filename&gt;</code> 从系统删除文件  </li>
+<li><code>git  rm &lt;filename&gt;</code> 从版本库删除文件。删除之后要git commit -m提交  </li>
+</ul>
+<h2 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h2><p>github git仓库托管服务  </p>
 <ul>
-<li>搜索支持文章标题、标签(#标签)、作者(@作者)</li>
-<li>pad/手机等移动端适配</li>
-<li>页面全局快捷键 <a href='http://yelog.org/2017/03/24/3-hexo-shortcuts/' target="_blank" rel="noopener">3-hexo快捷键说明</a></li>
+<li><code>git  remote</code> 查看远程库信息  </li>
+<li><code>git  remote -v</code> 查看远程库详细信息  </li>
+<li><code>git  remote add origin https://github.com/LiuJin3042/learngit.git</code> 关联远程库，默认名称origin  </li>
+<li><code>git  remote add &lt;repo_name&gt; https://github.com/LiuJin3042/learngit.git</code> 关联远程库，用任意名称  </li>
+<li><code>git  push -u origin master</code> 将本地分支master上传到远程库origin，-u参数关联master分支  </li>
+<li><code>git  push origin master(dev)</code> 将本地分支master(dev)的修改推送到github。没有联网也可以工作  </li>
+<li><code>git  clone https://...</code> 复制远程库到本地，复制后只能看到master分支  </li>
+<li><code>git  pull</code> 必须先将远程库同步到本地，解决冲突后本地才可以push到远程  </li>
+</ul>
+<h2 id="多分支"><a href="#多分支" class="headerlink" title="多分支"></a>多分支</h2><ul>
+<li><code>git  branch --set-upstream-to=origin/dev dev</code> 将本地的dev和远程的dev链接起来  </li>
+<li><code>git  checkout -b branch-name origin/branch-name</code> 本地创建和远程分支对应的分支，分支名称最好一致  </li>
+<li><code>git  checkout -b dev</code> 创建dev分支，切换到dev分支（相当于下面两条指令）  <ul>
+<li><code>git branch dev</code>  </li>
+<li><code>git checkout dev</code>  </li>
+</ul>
+</li>
+<li><code>git  branch</code> 查看分支  </li>
+<li><code>git  merge dev</code> 合并指定分支到当前分支  </li>
+<li><code>git  branch -d dev</code> 删除dev  </li>
+<li><code>git  merge --no-ff -m &quot;merge with no-ff&quot; dev</code> 禁用fast forward  </li>
+</ul>
+<h2 id="上传大文件"><a href="#上传大文件" class="headerlink" title="上传大文件"></a>上传大文件</h2><p>超过100M的大文件需要使用git-lfs上传. 但是git-lfs对库的容量有要求, 库超过1G大就要购买额外空间.</p>
+<ul>
+<li>在<a href="git-lfs.github.com">此网站</a>下载git-lfs并安装(Windows系统)</li>
+<li>在<code>git bash</code>中输入<code>git lfs install</code></li>
+<li>在库中输入<code>git lfs track &quot;*.pdf&quot;</code>, 以后pdf文件都是用git-lfs上传</li>
+</ul>
+<h2 id="暂存状态"><a href="#暂存状态" class="headerlink" title="暂存状态"></a>暂存状态</h2><ul>
+<li><code>git  stash</code>清空工作区，将当前工作放到栈里  </li>
+<li><code>git  stash list</code> 查看栈  </li>
+<li><code>git  stash pop</code> 恢复栈，清空内容。  </li>
+<li><code>git  stash app</code>  </li>
+</ul>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><ul>
+<li><code>git  tag</code> 查看所有标签  </li>
+<li><code>git  tag v0.9 f52c633</code> 在id为f52c633的commit上打一个标签，标签名是v0.9  </li>
+<li><code>git  show &lt;tagname&gt;</code> 查看标签信息  </li>
+<li><code>git  tag -a v0.1 -m &quot;version 0.1 released&quot; 1094adb</code> -a添加标签名称，-m添加备注  </li>
+<li><code>git  tag -d &lt;tagname&gt;</code>  </li>
+<li><code>git  push origin &lt;tagname&gt;</code> 将本地的标签推到远程  </li>
+<li><code>git  push origin --tags</code> 推送所有标签  </li>
+<li><code>git  push origin :refs/tags/v0.9</code> 删除远程标签，要先删除本地的标签，然后用这句话  </li>
+</ul>
+<h2 id="杂项配置"><a href="#杂项配置" class="headerlink" title="杂项配置"></a>杂项配置</h2><ul>
+<li><code>git  config --global color.ui true</code> 命令显示颜色  </li>
+</ul>
+<h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><p>编写 .gitignore 文件<br>.gitignore 需要提交到库里，并对文件做版本管理  </p>
+<ul>
+<li><code>git  add -f App.class</code> 强制添加被忽略的文件  </li>
+<li><code>git  check-ignore -v App.class</code>  </li>
+</ul>
+<h2 id="命令别名"><a href="#命令别名" class="headerlink" title="命令别名"></a>命令别名</h2><ul>
+<li><code>git  config --global alias.st status</code> 用st代替status命令。–global是全局参数，表示本电脑所有git库都可以使用  </li>
+</ul>
+<h2 id="配置git服务器"><a href="#配置git服务器" class="headerlink" title="配置git服务器"></a>配置git服务器</h2><ul>
+<li>推荐linux系统<br><code>sudo apt-get install git</code><br><code>sudo adduser git</code>  </li>
+<li>把所有公钥导入到<code>/home/git/.ssh/authorized_keys</code>文件里，一行一个  </li>
+<li>先选定一个目录作为Git仓库，假定<code>是/srv/sample.git</code>，在/srv目录下输入命令：<br><code>sudo git init --bare sample.git</code>  </li>
+<li>把owner改为git: <code>sudo chown -R git:git sample.git</code>  </li>
+<li>禁用shell登录sudo chown -R git:git sample.git改为git: <code>x:1001:1001:...:/home/git:/usr/bin/git-shell</code>  </li>
+<li><code>git  clone git@server:/srv/sample.git</code>  </li>
 </ul>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 tianyilt@qq.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2016-2019 Yelog</p>

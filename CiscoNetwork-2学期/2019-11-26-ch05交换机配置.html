@@ -50,7 +50,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -203,12 +203,41 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Blog"><span class="toc-text">Why Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#对博客的理解"><span class="toc-text">对博客的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于叶落阁"><span class="toc-text">关于叶落阁</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客平台"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
+    <div class="article-meta">
+        
+        
+        
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2019-11-28 17:59:24'>2019-12-07 08:38</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#交换机配置"><span class="toc-text">交换机配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#基本配置"><span class="toc-text">基本配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#通过初始配置设置交换机"><span class="toc-text">通过初始配置设置交换机</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#交换机启动顺序"><span class="toc-text">交换机启动顺序</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#修复系统"><span class="toc-text">修复系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#LED指示灯"><span class="toc-text">LED指示灯</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置交换机端口"><span class="toc-text">配置交换机端口</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#准备基本交换机管理"><span class="toc-text">准备基本交换机管理</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#配置全双工"><span class="toc-text">配置全双工</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MDIX"><span class="toc-text">MDIX</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#验证配置"><span class="toc-text">验证配置</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#接入层故障排除"><span class="toc-text">接入层故障排除</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安全性"><span class="toc-text">安全性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#配置SSH"><span class="toc-text">配置SSH</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#保护未使用端口安全"><span class="toc-text">保护未使用端口安全</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -221,36 +250,165 @@
     }
 </style>
 </div>
-            <h1 id="Why-Blog"><a href="#Why-Blog" class="headerlink" title="Why Blog"></a>Why Blog</h1><h2 id="对博客的理解"><a href="#对博客的理解" class="headerlink" title="对博客的理解"></a>对博客的理解</h2><p>喜欢写Blog的人，会经历三个阶段。</p>
-<blockquote>
-<p>第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</p>
-</blockquote>
-<blockquote>
-<p>第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</p>
-</blockquote>
-<blockquote>
-<p>第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</p>
-</blockquote>
-<p>我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。</p>
-<p>通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。</p>
-<h2 id="关于叶落阁"><a href="#关于叶落阁" class="headerlink" title="关于叶落阁"></a>关于叶落阁</h2><p><strong>叶落阁</strong> 是阿杰（杨玉杰）的个人站。</p>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 生成，部署在 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>，主题 <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">3-hexo</a> 已经在github上开源</p>
-<p>主要功能：</p>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="交换机配置"><a href="#交换机配置" class="headerlink" title="交换机配置"></a>交换机配置</h1><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><h3 id="通过初始配置设置交换机"><a href="#通过初始配置设置交换机" class="headerlink" title="通过初始配置设置交换机"></a>通过初始配置设置交换机</h3><h4 id="交换机启动顺序"><a href="#交换机启动顺序" class="headerlink" title="交换机启动顺序"></a>交换机启动顺序</h4><ul>
+<li><p>POST: power on self test 加电自检. </p>
+</li>
+<li><p>引导程序: 存放在rom中</p>
+</li>
+<li><p>低级cpu初始化: 初始化cpu寄存器</p>
+</li>
+<li><p>启动初始化系统主板的flash系统</p>
+</li>
+<li><p>加载ios到内存</p>
 <ul>
-<li>搜索支持文章标题、标签(#标签)、作者(@作者)</li>
-<li>pad/手机等移动端适配</li>
-<li>页面全局快捷键 <a href='http://yelog.org/2017/03/24/3-hexo-shortcuts/' target="_blank" rel="noopener">3-hexo快捷键说明</a></li>
+<li><p>用boot环境变量的信息启动</p>
+<ul>
+<li>环境变量未设置-找flash中第一个可执行文件</li>
+</ul>
+<pre><code>show boot // 查看启动文件设置
+boot system flash://..... // 指定启动文件</code></pre></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>开机后在nvram中找到startup config</li>
+</ul>
+<h4 id="修复系统"><a href="#修复系统" class="headerlink" title="修复系统"></a>修复系统</h4><p><img src="2019-11-26-ch05%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/image-20191126144003969.png" alt="image-20191126144003969"></p>
+<p>进入到恢复模式, 可以格式化操作系统, 重新安装操作系统, 回复密码</p>
+<h4 id="LED指示灯"><a href="#LED指示灯" class="headerlink" title="LED指示灯"></a>LED指示灯</h4><ul>
+<li>系统: 绿色-正常, 琥珀色-不正常, 不亮-未开机</li>
+<li>冗余电源(RPS): 不亮-未发现RPS, 绿色-正常, 闪烁-RPS正在为其他设备供电, 琥珀色-RPS故障, 琥珀色闪烁-RPS正在供电.</li>
+<li>端口状态: <ul>
+<li>绿色-一条链路, </li>
+<li>绿色闪烁-传输数据, </li>
+<li>绿色琥珀色交替-故障. </li>
+<li>琥珀色-端口阻塞, 正在确保转发域不存在环路; 端口被激活30s内是这个状态</li>
+<li>琥珀色闪烁-端口阻塞, 转发域存在环路;</li>
+</ul>
+</li>
+<li>端口双工LED, 绿色: 全双工, 不亮: 半双工, </li>
+<li>端口速度LED, 绿色: 100Mbps, 绿色闪烁: 1000Mbps, 不亮: 10Mbps</li>
+<li>以太网供电(PoE), <ul>
+<li>不亮: 没有使用PoE. </li>
+<li>琥珀色闪烁: 没有选择PoE, 但是有一个端口断电或故障</li>
+<li>绿色: 选择了PoE</li>
+<li>绿色琥珀色交替: PoE被拒绝, 用电设备的供电超过交换机电源容量</li>
+<li>琥珀色闪烁: 故障关闭</li>
+<li>琥珀色: 禁用PoE</li>
+</ul>
+</li>
+</ul>
+<h2 id="配置交换机端口"><a href="#配置交换机端口" class="headerlink" title="配置交换机端口"></a>配置交换机端口</h2><h4 id="准备基本交换机管理"><a href="#准备基本交换机管理" class="headerlink" title="准备基本交换机管理"></a>准备基本交换机管理</h4><p>想远程管理访问交换机, 必须配置ip, 子网掩码, 如果是其他网络访问还要配置默认网关. 配置到虚拟接口SVI上</p>
+<p>所有端口默认是分给vlan1的. 所以SVI也是默认给vlan1. 最好是将SVI分配给另一个vlan. </p>
+<pre><code>conf t
+inter vlan 99
+ip addr ...
+no shut
+end
+(config)
+ip default-gateway ...
+end
+(en)
+copy run start</code></pre><h4 id="配置全双工"><a href="#配置全双工" class="headerlink" title="配置全双工"></a>配置全双工</h4><p>交换机都有自动协商功能(默认启用), 但是连接到专用设备的时候, 手动配置非常有用.</p>
+<pre><code>conf t
+inter g0/0
+duplex full // 全双工
+speed 100 // 100Mbps
+end</code></pre><p>1000Mbps只能在全双工下工作</p>
+<h4 id="MDIX"><a href="#MDIX" class="headerlink" title="MDIX"></a>MDIX</h4><p>auto-MDIX自动检测直通/交叉, 自动配置, 但是连接到服务器/工作站等没有自动MDIX的, 就需要手动选择电缆. 启用MDIX:</p>
+<pre><code>conf t
+inter g0/0
+duplex auto
+speed auto
+mdix auto
+end</code></pre><h4 id="验证配置"><a href="#验证配置" class="headerlink" title="验证配置"></a>验证配置</h4><pre><code>show interfaces f0/18
+show ip f0/18
+show mac-address-table
+show flash</code></pre><h3 id="接入层故障排除"><a href="#接入层故障排除" class="headerlink" title="接入层故障排除"></a>接入层故障排除</h3><p><img src="2019-11-26-ch05%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/image-20191126193054420.png" alt="image-20191126193054420"></p>
+<ul>
+<li>接口up, 协议down, 说明另一端接口可能被禁用, 查看是否有<code>EMI/noise</code>, 找到噪声源. 双工配置是否正确. </li>
+<li>接口协议都down, 说明电缆未链接/损坏, 接口损坏, 接口速度不匹配造成问题</li>
+<li>管理性关闭, 说明被手动禁用</li>
+</ul>
+<p><img src="2019-11-26-ch05%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/image-20191126193413274.png" alt="image-20191126193413274"></p>
+<ul>
+<li>如果CRC错误多, 说明电缆可能存在问题(电磁干扰)</li>
+<li>冲突: 半双工时会存在. 全双工不会存在冲突</li>
+<li>延迟冲突: 传输了512位的帧之后发生冲突. 可能由于电缆过长, 一端是全双工而另一端是半双工.</li>
+</ul>
+<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2><h3 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h3><ul>
+<li><p>配置步骤</p>
+<pre><code>show ip ssh // 检查是否支持ssh
+conf t // 全局配置
+ip domain-name cisco.com // 配置ip域名
+crypto key generate rsa // 生成rsa密钥对
+username admin secret ccna // 创建用户
+line vty 0 15 // 在vty0-15上启用
+transport input ssh // 只接受ssh
+login local // 从本地用户名数据库验证身份
+exit
+ip ssh version 2 // 开启第二版ssh
+exit</code></pre></li>
+</ul>
+<h3 id="保护未使用端口安全"><a href="#保护未使用端口安全" class="headerlink" title="保护未使用端口安全"></a>保护未使用端口安全</h3><ul>
+<li><p>禁用未使用端口</p>
+<pre><code>interface range f0/1 - 15
+(config-if-range)
+shutdown</code></pre></li>
+<li><p>安全mac地址: 限定端口的mac地址, 其他地址不可接入</p>
+<ul>
+<li><p>静态安全: 手动配置</p>
+</li>
+<li><p>动态安全: 动态获取, 存储在地址表中, 重启后删除</p>
+</li>
+<li><p>粘性安全: 动态获取或手动配置, 存储在地址表中, 添加到运行配置.</p>
+<pre><code>switchport port-security mac-address sticky [mac-address] 
+no switchport port-security mac-address sticky //禁用</code></pre></li>
+</ul>
+</li>
+<li><p>违规模式: 违反安全要求后</p>
+<ul>
+<li>保护: 安全MAC地址数量达到限制, 未知源的数据包会被丢弃, 不通知. 直至移除足够数量的安全 MAC 地址或增加允许的最大地址数 </li>
+<li>限制: 同保护, 只是会发出通知.</li>
+<li>关闭: 立刻禁用, <code>show interface f0/18</code>会显示<code>err-disabled</code></li>
+</ul>
+<pre><code>switchport port-security violation {protect | restrict | shutdown}</code></pre></li>
+<li><p>总结配置</p>
+<pre><code>inter f0/18
+(config if)
+switchport mode access
+switchport port-security
+switchport port-security maximum 10
+switchport port-security mac-address sticky</code></pre></li>
+<li><p>查看配置</p>
+<pre><code>(en)
+show port-security inter f0/18
+show port-security address</code></pre></li>
 </ul>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 tianyilt@qq.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2016-2019 Yelog</p>

@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>first title | Hexo</title>
+  <title>Hexo</title>
   <meta name="keywords" content="">
-  <meta name="description" content="first title | Hexo">
+  <meta name="description" content="Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="just test">
 <meta property="og:type" content="article">
@@ -205,9 +205,7 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-first-title" class="article article-type-post" itemscope itemprop="blogPost">
-    
-        <h1 class="article-title">first title</h1>
+        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
     
     <div class="article-meta">
         
@@ -217,7 +215,7 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-12-07 10:02:30'>2019-12-07 10:01</time>
+        创建时间:<time class="date" title='更新时间: 2019-11-23 08:35:48'>2019-12-07 10:47</time>
         
     </div>
     <div class="article-meta">
@@ -239,7 +237,7 @@
     
     <div class="toc-ref">
     
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#网络访问"><span class="toc-text">网络访问</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#物理层协议"><span class="toc-text">物理层协议</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#物理层连接"><span class="toc-text">物理层连接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#物理层协议的作用"><span class="toc-text">物理层协议的作用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#特征"><span class="toc-text">特征</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#网络介质"><span class="toc-text">网络介质</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#铜缆"><span class="toc-text">铜缆</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#UTP布线"><span class="toc-text">UTP布线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#光纤"><span class="toc-text">光纤</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#无线"><span class="toc-text">无线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#数据链路层"><span class="toc-text">数据链路层</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#职能"><span class="toc-text">职能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#拓扑"><span class="toc-text">拓扑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#物理WAN拓扑"><span class="toc-text">物理WAN拓扑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#物理LAN拓扑"><span class="toc-text">物理LAN拓扑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#数据链路帧"><span class="toc-text">数据链路帧</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -255,7 +253,179 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>just test</p>
+        <h1 id="网络访问"><a href="#网络访问" class="headerlink" title="网络访问"></a>网络访问</h1><h2 id="物理层协议"><a href="#物理层协议" class="headerlink" title="物理层协议"></a>物理层协议</h2><h3 id="物理层连接"><a href="#物理层连接" class="headerlink" title="物理层连接"></a>物理层连接</h3><ul>
+<li>NIC, 网络接口卡, 以太网网卡用作有线连接</li>
+<li>ISR, 集成多业务路由器， 常用的家用路由器.</li>
+<li>WLAN, 无线网卡</li>
+</ul>
+<h3 id="物理层协议的作用"><a href="#物理层协议的作用" class="headerlink" title="物理层协议的作用"></a>物理层协议的作用</h3><ul>
+<li>从数据链路层接受帧</li>
+<li>把帧编码成电信号, 发送到介质上</li>
+<li>检索信号, 还原为完整的帧, 传送给数据链路层</li>
+</ul>
+<h3 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h3><ul>
+<li><p>物理层管理的功能区</p>
+<ul>
+<li>物理组件: 电子硬件设备, 介质和连接器. 用来传输位信号</li>
+<li>编码: 将数据位流转化为电信号的方法</li>
+<li>信令: 位的表示方法称为信令方法, 规定那种类型的信号代表1, 哪种代表0</li>
+</ul>
+</li>
+<li><p>带宽: 最多能承载的数据能力, 单位时间可以流向目的地的数据量, 单位是bit/s, 常用有Mb/s, 或Mbps</p>
+</li>
+<li><p>吞吐量: 给定时段内通过介质传输的位的量度, 与带宽不同, 带宽是理想最大值, 吞吐量是实际值.</p>
+</li>
+</ul>
+<h2 id="网络介质"><a href="#网络介质" class="headerlink" title="网络介质"></a>网络介质</h2><h3 id="铜缆"><a href="#铜缆" class="headerlink" title="铜缆"></a>铜缆</h3><p> 成本低, 易于安装, 电阻率低, 受到距离和信号干扰, 发送电脉冲信号. 容易受到两个干扰源的干扰: </p>
+<ul>
+<li>电磁干扰(EMI)或者射频干扰(RFI), 来源于无线电波和电磁设备(荧光灯, 电动机)</li>
+<li>串扰, 电线中的电信号对周围电线照成的干扰, 来源于电话串线.</li>
+</ul>
+<p>铜缆有以下几种类型</p>
+<ul>
+<li>非屏蔽双绞线(UTP, unshielded twisted pair), 四对绞起来的线. 双绞线防止信号受到干扰, 铜线外包裹彩色塑料绝缘层(看到是彩色的线), 用颜色区分每个线对, 使用RJ-45连接器端接.</li>
+</ul>
+<p><img src="2019-09-28-ch4%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE.assets/1570174138628.png" alt="1570174138628"></p>
+<ul>
+<li>屏蔽双绞线(STP, shielded twisted pair), 比UTP多裹了一层覆盖的金属屏蔽层(法拉第笼), 使用RJ-45连接器端接. 如果接地不正确, 反而会接受多于信号. </li>
+</ul>
+<p><img src="2019-09-28-ch4%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE.assets/1570174149278.png" alt="1570174149278"></p>
+<ul>
+<li>同轴电缆, 几乎被淘汰. 从内到外依次是: 导线-绝缘层-铜网屏蔽层-塑料保护层. 用于无线安装或有线互联网安装. 可以连接BNC口, N口, F口.</li>
+</ul>
+<p><img src="2019-09-28-ch4%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE.assets/1570174158306.png" alt="1570174158306"></p>
+<h3 id="UTP布线"><a href="#UTP布线" class="headerlink" title="UTP布线"></a>UTP布线</h3><ul>
+<li><p>两根电线紧密排列, 彼此磁场恰好相反, 磁场抵消, 也消除了EMI和RFI干扰, 不同颜色的线绞合密度不同. 遵循TIA/EIA 共同制定的标准TIA/EIA-568, 定义了电缆类型, 长度, 连接器, 电缆端接, 测试电缆的方法.</p>
+</li>
+<li><p>分类</p>
+<ul>
+<li>3类: 线没有绞合, 带宽一般, 用作电话线</li>
+<li>5(Cat5)类, 增强型5类/5e类(Cat5e): 线按照一定规格绞合, 用于百兆网</li>
+<li>6(Cat6)类: 绞合的线外面包裹了分隔物, 支持千兆传输. 推荐使用</li>
+</ul>
+</li>
+<li><p>采用RJ-45连接器, 遵循TIA/EIA-568标准. 8根线, 只用到了1236四根线, 12负责输入, 36负责输出.注意正反面. 图中是宽的面在上.  </p>
+<p><img src="2019-09-28-ch4%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE.assets/1570175859931.png" alt="1570175859931"></p>
+<ul>
+<li>对于同种设备, 发送端的36要对应接收端的12. (交叉电缆), 包括主机-主机, 交换机-交换机, 路由器-路由器. 一端是T568A, 另一端T568B.</li>
+<li>如果是异种设备, 两种设备12对应12, 36要对应36.(直通电缆). 包括主机-交换机, 主机-集线器</li>
+</ul>
+</li>
+<li><p>传输距离100m</p>
+</li>
+</ul>
+<h3 id="光纤"><a href="#光纤" class="headerlink" title="光纤"></a>光纤</h3><p>发送光脉冲信号, 从内到外为: 纤芯(玻璃制成)-涂层(反射用)-缓冲区(保护)-强化材料(保护)-表皮(保护)</p>
+<p><img src="2019-09-28-ch4%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE.assets/1570176590558.png" alt="1570176590558"></p>
+<ul>
+<li>单模光纤: 数百公里, 用激光发射, 很细, 几乎不反射</li>
+<li>多模: 较粗, LED光源, 光反射</li>
+<li>信号损失发生在光纤到接口上</li>
+<li>OTDR, 光时域反射器, 根据反射光传输时间定位损坏位置</li>
+</ul>
+<h3 id="无线"><a href="#无线" class="headerlink" title="无线"></a>无线</h3><p>发送微波信号, 802.11标准</p>
+<ul>
+<li>无线接入点AP, 集中用户的无线信号, 并连接到现有基于铜介质的网络基础设施, 如以太网.</li>
+</ul>
+<h2 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h2><h3 id="职能"><a href="#职能" class="headerlink" title="职能"></a>职能</h3><ul>
+<li>允许上层访问介质</li>
+<li>接受第 3 层数据包，并将它们打包为帧</li>
+</ul>
+<ul>
+<li><p>为物理网络准备网络数据</p>
+</li>
+<li><p>控制数据在介质中的放置和接收方式</p>
+</li>
+<li><p>在物理网络介质（例如 UTP 或光纤）中的节点之间交换帧</p>
+</li>
+<li><p>收数据包并将其传输给上层协议</p>
+</li>
+<li><p>执行错误检测</p>
+</li>
+</ul>
+<p>分为两个子层:</p>
+<ul>
+<li><p>LLC, 逻辑链路控制, 根据网络层协议进行封装</p>
+</li>
+<li><p>MAC, 介质访问控制, 对接物理标准, 把帧放到介质上, 从介质上获取帧. 不同的介质需要使用不同的数据链路层协议. 转发信息时, 需要接收帧-解封-重新封装-发送</p>
+<p>需要解决以下的问题</p>
+<ul>
+<li>拓扑-节点之间的连接如何显示在数据链路层中</li>
+<li>介质共享-如何共享介质</li>
+</ul>
+</li>
+</ul>
+<h3 id="拓扑"><a href="#拓扑" class="headerlink" title="拓扑"></a>拓扑</h3><p>网络设备以及互联布局或关系. 分类有: </p>
+<ul>
+<li>物理拓扑, 表示终端设备和基础设施设备, 突出设备位置, 设备种类</li>
+<li>逻辑拓扑, 突出ip地址, 连接端口</li>
+</ul>
+<h3 id="物理WAN拓扑"><a href="#物理WAN拓扑" class="headerlink" title="物理WAN拓扑"></a>物理WAN拓扑</h3><ul>
+<li>点对点<ul>
+<li>节点1-网络-节点二</li>
+<li>不用共享介质, 判断帧的目的地址</li>
+</ul>
+</li>
+<li>中心型</li>
+<li>网状</li>
+</ul>
+<h3 id="物理LAN拓扑"><a href="#物理LAN拓扑" class="headerlink" title="物理LAN拓扑"></a>物理LAN拓扑</h3><ul>
+<li>星型<ul>
+<li>集线器(假星型, 其实还是总线型, 公用带宽)<ul>
+<li>连接所有的点</li>
+<li>载波侦听多点接入/冲突检测CSMA/CD, 监听-冲突-等待-重发</li>
+<li>利用效率低</li>
+</ul>
+</li>
+<li>交换机(真星型, 独享带宽)<ul>
+<li>点对点通路</li>
+</ul>
+</li>
+<li>路由器<ul>
+<li>隔离广播, 广播不允许通过</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>总线</li>
+<li>环</li>
+<li>扩展星型(多个星型相连)</li>
+<li>单工, 半双工, 双工: 单工: 发射接收角色不互换, 半双工(集线器), 发射接收不同时, 双工(交换机), 同时.</li>
+<li>争用访问-CSMA/CD, 载波侦听多路访问/冲突<strong>检测</strong>机制, 用于半双工, 需要一个进程管理设备合适可以发送以及多设备同时发送的处理. 进程如下:<ul>
+<li>A想要发送帧</li>
+<li>检测是否有人传输, 如果没有, 发送</li>
+<li>集线器接收帧</li>
+<li>B设备想发送, 必须等待</li>
+<li>所有设备接收到帧, MAC地址匹配的主机接收整个帧</li>
+<li>两台设备同时传输造成冲突, 两台设备都将检测到, 数据损失. 等待一段时间重新发送.</li>
+</ul>
+</li>
+<li>争用访问-CSMA/CA, 载波侦听多路访问/冲突<strong>避免</strong>机制, 数据包包含自己的长度. 其他设备收到此信息, 就会知道介质不可用时间, 在此期间停止传输. 接收方收到之后, 返回确认信息, 表示帧已到达. 用于无线连接. 全双工. 不会检测冲突, 而是在传输之前等待来避免冲突</li>
+</ul>
+<h3 id="数据链路帧"><a href="#数据链路帧" class="headerlink" title="数据链路帧"></a>数据链路帧</h3><ul>
+<li>帧: 帧头, 数据, 帧尾</li>
+<li>帧头<ul>
+<li>帧开始和停止标志, 标识帧的开始和结束位置的限制</li>
+<li>编址, 表示介质上的源节点和目的节点. 用MAC地址. 还包含了源地址.<ul>
+<li>路由器用IP地址确定通往目的设备的最佳路径</li>
+<li>路由器重新填写MAC地址, 转发到下一级</li>
+</ul>
+</li>
+<li>类型, 用于标识数据字段中的第 3 层协议</li>
+<li>控制, 用于标识特殊流量控制服务, 例如QoS, 某些信息有优先权. </li>
+</ul>
+</li>
+<li>帧尾<ul>
+<li>错误检测</li>
+<li>帧结束</li>
+</ul>
+</li>
+<li>协议种类<ul>
+<li>802.11无线帧</li>
+<li>以太帧</li>
+<li>……</li>
+</ul>
+</li>
+</ul>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 tianyilt@qq.com </span>
@@ -267,18 +437,6 @@
     <a  class="dashang" onclick="dashangToggle()">赏</a>
 </p>
 
-
-<div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>first title</p>
-    
-    <p><span class="copy-title">本文作者:</span><a  title="tianyilt">tianyilt</a></p>
-    <p><span class="copy-title">发布时间:</span>2019-12-07, 10:01:40</p>
-    <p><span class="copy-title">最后更新:</span>2019-12-07, 10:02:30</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/12/07/first-title/" title="first title">http://yoursite.com/2019/12/07/first-title/</a>
-    <p>
-        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
-    </p>
-</div>
 
 
 

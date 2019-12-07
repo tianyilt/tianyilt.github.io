@@ -50,7 +50,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -203,12 +203,41 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Blog"><span class="toc-text">Why Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#对博客的理解"><span class="toc-text">对博客的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于叶落阁"><span class="toc-text">关于叶落阁</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客平台"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
+    <div class="article-meta">
+        
+        
+        
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2019-11-23 08:35:48'>2019-12-07 10:47</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#IP编址"><span class="toc-text">IP编址</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#IPv4网络地址"><span class="toc-text">IPv4网络地址</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv4地址结构"><span class="toc-text">IPv4地址结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv4单播-组播-广播"><span class="toc-text">IPv4单播, 组播, 广播</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IPv6网络地址"><span class="toc-text">IPv6网络地址</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv4和IPv6共存"><span class="toc-text">IPv4和IPv6共存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv6编址"><span class="toc-text">IPv6编址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv6地址类型"><span class="toc-text">IPv6地址类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv6单播地址"><span class="toc-text">IPv6单播地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#静态配置"><span class="toc-text">静态配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动态配置"><span class="toc-text">动态配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#静态配置-1"><span class="toc-text">静态配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#检验IPv6配置"><span class="toc-text">检验IPv6配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv6-组播地址"><span class="toc-text">IPv6 组播地址</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ICMP"><span class="toc-text">ICMP</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#基本功能"><span class="toc-text">基本功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ICMPv6的新功能"><span class="toc-text">ICMPv6的新功能</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#测试"><span class="toc-text">测试</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Ping-测试本地协议栈"><span class="toc-text">Ping, 测试本地协议栈</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Traceroute-测试路径"><span class="toc-text">Traceroute, 测试路径</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -221,36 +250,169 @@
     }
 </style>
 </div>
-            <h1 id="Why-Blog"><a href="#Why-Blog" class="headerlink" title="Why Blog"></a>Why Blog</h1><h2 id="对博客的理解"><a href="#对博客的理解" class="headerlink" title="对博客的理解"></a>对博客的理解</h2><p>喜欢写Blog的人，会经历三个阶段。</p>
-<blockquote>
-<p>第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</p>
-</blockquote>
-<blockquote>
-<p>第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</p>
-</blockquote>
-<blockquote>
-<p>第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</p>
-</blockquote>
-<p>我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。</p>
-<p>通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。</p>
-<h2 id="关于叶落阁"><a href="#关于叶落阁" class="headerlink" title="关于叶落阁"></a>关于叶落阁</h2><p><strong>叶落阁</strong> 是阿杰（杨玉杰）的个人站。</p>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 生成，部署在 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>，主题 <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">3-hexo</a> 已经在github上开源</p>
-<p>主要功能：</p>
-<ul>
-<li>搜索支持文章标题、标签(#标签)、作者(@作者)</li>
-<li>pad/手机等移动端适配</li>
-<li>页面全局快捷键 <a href='http://yelog.org/2017/03/24/3-hexo-shortcuts/' target="_blank" rel="noopener">3-hexo快捷键说明</a></li>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="IP编址"><a href="#IP编址" class="headerlink" title="IP编址"></a>IP编址</h1><h2 id="IPv4网络地址"><a href="#IPv4网络地址" class="headerlink" title="IPv4网络地址"></a>IPv4网络地址</h2><h3 id="IPv4地址结构"><a href="#IPv4地址结构" class="headerlink" title="IPv4地址结构"></a>IPv4地址结构</h3><ul>
+<li>包括网络部分和主机部分, 标识网络和主机</li>
+<li>子网掩码: IP地址和子网掩码做与运算, 如果结果相同, 则表示为在同一个子网下.</li>
+<li>非标准子网掩码: 用1的个数标识子网掩码: /27标识子网掩码前27位是1, 后面5位是0. 用IP地址+斜杠标识: <code>192.168.0.250/27</code>, 长度越大, 子网网段内地址越少. </li>
+<li>主机位全为1的地址是广播地址, 全为0是网段地址</li>
 </ul>
+<h3 id="IPv4单播-组播-广播"><a href="#IPv4单播-组播-广播" class="headerlink" title="IPv4单播, 组播, 广播"></a>IPv4单播, 组播, 广播</h3><ul>
+<li><p>特殊用途的地址段</p>
+<ul>
+<li>组播地址<ul>
+<li>224.0.0.0-239.255.255.255: 用于组播</li>
+<li>224.0.0.0-224.0.0.255: 用于本地组播</li>
+<li>224.0.0.9: 用于RIP通讯</li>
+</ul>
+</li>
+<li>私有地址<ul>
+<li>10.0.0.0/8</li>
+<li>172.16.0.0/12, 即172.16.0.0-172.31.255.255</li>
+<li>192.168.0.0/16</li>
+</ul>
+</li>
+<li>特殊地址<ul>
+<li>127.0.0.0/8, 用于测试IPv4协议栈</li>
+<li>169.254.0.0/16, 如果主机ip地址为此, 说明ip地址配置错误/没有dhcp服务器. 这个地址仅能用于内网通讯</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>有类编制, 目前已不采用, 用统一组织分配IP地址. 目前IPv4地址已耗尽</p>
+<ul>
+<li>A类: 0.0.0.0/8 – 127.0.0.0/8</li>
+<li>B类128.0.0.0 /16 – 191.255.0.0 /16</li>
+<li>C类192.0.0.0 /24 – 223.255.255.0 /24</li>
+</ul>
+</li>
+</ul>
+<h2 id="IPv6网络地址"><a href="#IPv6网络地址" class="headerlink" title="IPv6网络地址"></a>IPv6网络地址</h2><h3 id="IPv4和IPv6共存"><a href="#IPv4和IPv6共存" class="headerlink" title="IPv4和IPv6共存"></a>IPv4和IPv6共存</h3><ul>
+<li>双堆栈: 同时有IPv4和v6协议栈</li>
+<li>隧道: 让IPv6协议通过IPv4网络</li>
+<li>转换: IPv6地址转化为IPv4</li>
+</ul>
+<h3 id="IPv6编址"><a href="#IPv6编址" class="headerlink" title="IPv6编址"></a>IPv6编址</h3><ul>
+<li>128位2进制编码, 用8组*4位16进制编码, 用冒号分隔.</li>
+<li>简写方式<ul>
+<li>每个段由4个16进制构成, 可以忽略开头的0, 如果一个段全为0, 至少写1个0. </li>
+<li>可以使用<strong>一次</strong>双冒号来省略全是0的段落. </li>
+</ul>
+</li>
+<li>前64位是前缀(网络地址), 后64位是接口id(主机地址)</li>
+</ul>
+<h3 id="IPv6地址类型"><a href="#IPv6地址类型" class="headerlink" title="IPv6地址类型"></a>IPv6地址类型</h3><ul>
+<li><p>单播, 组播, 任博(相当于广播)</p>
+</li>
+<li><p>前缀64位, 主机64位.</p>
+</li>
+</ul>
+<h3 id="IPv6单播地址"><a href="#IPv6单播地址" class="headerlink" title="IPv6单播地址"></a>IPv6单播地址</h3><p>用来唯一标识支持IPv6的设备的接口, 源地址必须是单播地址, 目的地址可以是组播或单播地址.</p>
+<ul>
+<li>全局单播(GUA): 公共地址, 前16位从2000到3FFF, 第一位是2或3. 前缀48位, 后16位为子网id, 最后64位是接口ID. </li>
+<li>本地链路: 子网 FE80::/10 , 在同一个链路(子网)上通信. 全局单播不是必须的, 但是必须要有本地链路地址. 如果没有手动配置, 且没有dhcp, 设备会自动创建本地链路地址. FE80::/10表示范围是<code>1111 1110 10xx xxxx</code>, 即从<code>1111 1110 1000 0000</code>, 到<code>1111 1110 1011 1111</code></li>
+<li>唯一本地: FC00::/7-FDFF::/7, 唯一本地地址用于一个站点内或数量有限的站点之间的本地编址</li>
+<li>环回: ::1/128</li>
+</ul>
+<h3 id="静态配置"><a href="#静态配置" class="headerlink" title="静态配置"></a>静态配置</h3><pre><code>en
+conf t
+inter g0/0
+ipv6 addr ...</code></pre><h3 id="动态配置"><a href="#动态配置" class="headerlink" title="动态配置"></a>动态配置</h3><ul>
+<li><p>SLAAC, 无状态地址自动配置, 无需使用DHCPv6服务器, 根据本地路由器的 ICMPv6 路由器通告 (RA) 消息获取必要信息</p>
+<ul>
+<li><p>RA消息</p>
+<p>IPv6 路由器每 200 秒定期将 ICMPv6 RA 消息发送到网络上所有支持 IPv6 的设备. 在响应发送 ICMPv6 路由器请求 (RS) 消息的主机时, 也会发送 RA 消息</p>
+</li>
+<li><p>RA内容</p>
+<ul>
+<li>网络前缀与前缀长度</li>
+<li>RA消息的源IPv6地址作为默认网关的IPv6本地链路地址</li>
+<li>DNS地址和域名</li>
+</ul>
+</li>
+<li><p>RA选项</p>
+<ul>
+<li><p>仅SLAAC, </p>
+<p>RA内容包含前缀, 前缀长度, 默认网关</p>
+</li>
+<li><p>SLAAC和无状态DHCPv6</p>
+<p>RA内容包含前缀, 前缀长度, 默认网关, 从DHCP服务器获得域名等其他信息</p>
+</li>
+<li><p>有状态DHCPv6</p>
+<p>RA只发送默认网关,  全局单播地址, DNS 服务器地址,域名和所有其他信息从DHCP服务器获得</p>
+</li>
+</ul>
+</li>
+<li><p>客户端接收到前缀之后使用EUI-64或随机64位作为接口ID</p>
+</li>
+</ul>
+</li>
+<li><p>SLAAC和无状态DHCP</p>
+</li>
+<li><p>RA选项为SLAAC和无状态DHCPv6</p>
+</li>
+<li><p>有状态DHCP</p>
+<ul>
+<li>RA选项为SLAAC和有状态DHCP</li>
+</ul>
+</li>
+</ul>
+<h3 id="静态配置-1"><a href="#静态配置-1" class="headerlink" title="静态配置"></a>静态配置</h3><pre><code>ipv6 addr fe80::1 link-local</code></pre><h3 id="检验IPv6配置"><a href="#检验IPv6配置" class="headerlink" title="检验IPv6配置"></a>检验IPv6配置</h3><pre><code>show ipv6 interface brief</code></pre><h3 id="IPv6-组播地址"><a href="#IPv6-组播地址" class="headerlink" title="IPv6 组播地址"></a>IPv6 组播地址</h3><ul>
+<li><p>分配的组播: 为预先定义的设备组保留的组播地址. 有两种目的IPv6地址, 为: </p>
+<ul>
+<li>FF02::1 全节点组播, 发送到所有支持IPv6的设备组</li>
+<li>FF02::1 全路由组播组, 路由器会转发组播消息到所有支持IPv6设备</li>
+</ul>
+</li>
+<li><p>请求节点IPv6组播地址</p>
+<ul>
+<li>被映射到特殊的以太网组播地址 , 以太网网卡可以过滤帧</li>
+</ul>
+</li>
+</ul>
+<h2 id="ICMP"><a href="#ICMP" class="headerlink" title="ICMP"></a>ICMP</h2><h3 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h3><ul>
+<li>主机确认: 确定主机是否正常</li>
+<li>目标或服务不可达<ul>
+<li>0-网络不可达</li>
+<li>1-主机不可达</li>
+<li>2-协议</li>
+<li>3-端口</li>
+</ul>
+</li>
+<li>超时</li>
+</ul>
+<h3 id="ICMPv6的新功能"><a href="#ICMPv6的新功能" class="headerlink" title="ICMPv6的新功能"></a>ICMPv6的新功能</h3><ul>
+<li>地址解析: 使用NS(邻居查询)获得周围设备的MAC地址</li>
+<li>重复地址检测(DAD): 检测是否是唯一的地址(不必须), 即NA(邻居通告)</li>
+<li>还有请求IPv6地址的RA和RS</li>
+</ul>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><h3 id="Ping-测试本地协议栈"><a href="#Ping-测试本地协议栈" class="headerlink" title="Ping, 测试本地协议栈"></a>Ping, 测试本地协议栈</h3><p>ping 127.0.0.1</p>
+<p>ping ::1 </p>
+<h3 id="Traceroute-测试路径"><a href="#Traceroute-测试路径" class="headerlink" title="Traceroute, 测试路径"></a>Traceroute, 测试路径</h3><p>提供每一跳的往返时间(让TTL从1开始增大, 测得通过每一个路由器往返时间)</p>
+<p>IPv4用TTL限制跳数, IPv6用跳数限制限制跳数</p>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 tianyilt@qq.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2016-2019 Yelog</p>
