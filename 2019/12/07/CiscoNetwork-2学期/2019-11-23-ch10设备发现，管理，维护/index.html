@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护 | Hexo</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护 | Hexo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="配置深度学习环境大作战 2019年11月24日: 谷歌云T4服务器配置   2019年11月16日: pycharm无法运行调出console">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;%E9%85%8D%E7%BD%AE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E5%A4%A7%E4%BD%9C%E6%88%98&#x2F;contents.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="配置深度学习环境大作战 2019年11月24日: 谷歌云T4服务器配置   2019年11月16日: pycharm无法运行调出console">
+<meta property="og:locale" content="cn">
+<meta property="og:updated_time" content="2019-11-28T10:17:59.294Z">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="icon" href="/img/avatar.jpg">
+
+<link href="/css/style.css?v=1.0.1" rel="stylesheet">
+
+<link href="/css/hl_theme/atom-dark.css?v=1.0.1" rel="stylesheet">
+
+<link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="/js/jquery.autocomplete.min.js?v=1.0.1" ></script>
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js" ></script>
+
+<script src="/js/iconfont.js?v=1.0.1" ></script>
+
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="false">
+  <input class="theme_blog_path" value="">
+</div>
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/" class="avatar_target">
+    <img class="avatar" src="/img/avatar.jpg" />
+</a>
+<div class="author">
+    <span>tianyilt</span>
+</div>
+
+<div class="icon">
+    
+        
+    
+        
+        <a title="github" href="https://github.com/tianyilt" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a title="email" href="mailto:tianyilt@qq.com" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-email"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+        <a title="qq" href="http://wpa.qq.com/msgrd?v=3&uin=1423325428&site=qq&menu=yes" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-qq"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+
+<ul>
+    <li><div class="all active">全部文章<small>(47)</small></div></li>
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+    
+    
+    
+    
+    </div>
+    <div><a class="about  hasFriend  site_url"  href="/about">关于</a><a style="width: 50%"  class="friends">友链</a></div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="47">
+
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        友情链接
+        <i class="back-title-list"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <form onkeydown="if(event.keyCode==13){return false;}">
+        <input class="search" type="text" placeholder="Search..." autocomplete="off"id="local-search-input" >
+        <i class="cross"></i>
+        <span>
+            <label for="tagswitch">Tags:</label>
+            <input id="tagswitch" type="checkbox" style="display: none" />
+            <i id="tagsWitchIcon"></i>
+        </span>
+    </form>
+    <div class="tags-list">
+    
+    <div class="clearfix"></div>
+</div>
+
+    
+    <nav id="title-list-nav">
+        
+        <a  class=""
+           href="/2019/12/07/hello-world/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2019-12-07 09:24:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/first-title/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="first title">first title</span>
+            <span class="post-date" title="2019-12-07 10:01:40">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Markdown/contents/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Markdown/contents">Markdown/contents</span>
+            <span class="post-date" title="2019-12-07 10:47:47">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Markdown/2019-08-25-Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Markdown/2019-08-25-Markdown学习笔记">Markdown/2019-08-25-Markdown学习笔记</span>
+            <span class="post-date" title="2019-12-07 10:47:47">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-10-ch04%E4%BA%A4%E6%8D%A2%E6%9C%BA/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-10-ch04交换机">CiscoNetwork-2学期/2019-11-10-ch04交换机</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-09-21-ch02%E9%85%8D%E7%BD%AE%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-09-21-ch02配置网络操作系统">CiscoNetwork-1学期/2019-09-21-ch02配置网络操作系统</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-09-21-ch01%E5%88%9D%E8%AF%86%E7%BD%91%E7%BB%9C/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-09-21-ch01初识网络">CiscoNetwork-1学期/2019-09-21-ch01初识网络</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-09-28-ch04%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-09-28-ch04网络访问">CiscoNetwork-1学期/2019-09-28-ch04网络访问</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-09-28-ch03%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%92%8C%E9%80%9A%E4%BF%A1/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-09-28-ch03网络协议和通信">CiscoNetwork-1学期/2019-09-28-ch03网络协议和通信</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-09-28-ch05%E4%BB%A5%E5%A4%AA%E7%BD%91/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-09-28-ch05以太网">CiscoNetwork-1学期/2019-09-28-ch05以太网</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-10-13-ch06%E7%BD%91%E7%BB%9C%E5%B1%82/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-10-13-ch06网络层">CiscoNetwork-1学期/2019-10-13-ch06网络层</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-10-26-ch07IP%E5%AF%BB%E5%9D%80/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-10-26-ch07IP寻址">CiscoNetwork-1学期/2019-10-26-ch07IP寻址</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-11-02-ch08%E5%88%92%E5%88%86%E5%AD%90%E7%BD%91/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-11-02-ch08划分子网">CiscoNetwork-1学期/2019-11-02-ch08划分子网</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-11-03-ch09%E4%BC%A0%E8%BE%93%E5%B1%82/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-11-03-ch09传输层">CiscoNetwork-1学期/2019-11-03-ch09传输层</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-11-03-ch10%E5%BA%94%E7%94%A8%E5%B1%82/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-11-03-ch10应用层">CiscoNetwork-1学期/2019-11-03-ch10应用层</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-1%E5%AD%A6%E6%9C%9F/2019-11-03-ch11%E6%9E%84%E5%BB%BA%E5%B0%8F%E5%9E%8B%E7%BD%91%E7%BB%9C/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-1学期/2019-11-03-ch11构建小型网络">CiscoNetwork-1学期/2019-11-03-ch11构建小型网络</span>
+            <span class="post-date" title="2019-12-07 10:47:38">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-10-ch03pt%E5%AE%9E%E8%B7%B5/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-10-ch03pt实践">CiscoNetwork-2学期/2019-11-10-ch03pt实践</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-10-ch03%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E5%8D%8F%E8%AE%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-10-ch03动态路由协议">CiscoNetwork-2学期/2019-11-10-ch03动态路由协议</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-16-ch06VLAN/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-16-ch06VLAN">CiscoNetwork-2学期/2019-11-16-ch06VLAN</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-10-ch04%E4%BA%A4%E6%8D%A2%E7%BD%91%E7%BB%9C/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-10-ch04交换网络">CiscoNetwork-2学期/2019-11-10-ch04交换网络</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-18-ch07%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-18-ch07访问控制列表">CiscoNetwork-2学期/2019-11-18-ch07访问控制列表</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-24-RSE_C2_PT%20/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-24-RSE_C2_PT ">CiscoNetwork-2学期/2019-11-24-RSE_C2_PT </span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-23-ch10%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护">CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-25-ch03%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-25-ch03动态路由">CiscoNetwork-2学期/2019-11-25-ch03动态路由</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-26-ch05%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-26-ch05交换机配置">CiscoNetwork-2学期/2019-11-26-ch05交换机配置</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-28-ch09%20IPv4%20NAT/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/2019-11-28-ch09 IPv4 NAT">CiscoNetwork-2学期/2019-11-28-ch09 IPv4 NAT</span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/RSE_C2_PT%20/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CiscoNetwork-2学期/RSE_C2_PT ">CiscoNetwork-2学期/RSE_C2_PT </span>
+            <span class="post-date" title="2019-12-07 10:47:37">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Git/2019-08-30-%E5%92%8Cfork%E6%9D%A5%E7%9A%84%E4%BB%93%E5%BA%93%E5%90%8C%E6%AD%A5/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Git/2019-08-30-和fork来的仓库同步">Git/2019-08-30-和fork来的仓库同步</span>
+            <span class="post-date" title="2019-12-07 10:47:41">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Git/2019-08-25-git%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Git/2019-08-25-git基础命令">Git/2019-08-25-git基础命令</span>
+            <span class="post-date" title="2019-12-07 10:47:41">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Git/2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Git/2019-11-10-在github端fork远程同步">Git/2019-11-10-在github端fork远程同步</span>
+            <span class="post-date" title="2019-12-07 10:47:41">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Git/2019-11-23-github_desktop%E7%9A%84gui%E7%95%8C%E9%9D%A2%E7%AE%80%E5%8D%95%E6%93%8D%E4%BD%9C/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Git/2019-11-23-github_desktop的gui界面简单操作">Git/2019-11-23-github_desktop的gui界面简单操作</span>
+            <span class="post-date" title="2019-12-07 10:47:41">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Git/2019-11-23-unable%20to%20autodetect%20email%20address%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Git/2019-11-23-unable to autodetect email address解决方法">Git/2019-11-23-unable to autodetect email address解决方法</span>
+            <span class="post-date" title="2019-12-07 10:47:41">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Git/2019-10-27-%E4%BD%BF%E7%94%A8guiscrcpy%E6%8A%95%E5%B1%8F/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Git/2019-10-27-使用guiscrcpy投屏">Git/2019-10-27-使用guiscrcpy投屏</span>
+            <span class="post-date" title="2019-12-07 10:47:41">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-08-27-vim%E7%BC%96%E8%BE%91%E5%99%A8/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-08-27-vim编辑器">Linux/2019-08-27-vim编辑器</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-08-29-%E6%A1%A3%E6%A1%88%E5%B1%9E%E6%80%A7%E5%92%8C%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-08-29-档案属性和用户配置">Linux/2019-08-29-档案属性和用户配置</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-08-27-%E7%A3%81%E7%9B%98%E6%A0%BC%E5%BC%8F%E8%AF%B4%E6%98%8E/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-08-27-磁盘格式说明">Linux/2019-08-27-磁盘格式说明</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-08-29-man,info,reboot/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-08-29-man,info,reboot">Linux/2019-08-29-man,info,reboot</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-08-29-%E6%A0%B9%E7%9B%AE%E5%BD%95,ext3/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-08-29-根目录,ext3">Linux/2019-08-29-根目录,ext3</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-08-30-%E5%BD%92%E6%A1%A3%E5%8E%8B%E7%BC%A9%E5%A4%87%E4%BB%BD/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-08-30-归档压缩备份">Linux/2019-08-30-归档压缩备份</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-09-01-%E6%95%B0%E6%8D%AE%E6%B5%81/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-09-01-数据流">Linux/2019-09-01-数据流</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-09-01-shell%E5%BF%AB%E6%8D%B7%E9%94%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-09-01-shell快捷键">Linux/2019-09-01-shell快捷键</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-08-31-bash%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-08-31-bash变量设置">Linux/2019-08-31-bash变量设置</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-09-01-%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-09-01-环境变量">Linux/2019-09-01-环境变量</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-09-03-shell%E8%84%9A%E6%9C%AC/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-09-03-shell脚本">Linux/2019-09-03-shell脚本</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/Linux/2019-09-17-%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8Cpython/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Linux/2019-09-17-后台运行python">Linux/2019-09-17-后台运行python</span>
+            <span class="post-date" title="2019-12-07 10:47:44">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/%E9%85%8D%E7%BD%AE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E5%A4%A7%E4%BD%9C%E6%88%98/2019-11-16-pycharm%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E8%B0%83%E5%87%BAconsole/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="配置深度学习环境大作战/2019-11-16-pycharm无法运行调出console">配置深度学习环境大作战/2019-11-16-pycharm无法运行调出console</span>
+            <span class="post-date" title="2019-12-07 10:47:30">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/07/%E9%85%8D%E7%BD%AE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E5%A4%A7%E4%BD%9C%E6%88%98/2019-11-24-%E8%B0%B7%E6%AD%8C%E4%BA%91T4%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="配置深度学习环境大作战/2019-11-24-谷歌云T4服务器配置">配置深度学习环境大作战/2019-11-24-谷歌云T4服务器配置</span>
+            <span class="post-date" title="2019-12-07 10:47:30">2019/12/07</span>
+        </a>
+        
+    </nav>
+</div>
+    </div>
+    <div class="hide-list">
+        <div class="semicircle">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div class="post">
+    <div class="pjax">
+        <article id="post-CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2019-11-24 15:54:58'>2019-12-07 10:47</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#设备发现-管理-维护"><span class="toc-text">设备发现, 管理, 维护</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#设备发现"><span class="toc-text">设备发现</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CDP"><span class="toc-text">CDP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#LLDP"><span class="toc-text">LLDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#设备管理"><span class="toc-text">设备管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#NTP"><span class="toc-text">NTP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#系统日志"><span class="toc-text">系统日志</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#设备维护"><span class="toc-text">设备维护</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#路由器交换机文件维护"><span class="toc-text">路由器交换机文件维护</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#重置密码"><span class="toc-text">重置密码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#操作系统"><span class="toc-text">操作系统</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#备份"><span class="toc-text">备份</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#恢复"><span class="toc-text">恢复</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#许可"><span class="toc-text">许可</span></a></li></ol></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="设备发现-管理-维护"><a href="#设备发现-管理-维护" class="headerlink" title="设备发现, 管理, 维护"></a>设备发现, 管理, 维护</h1><h2 id="设备发现"><a href="#设备发现" class="headerlink" title="设备发现"></a>设备发现</h2><h3 id="CDP"><a href="#CDP" class="headerlink" title="CDP"></a>CDP</h3><p>CISCO DISCORY PROTOCAL, 是一个思科专有第 2 层协议, 共享同一数据链路的思科设备的信息. 默认开启. </p>
+<ul>
+<li><p>有关命令</p>
+<pre><code>show cdp // 查看cdp+
+show cdp neighbours // 查看发现的设备
+show cdp neighbours detail // 详细信息
+show cdp interface // 查看启用的接口
+(config) # cdp run // 启动cdp
+(config) # no cdp run // 全局禁用cdp, 最好这样做
+(config) # inter g0/0
+(conf-line) # cdp enable // 在端口上开启cdp
+(conf-line) # no cdp enable // 在端口上关闭cdp</code></pre></li>
+</ul>
+<h3 id="LLDP"><a href="#LLDP" class="headerlink" title="LLDP"></a>LLDP</h3><p>链路层发现协议 (LLDP), 国际通用协议. </p>
+<ul>
+<li><p>有关命令</p>
+<pre><code>(config)
+lldp run
+inter g0/1
+lldp transmit
+lldp recieve
+exit
+exit
+(en)
+show lldp
+show lldp neighbours
+show lldp neighbours detail</code></pre></li>
+</ul>
+<h2 id="设备管理"><a href="#设备管理" class="headerlink" title="设备管理"></a>设备管理</h2><h3 id="NTP"><a href="#NTP" class="headerlink" title="NTP"></a>NTP</h3><p>使用NTP设置系统时钟</p>
+<ul>
+<li><p>手动配置时间</p>
+<pre><code>clock set 20:01:00 dec 11 2019</code></pre></li>
+<li><p>用ntp设置时间</p>
+<pre><code>show clock detail
+conf t
+ntp server 209.168.200.225
+exit
+show ntp associations // 显示关联的ntp设备信息
+show ntp status // 显示本机ntp信息
+</code></pre></li>
+</ul>
+<p>ntp时间层级概念:</p>
+<p>第0层: 权威时间源, 计时用.</p>
+<p>第1层: 从权威时间源获取时间.</p>
+<p>第n层: 从第n-1层获取时间</p>
+<p>第16层: 表示设备不同步</p>
+<h3 id="系统日志"><a href="#系统日志" class="headerlink" title="系统日志"></a>系统日志</h3><p>日志的功能</p>
+<ul>
+<li><p>能够收集日志记录信息来用于监控和故障排除        </p>
+</li>
+<li><p>能够选择捕获的日志记录信息的类型   </p>
+</li>
+<li><p>能够指定捕获的系统日志消息的目的地</p>
+</li>
+</ul>
+<p>系统日志消息的常用目的地</p>
+<ul>
+<li><p>日志记录缓冲区（路由器或交换机内部的 RAM）     </p>
+</li>
+<li><p>控制台线路       </p>
+</li>
+<li><p>终端线路    </p>
+</li>
+<li><p>系统日志服务器</p>
+</li>
+</ul>
+<p>设备可以配置为将所有系统消息转发到外部系统日志服务器, 内部缓冲区的日志只能从CLI上看到.</p>
+<p>日志级别: 级别越小, 越紧急</p>
+<p><img src="2019-11-23-ch10%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/image-20191123153421475.png" alt="image-20191123153421475"></p>
+<p>日志的构成</p>
+<pre><code>seq no(日志的序号, 需要先配置service sequence-numbers) - 
+timestamp(日志时间戳, 需要先配置service timestamp与ntp) - 
+facility(来源设备) - 
+severity(严重性, 上面的0-7) - 
+MNEMONIC(简短的助记符) - 
+说明(详细报告)</code></pre><ul>
+<li><p>开启时间戳</p>
+<pre><code>conf t
+inter g0/0
+shutdown
+exit
+(config)
+service timestamps log datetime
+inter g0/0
+no shut</code></pre></li>
+</ul>
+<ul>
+<li><p>相关命令</p>
+<pre><code>show logging //查看日志记录设置
+(config)
+logging 192.168.1.4 // 配置log服务器
+logging trap 4 // 显示0-4级log
+logging source-interface g0/0 //指定系统日志数据包包含特定接口的 IPv4 或 IPv6 地址
+logging console // 把所有级别的日志都输出到console
+logging buffered // 缓冲系统日志消息</code></pre></li>
+</ul>
+<h2 id="设备维护"><a href="#设备维护" class="headerlink" title="设备维护"></a>设备维护</h2><h3 id="路由器交换机文件维护"><a href="#路由器交换机文件维护" class="headerlink" title="路由器交换机文件维护"></a>路由器交换机文件维护</h3><ul>
+<li><p>文件系统</p>
+<pre><code>show file systems // 查看文件系统
+dir // 列出文件, 类似ls
+cd nvram: // 切换到nvram
+pwd</code></pre></li>
+<li><p>使用TFTP备份和恢复</p>
+<p>备份</p>
+<p><img src="2019-11-23-ch10%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/image-20191123160551545.png" alt="image-20191123160551545"></p>
+<p>恢复</p>
+<p><code>copy tftp running-config</code></p>
+</li>
+<li><p>USB接口</p>
+<p><code>dir usbflash0</code></p>
+<p>备份和恢复</p>
+<pre><code>copy run usbflash0:/
+copy usbflshah0:/R1-config run //R1-config是usb上的备份文件名</code></pre></li>
+</ul>
+<h3 id="重置密码"><a href="#重置密码" class="headerlink" title="重置密码"></a>重置密码</h3><p>访问终端的配置</p>
+<ul>
+<li><p>9600 波特率       </p>
+</li>
+<li><p>无奇偶校验     </p>
+</li>
+<li><p>8 个数据位     </p>
+</li>
+<li><p>1 个停止位</p>
+</li>
+<li><p>无流量控制</p>
+</li>
+</ul>
+<p>重置密码</p>
+<ul>
+<li><p>进入rommon模式: 登录中断开设备电源然后重接, 在终端上按下<a href="https://www.cisco.com/c/en/us/support/docs/routers/10000-series-routers/12818-61.html" target="_blank" rel="noopener">中断序列</a>访问.</p>
+<pre><code>(rommon)
+confreg 0x2142 // 寄存器设置为这个值, 忽略启动配置文件
+reset</code></pre><p>重启中需要输入中断序列(快捷键)</p>
+</li>
+<li><p>重启后配置文件</p>
+<pre><code>copy start run
+conf t
+**设置所有密码**
+config-register 0x2102 // 重置寄存器
+end
+copy run start
+reload</code></pre></li>
+</ul>
+<h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3><p>类型说明</p>
+<ul>
+<li>名称中有 <strong>universalk9</strong>, 标准的映像, 提供所有功能</li>
+<li>名称中<strong>带有“universalk9_npe</strong>, 提供强加密功能</li>
+</ul>
+<p>包含了四个技术包</p>
+<ul>
+<li>IP base</li>
+<li>UC, 统一通信</li>
+<li>数据</li>
+<li>安全</li>
+</ul>
+<p>映像文件名</p>
+<pre><code>show flash0:</code></pre><ul>
+<li><p><strong>映像名称 (c1900)</strong> - 标识映像运行的平台。在本示例中，平台是思科 1900 路由器。</p>
+</li>
+<li><p><strong>universalk9</strong> - 指定映像标识。ISR G2 的两个标识是 universalk9 和  universalk9_npe。Universalk9_npe  不包含强加密，适用于具有加密限制的国家/地区。通过许可控制功能，并可将功能分为四个技术包。它们是 IP Base、安全、统一通信和数据。</p>
+</li>
+<li><p><strong>mz</strong> - 表示运行映像的位置以及文件是否经过压缩。在本示例中，“mz”表示文件从 RAM 运行并经过压缩。 </p>
+<ul>
+<li><p><strong>f</strong> - 闪存 </p>
+</li>
+<li><p><strong>m</strong> - RAM              </p>
+</li>
+<li><p><strong>r</strong> - ROM  </p>
+</li>
+<li><p><strong>l</strong> - 可重定位 </p>
+</li>
+<li><p>z - zip</p>
+</li>
+<li><p>x - mzip</p>
+</li>
+</ul>
+</li>
+<li><p><strong>SPA</strong> - 表示文件是由思科以数字形式签名的。</p>
+</li>
+<li><p><strong>152-4.M3</strong> - 指定映像 15.2(4)M3 的文件名格式。这是 IOS 的版本，其包括主要发行版、次要发行版、维护发行版和维护重新构建编号。M 指示这是扩展维护发行版。 </p>
+</li>
+<li><p><strong>bin</strong> - 文件扩展名。该扩展名表示此文件是二进制可执行文件。</p>
+</li>
+</ul>
+<h4 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h4><p>将映像备份到TFTP/从TFTP恢复</p>
+<pre><code>copy flash0: tftp:</code></pre><h4 id="恢复"><a href="#恢复" class="headerlink" title="恢复"></a>恢复</h4><p>最好用<code>show flash0:</code>查看空间是否足够</p>
+<pre><code>copy tftp: flash0: 
+conf t
+boot system flash0://.....
+boot system rom // 如果flash0的系统无法使用, 就用rom的系统
+exit
+copy run start
+reload</code></pre><h2 id="许可"><a href="#许可" class="headerlink" title="许可"></a>许可</h2><ul>
+<li><p>用户购买思科设备, 思科设备预装了操作系统</p>
+<ul>
+<li>包括了IP base, data, uc, sec四个技术包</li>
+<li>ip base许可证是安装其他技术包许可证的前提</li>
+</ul>
+</li>
+<li><p>随着思科设备寄来的还有产品激活密钥(PAK)以及其他技术包的临时许可证, 可以试用新功能</p>
+</li>
+<li><p>查看设备的udi</p>
+<pre><code>show license udi</code></pre><p>使用udi和pak, 下载 <strong>思科 License Manager (CLM)</strong>  , 来激活设备</p>
+</li>
+<li><p>收到邮件, 包含里一个.lic文件, 放入flash中</p>
+<pre><code>license install flash0:...
+reload</code></pre></li>
+<li><p>备份许可</p>
+<pre><code> license save flash0:...</code></pre></li>
+<li><p>清楚许可证</p>
+<pre><code>// 禁用技术包
+license boot module c1900 technology-package seck9(包名称) disable
+exit
+reload
+// 清除许可证
+license clear seck9
+conf t
+no license boot module c1900 technology-package seck9(包名称) disable
+exit 
+reload</code></pre></li>
+</ul>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 tianyilt@qq.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">文章标题:</span>CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护</p>
+    
+    <p><span class="copy-title">本文作者:</span><a  title="tianyilt">tianyilt</a></p>
+    <p><span class="copy-title">发布时间:</span>2019-12-07, 10:47:37</p>
+    <p><span class="copy-title">最后更新:</span>2019-11-24, 15:54:58</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-23-ch10%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/" title="CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护">http://yoursite.com/2019/12/07/CiscoNetwork-2%E5%AD%A6%E6%9C%9F/2019-11-23-ch10%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/</a>
+    <p>
+        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
+
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">©2016-2019 Yelog</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full"><span class="min "></span></button>
+<button class="post-toc-menu"><span class="post-toc-menu-icons"></span></button>
+<div class="post-toc"><span class="post-toc-title">目录</span>
+    <div class="post-toc-content">
+
+    </div>
+</div>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+<div class="acParent"></div>
+
+<div class="hide_box" onclick="dashangToggle()"></div>
+<div class="shang_box">
+    <a class="shang_close"  onclick="dashangToggle()">×</a>
+    <div class="shang_tit">
+        <p>喜欢就点赞,疼爱就打赏</p>
+    </div>
+    <div class="shang_payimg">
+        <div class="pay_img">
+            <img src="/img/alipay.jpg" class="alipay" title="扫码支持">
+            <img src="/img/weixin.jpg" class="weixin" title="扫码支持">
+        </div>
+    </div>
+    <div class="shang_payselect">
+        <span><label><input type="radio" name="pay" checked value="alipay">支付宝</label></span><span><label><input type="radio" name="pay" value="weixin">微信</label></span>
+    </div>
+</div>
+
+
+</body>
+<script src="/js/jquery.pjax.js?v=1.0.1" ></script>
+
+<script src="/js/script.js?v=1.0.1" ></script>
+<script>
+    var img_resize = 'default';
+    /*作者、标签的自动补全*/
+    $(function () {
+        $('.search').AutoComplete({
+            'data': [],
+            'itemHeight': 20,
+            'width': 418
+        }).AutoComplete('show');
+    })
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $(".post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+        $("input[name=pay]").on("click", function () {
+            if($("input[name=pay]:checked").val()=="weixin"){
+                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
+            } else {
+                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
+            }
+        })
+        
+
+        /*高亮代码块行号*/
+        
+        $('pre code').each(function(){
+            var lines = $(this).text().split('\n').length - 1, widther='';
+            if (lines>99) {
+                widther = 'widther'
+            }
+            var $numbering = $('<ul/>').addClass('pre-numbering ' + widther).attr("unselectable","on");
+            $(this).addClass('has-numbering ' + widther)
+                    .parent()
+                    .append($numbering);
+            for(var i=1;i<=lines;i++){
+                $numbering.append($('<li/>').text(i));
+            }
+        });
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+    function dashangToggle() {
+        $(".shang_box").fadeToggle();
+        $(".hide_box").fadeToggle();
+    }
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<style>
+    pre{
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: 10px;
+        border: 1px solid #e2dede;
+        background: #FFF;
+        overflow: hidden;
+    }
+    code.has-numbering{
+        margin-left: 30px;
+    }
+    code.has-numbering.widther{
+        margin-left: 35px;
+    }
+    .pre-numbering{
+        margin: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        padding: 0.5em 3px 0.7em 5px;
+        border-right: 1px solid #C3CCD0;
+        text-align: right;
+        color: #AAA;
+        background-color: ;
+    }
+    .pre-numbering.widther {
+        width: 35px;
+    }
+</style>
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 542px;
+    }
+    .nav.fullscreen {
+        margin-left: -542px;
+    }
+    .nav-left {
+        width: 120px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 492px;
+        }
+        .nav.fullscreen {
+            margin-left: -492px;
+        }
+        .nav-left {
+            width: 100px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 492px;
+            margin-left: -492px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+        .nav .hide-list.fullscreen {
+            left: 492px
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+    .post .pjax article .article-entry>ol, .post .pjax article .article-entry>ul, .post .pjax article>ol, .post .pjax article>ul{
+        border: #e2dede solid 1px;
+        border-radius: 10px;
+        padding: 10px 32px 10px 56px;
+    }
+    .post .pjax article .article-entry li>ol, .post .pjax article .article-entry li>ul,.post .pjax article li>ol, .post .pjax article li>ul{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .post .pjax article .article-entry>ol>li, .post .pjax article .article-entry>ul>li,.post .pjax article>ol>li, .post .pjax article>ul>li{
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    .post .pjax article .article-entry li>ol>li, .post .pjax article .article-entry li>ul>li,.post .pjax article li>ol>li, .post .pjax article li>ul>li{
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+    .nav-right:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background: url("https://i.loli.net/2019/07/22/5d3521411f3f169375.png");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+
+    
+</style>
+
+
+
+
+
+
+
+</html>
