@@ -8,7 +8,8 @@ categories: Git
 
 进入自己fork仓库的pull request
 
-![1573359731289](%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5/1573359731289.png)
+
+![1573359731289](在github端fork远程同步/1573359731289.png)
 
 ![1573359783354](%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5/1573359783354.png)
 
