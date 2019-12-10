@@ -6,17 +6,26 @@
   <meta name="keywords" content="">
   <meta name="description" content="2019-08-25-git基础命令 | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="第二章实战分析categories: 思科2conf terminal!R1hostname Centralipv6 unicast-routingno ip domain-lookupint s0&#x2F;0&#x2F;0description For Primary Lanip add 128.107.0.1 255.255.255.252ipv add 2001:DB8:2:1::1&#x2F;64ipv add FE">
+<meta name="description" content="在github端fork远程同步categories: Git现在我们已经fork别人的一个远程仓库，经过一段时间，原仓库进行了一端更新，我们需要与远程的原仓库同步。 进入自己fork仓库的pull request   可以发现目前默认是从自己仓库同步到原仓库，需要交换标签顺序，首先把发起栏目改成原仓库  可是会出现这个页面  点击  compare across forks  再把目标仓库换成自">
 <meta property="og:type" content="article">
-<meta property="og:title" content="RSE_C2_PT">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;07&#x2F;%E6%80%9D%E7%A7%912&#x2F;RSE_C2_PT%20&#x2F;index.html">
+<meta property="og:title" content="2019-11-10-在github端fork远程同步">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="第二章实战分析categories: 思科2conf terminal!R1hostname Centralipv6 unicast-routingno ip domain-lookupint s0&#x2F;0&#x2F;0description For Primary Lanip add 128.107.0.1 255.255.255.252ipv add 2001:DB8:2:1::1&#x2F;64ipv add FE">
-<meta property="og:locale" content="cn">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;.com&#x2F;&#x2F;1574498707719.png">
-<meta property="og:updated_time" content="2019-12-09T05:29:25.694Z">
+<meta property="og:description" content="在github端fork远程同步categories: Git现在我们已经fork别人的一个远程仓库，经过一段时间，原仓库进行了一端更新，我们需要与远程的原仓库同步。 进入自己fork仓库的pull request   可以发现目前默认是从自己仓库同步到原仓库，需要交换标签顺序，首先把发起栏目改成原仓库  可是会出现这个页面  点击  compare across forks  再把目标仓库换成自">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359731289.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359783354.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359832906.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359891243.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359938161.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359959587.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359982645.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573360028978.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573360054850.png">
+<meta property="article:published_time" content="2019-12-10T00:40:23.566Z">
+<meta property="article:modified_time" content="2019-12-10T00:53:01.249Z">
+<meta property="article:author" content="tianyilt">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;.com&#x2F;&#x2F;1574498707719.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359731289.png">
 
 
 <link rel="icon" href="/img/avatar.jpg">
@@ -44,7 +53,7 @@
 
 <script src="/js/iconfont.js?v=1.0.1" ></script>
 
-</head>
+<meta name="generator" content="Hexo 4.1.0"></head>
 <div style="display: none">
   <input class="theme_disqus_on" value="false">
   <input class="theme_preload_comment" value="false">
@@ -127,11 +136,11 @@
 
 
 <ul>
-    <li><div class="all active">全部文章<small>(50)</small></div></li>
+    <li><div class="all active">全部文章<small>(52)</small></div></li>
     
         
             
-            <li><div data-rel="Git">Git<small>(6)</small></div>
+            <li><div data-rel="Git">Git<small>(7)</small></div>
                 
             </li>
             
@@ -195,7 +204,7 @@
     </div>
     <div><a class="about  hasFriend  site_url"  href="/about">关于</a><a style="width: 50%"  class="friends">友链</a></div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="50">
+<input type="hidden" id="yelog_site_posts_number" value="52">
 
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -252,6 +261,14 @@
         </a>
         
         <a  class="Git "
+           href="/2019/12/07/Git/2019-08-30-%E5%92%8Cfork%E6%9D%A5%E7%9A%84%E4%BB%93%E5%BA%93%E5%90%8C%E6%AD%A5/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-08-30-和fork来的仓库同步">2019-08-30-和fork来的仓库同步</span>
+            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class="Git "
            href="/2019/12/07/Git/2019-08-25-git%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/"
            data-tag=""
            data-author="" >
@@ -264,15 +281,7 @@
            data-tag=""
            data-author="" >
             <span class="post-title" title="2019-11-10-在github端fork远程同步">2019-11-10-在github端fork远程同步</span>
-            <span class="post-date" title="2019-12-10 08:34:48">2019/12/10</span>
-        </a>
-        
-        <a  class="Git "
-           href="/2019/12/07/Git/2019-08-30-%E5%92%8Cfork%E6%9D%A5%E7%9A%84%E4%BB%93%E5%BA%93%E5%90%8C%E6%AD%A5/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-08-30-和fork来的仓库同步">2019-08-30-和fork来的仓库同步</span>
-            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+            <span class="post-date" title="2019-12-10 08:40:23">2019/12/10</span>
         </a>
         
         <a  class="Git "
@@ -280,14 +289,6 @@
            data-tag=""
            data-author="" >
             <span class="post-title" title="2019-11-23-unable to autodetect email address解决方法">2019-11-23-unable to autodetect email address解决方法</span>
-            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
-        </a>
-        
-        <a  class="Linux "
-           href="/2019/12/07/Linux/2019-08-27-vim%E7%BC%96%E8%BE%91%E5%99%A8/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-08-27-vim编辑器">2019-08-27-vim编辑器</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -324,6 +325,14 @@
         </a>
         
         <a  class="Linux "
+           href="/2019/12/07/Linux/2019-08-27-vim%E7%BC%96%E8%BE%91%E5%99%A8/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-08-27-vim编辑器">2019-08-27-vim编辑器</span>
+            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class="Linux "
            href="/2019/12/07/Linux/2019-08-29-%E6%A1%A3%E6%A1%88%E5%B1%9E%E6%80%A7%E5%92%8C%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/"
            data-tag=""
            data-author="" >
@@ -344,6 +353,14 @@
            data-tag=""
            data-author="" >
             <span class="post-title" title="2019-08-30-归档压缩备份">2019-08-30-归档压缩备份</span>
+            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class="Linux "
+           href="/2019/12/07/Linux/2019-09-03-shell%E8%84%9A%E6%9C%AC/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-09-03-shell脚本">2019-09-03-shell脚本</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -380,10 +397,10 @@
         </a>
         
         <a  class="Linux "
-           href="/2019/12/07/Linux/2019-09-03-shell%E8%84%9A%E6%9C%AC/"
+           href="/2019/12/07/Linux/2019-09-17-%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8Cpython/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="2019-09-03-shell脚本">2019-09-03-shell脚本</span>
+            <span class="post-title" title="2019-09-17-后台运行python">2019-09-17-后台运行python</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -395,19 +412,19 @@
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
-        <a  class="Linux "
-           href="/2019/12/07/Linux/2019-09-17-%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8Cpython/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-09-17-后台运行python">2019-09-17-后台运行python</span>
-            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
-        </a>
-        
         <a  class="oracle "
            href="/2019/12/07/oracle/2019-11-03-oracle%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"
            data-tag=""
            data-author="" >
             <span class="post-title" title="2019-11-03-oracle体系结构">2019-11-03-oracle体系结构</span>
+            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class="oracle "
+           href="/2019/12/07/oracle/2019-11-10-oracle%E6%96%87%E6%9C%AC%E6%8F%92%E4%BB%B6/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-10-oracle文本插件">2019-11-10-oracle文本插件</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -436,18 +453,18 @@
         </a>
         
         <a  class="oracle "
-           href="/2019/12/07/oracle/2019-11-10-oracle%E6%96%87%E6%9C%AC%E6%8F%92%E4%BB%B6/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-10-oracle文本插件">2019-11-10-oracle文本插件</span>
-            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
-        </a>
-        
-        <a  class="oracle "
            href="/2019/12/07/oracle/2019-11-16-oracle%E5%AE%89%E8%A3%85%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE%E5%BA%93/"
            data-tag=""
            data-author="" >
             <span class="post-title" title="2019-11-16-oracle安装示例数据库">2019-11-16-oracle安装示例数据库</span>
+            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class="思科1 "
+           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-09-21-ch01%E5%88%9D%E8%AF%86%E7%BD%91%E7%BB%9C/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-09-21-ch01初识网络">2019-09-21-ch01初识网络</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -468,10 +485,10 @@
         </a>
         
         <a  class="思科1 "
-           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-09-21-ch01%E5%88%9D%E8%AF%86%E7%BD%91%E7%BB%9C/"
+           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-09-28-ch04%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="2019-09-21-ch01初识网络">2019-09-21-ch01初识网络</span>
+            <span class="post-title" title="2019-09-28-ch04网络访问">2019-09-28-ch04网络访问</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -492,10 +509,26 @@
         </a>
         
         <a  class="思科1 "
-           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-09-28-ch04%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE/"
+           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-10-26-ch07IP%E5%AF%BB%E5%9D%80/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="2019-09-28-ch04网络访问">2019-09-28-ch04网络访问</span>
+            <span class="post-title" title="2019-10-26-ch07IP寻址">2019-10-26-ch07IP寻址</span>
+            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class="思科1 "
+           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-11-02-ch08%E5%88%92%E5%88%86%E5%AD%90%E7%BD%91/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-02-ch08划分子网">2019-11-02-ch08划分子网</span>
+            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class="思科1 "
+           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-11-03-ch10%E5%BA%94%E7%94%A8%E5%B1%82/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-03-ch10应用层">2019-11-03-ch10应用层</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -515,14 +548,6 @@
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
-        <a  class="思科1 "
-           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-10-26-ch07IP%E5%AF%BB%E5%9D%80/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-10-26-ch07IP寻址">2019-10-26-ch07IP寻址</span>
-            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
-        </a>
-        
         <a  class="思科2 "
            href="/2019/12/07/%E6%80%9D%E7%A7%912/2019-11-10-ch03pt%E5%AE%9E%E8%B7%B5/"
            data-tag=""
@@ -539,11 +564,11 @@
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
-        <a  class="思科1 "
-           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-11-02-ch08%E5%88%92%E5%88%86%E5%AD%90%E7%BD%91/"
+        <a  class="思科2 "
+           href="/2019/12/07/%E6%80%9D%E7%A7%912/2019-11-16-ch06VLAN/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="2019-11-02-ch08划分子网">2019-11-02-ch08划分子网</span>
+            <span class="post-title" title="2019-11-16-ch06VLAN">2019-11-16-ch06VLAN</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -555,19 +580,11 @@
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
-        <a  class="思科1 "
-           href="/2019/12/07/%E6%80%9D%E7%A7%911/2019-11-03-ch10%E5%BA%94%E7%94%A8%E5%B1%82/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-03-ch10应用层">2019-11-03-ch10应用层</span>
-            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
-        </a>
-        
         <a  class="思科2 "
-           href="/2019/12/07/%E6%80%9D%E7%A7%912/2019-11-16-ch06VLAN/"
+           href="/2019/12/07/%E6%80%9D%E7%A7%912/2019-11-24-RSE_C2_PT%20/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="2019-11-16-ch06VLAN">2019-11-16-ch06VLAN</span>
+            <span class="post-title" title="2019-11-24-RSE_C2_PT">2019-11-24-RSE_C2_PT</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -596,14 +613,6 @@
         </a>
         
         <a  class="思科2 "
-           href="/2019/12/07/%E6%80%9D%E7%A7%912/2019-11-24-RSE_C2_PT%20/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-24-RSE_C2_PT">2019-11-24-RSE_C2_PT</span>
-            <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
-        </a>
-        
-        <a  class="思科2 "
            href="/2019/12/07/%E6%80%9D%E7%A7%912/2019-11-28-ch09%20IPv4%20NAT/"
            data-tag=""
            data-author="" >
@@ -612,10 +621,10 @@
         </a>
         
         <a  class="配环境_深度学习 "
-           href="/2019/12/07/%E9%85%8D%E7%8E%AF%E5%A2%83_%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-11-24-%E8%B0%B7%E6%AD%8C%E4%BA%91T4%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE/"
+           href="/2019/12/07/%E9%85%8D%E7%8E%AF%E5%A2%83_%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-11-16-pycharm%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E8%B0%83%E5%87%BAconsole/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="2019-11-24-谷歌云T4服务器配置">2019-11-24-谷歌云T4服务器配置</span>
+            <span class="post-title" title="2019-11-16-pycharm无法运行调出console">2019-11-16-pycharm无法运行调出console</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
         </a>
         
@@ -628,11 +637,27 @@
         </a>
         
         <a  class="配环境_深度学习 "
-           href="/2019/12/07/%E9%85%8D%E7%8E%AF%E5%A2%83_%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-11-16-pycharm%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E8%B0%83%E5%87%BAconsole/"
+           href="/2019/12/07/%E9%85%8D%E7%8E%AF%E5%A2%83_%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-11-24-%E8%B0%B7%E6%AD%8C%E4%BA%91T4%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="2019-11-16-pycharm无法运行调出console">2019-11-16-pycharm无法运行调出console</span>
+            <span class="post-title" title="2019-11-24-谷歌云T4服务器配置">2019-11-24-谷歌云T4服务器配置</span>
             <span class="post-date" title="2019-12-07 23:40:55">2019/12/07</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/12/10/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90/%E8%BF%AD%E4%BB%A3%E6%B3%95%E6%94%B6%E6%95%9B%E6%80%A7%E5%AE%9E%E9%AA%8C/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="数值分析/迭代法收敛性实验">数值分析/迭代法收敛性实验</span>
+            <span class="post-date" title="2019-12-10 08:40:23">2019/12/10</span>
+        </a>
+        
+        <a  class="Git "
+           href="/2019/12/10/Git/hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="hexo源码同步github">hexo源码同步github</span>
+            <span class="post-date" title="2019-12-10 08:41:59">2019/12/10</span>
         </a>
         
     </nav>
