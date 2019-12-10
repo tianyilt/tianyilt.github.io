@@ -12,13 +12,13 @@
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="摘自大佬原文categories: Git我们在使用 Hexo 来写博客的时候，我们将博客搭建在 GitHub 上后，当我们使用 hexo d 部署到 GitHub 上，其实没有把我们编写的 xxx.md 原博客文档保存上去，而只是生成一些博客需要的静态的页面。假设我们硬盘坏了，数据无法恢复，那么我们的博客源文档也会不见，所以最好我们是把源代码也托管到 GitHub 上， 这个也有一个好处就是你在">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo01.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo02.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;.com&#x2F;&#x2F;hexo01.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;.com&#x2F;&#x2F;hexo02.png">
 <meta property="article:published_time" content="2019-12-10T00:41:59.274Z">
-<meta property="article:modified_time" content="2019-12-10T00:53:01.257Z">
+<meta property="article:modified_time" content="2019-12-10T01:06:11.250Z">
 <meta property="article:author" content="tianyilt">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo01.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;.com&#x2F;&#x2F;hexo01.png">
 
 
 <link rel="icon" href="/img/avatar.jpg">
@@ -683,7 +683,7 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-12-10 08:53:01'>2019-12-10 08:41</time>
+        创建时间:<time class="date" title='更新时间: 2019-12-10 09:06:11'>2019-12-10 08:41</time>
         
     </div>
     <div class="article-meta">
@@ -705,7 +705,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#建立分支"><span class="toc-text">建立分支</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#更改默认分支"><span class="toc-text">更改默认分支</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#clone-项目"><span class="toc-text">clone 项目</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#建立分支"><span class="toc-text">建立分支</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#更改默认分支"><span class="toc-text">更改默认分支</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#clone-项目"><span class="toc-text">clone 项目</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#执行命令"><span class="toc-text">执行命令</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#配置"><span class="toc-text">配置</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -723,11 +723,20 @@
       
         <p>摘自大佬<a href="https://1csh1.github.io/2017/04/15/save-hexo-source-to-github/" target="_blank" rel="noopener">原文</a><br>categories: Git<br>我们在使用 Hexo 来写博客的时候，我们将博客搭建在 GitHub 上后，当我们使用 hexo d 部署到 GitHub 上，其实没有把我们编写的 xxx.md 原博客文档保存上去，而只是生成一些博客需要的静态的页面。假设我们硬盘坏了，数据无法恢复，那么我们的博客源文档也会不见，所以最好我们是把源代码也托管到 GitHub 上， 这个也有一个好处就是你在其他电脑上也可以同步编写博客。接下来就讲述如何实现。</p>
 <h1 id="建立分支"><a href="#建立分支" class="headerlink" title="建立分支"></a>建立分支</h1><p>因为 master 分支是存放 Hexo 博客生成的页面，所以只能创建一个分支来保存博客的源代码在你的 GitHub 。例如，我创建了一个分支叫 save</p>
-<p><img src="hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github/hexo01.png" alt="img"></p>
+<p><img src="/.com//hexo01.png" alt="img"></p>
 <h1 id="更改默认分支"><a href="#更改默认分支" class="headerlink" title="更改默认分支"></a>更改默认分支</h1><p>更改我们的项目的默认分支为 save</p>
-<p><img src="hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github/hexo02.png" alt="img"></p>
+<p><img src="/.com//hexo02.png" alt="img"></p>
 <h1 id="clone-项目"><a href="#clone-项目" class="headerlink" title="clone 项目"></a>clone 项目</h1><p>clone 你的项目到你的 Hexo 目录下。例如我的是执行下面的命令：</p>
 <pre><code class="git">git clone https://github.com/1CSH1/1CSH1.github.io.git</code></pre>
+<h1 id="执行命令"><a href="#执行命令" class="headerlink" title="执行命令"></a>执行命令</h1><p>执行下面的命令将你的博客的原文配置等等保存到分支 save 上</p>
+<pre><code>git remote add origin https://github.com/1CSH1/1CSH1.github.io.git
+git add .
+git commit -m &quot;your description&quot;
+git push origin save</code></pre><h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>确认你的 _config.yml 配置是提交到 master 分支</p>
+<pre><code>deploy:
+  type: git
+  repository: git@github.com:1CSH1/1CSH1.github.io.git
+  branch: master</code></pre><p>通过以上的配置，就可以把 Hexo 博客的源文件配置等到保存到 GitHub 上。</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 tianyilt@qq.com </span>
@@ -745,7 +754,7 @@
     
     <p><span class="copy-title">本文作者:</span><a  title="tianyilt">tianyilt</a></p>
     <p><span class="copy-title">发布时间:</span>2019-12-10, 08:41:59</p>
-    <p><span class="copy-title">最后更新:</span>2019-12-10, 08:53:01</p>
+    <p><span class="copy-title">最后更新:</span>2019-12-10, 09:06:11</p>
     <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/12/10/Git/hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github/" title="hexo源码同步github">http://yoursite.com/2019/12/10/Git/hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
