@@ -6,26 +6,19 @@
   <meta name="keywords" content="">
   <meta name="description" content="2019-11-25-ch03动态路由 | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="在github端fork远程同步categories: Git现在我们已经fork别人的一个远程仓库，经过一段时间，原仓库进行了一端更新，我们需要与远程的原仓库同步。 进入自己fork仓库的pull request   可以发现目前默认是从自己仓库同步到原仓库，需要交换标签顺序，首先把发起栏目改成原仓库  可是会出现这个页面  点击  compare across forks  再把目标仓库换成自">
+<meta name="description" content="摘自大佬原文categories: Git我们在使用 Hexo 来写博客的时候，我们将博客搭建在 GitHub 上后，当我们使用 hexo d 部署到 GitHub 上，其实没有把我们编写的 xxx.md 原博客文档保存上去，而只是生成一些博客需要的静态的页面。假设我们硬盘坏了，数据无法恢复，那么我们的博客源文档也会不见，所以最好我们是把源代码也托管到 GitHub 上， 这个也有一个好处就是你在">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2019-11-10-在github端fork远程同步">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;index.html">
+<meta property="og:title" content="hexo源码同步github">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="在github端fork远程同步categories: Git现在我们已经fork别人的一个远程仓库，经过一段时间，原仓库进行了一端更新，我们需要与远程的原仓库同步。 进入自己fork仓库的pull request   可以发现目前默认是从自己仓库同步到原仓库，需要交换标签顺序，首先把发起栏目改成原仓库  可是会出现这个页面  点击  compare across forks  再把目标仓库换成自">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359731289.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359783354.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359832906.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359891243.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359938161.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359959587.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359982645.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573360028978.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573360054850.png">
-<meta property="article:published_time" content="2019-12-10T00:40:23.566Z">
-<meta property="article:modified_time" content="2019-12-10T00:53:01.249Z">
+<meta property="og:description" content="摘自大佬原文categories: Git我们在使用 Hexo 来写博客的时候，我们将博客搭建在 GitHub 上后，当我们使用 hexo d 部署到 GitHub 上，其实没有把我们编写的 xxx.md 原博客文档保存上去，而只是生成一些博客需要的静态的页面。假设我们硬盘坏了，数据无法恢复，那么我们的博客源文档也会不见，所以最好我们是把源代码也托管到 GitHub 上， 这个也有一个好处就是你在">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo01.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo02.png">
+<meta property="article:published_time" content="2019-12-10T00:41:59.274Z">
+<meta property="article:modified_time" content="2019-12-10T00:53:01.257Z">
 <meta property="article:author" content="tianyilt">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;2019-11-10-%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;%E5%9C%A8github%E7%AB%AFfork%E8%BF%9C%E7%A8%8B%E5%90%8C%E6%AD%A5&#x2F;1573359731289.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;10&#x2F;Git&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo%E6%BA%90%E7%A0%81%E5%90%8C%E6%AD%A5github&#x2F;hexo01.png">
 
 
 <link rel="icon" href="/img/avatar.jpg">
