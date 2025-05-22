@@ -17,42 +17,89 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a PhD student starting from September 2024, supervised by [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/), and also working with the InternLM team led by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en) at the [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/) and Shanghai Innovation Institute. I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/)  and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on cross-modal LLM Agents, multimodal image editing, and computer graphics. I have served as a reviewer for top-tier conferences including IEEE VIS and CVPR.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.05*: &nbsp;🎉 1 paper accepted to ICML 2025.
+- *2025.05*: &nbsp;🎉 1 paper accepted to ACL (main) 2025.
+- *2024.03*: &nbsp;🎓 Secured a admission offer through the Spring Camp selection at the Shanghai Innovation Institute; expected to enroll in September 2025.
+- *2024.09*: &nbsp;🎓 Starting my PhD at Shanghai Institute of AI Education, East China Normal University.
+- *2024.05*: &nbsp;💼 Joined the InternLM group at Shanghai Artificial Intelligence Laboratory as a LLM Research Intern.
 
-# 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/2025_icml_poster.jpg' alt="TextCenGen" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**TextCenGen: Attention-Guided Text-Centric Background Adaptation for Text-to-Image Generation**  
+<span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Jiangqi Liu<sup>&#8224;</sup>, Yifei Huang, Shiqi Jiang, Jianshen Shi, Changbo Wang, and Chenhui Li*.  
+ICML 2025, Accepted (CCF A)  
+[arXiv](https://arxiv.org/abs/2404.11824) &nbsp;|&nbsp; [Code](https://github.com/tianyilt/TextCenGen_Background_Adapt) &nbsp;|&nbsp; [Project Page](/textcengen/)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/2025_acl_critiq.png' alt="CritiQ" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CritiQ: Mining Data Quality Criteria from Human Preferences**  
+Honglin Guo, Kai Lv, Qipeng Guo, <span style="color:#8c1d1d">Tianyi Liang</span>, Zhiheng Xi, Demin Song, Qiuyinzhe Zhang, Yu Sun, Kai Chen, Xipeng Qiu, Tao Gui  
+ACL 2025, Accepted (Main Conference)  
+[arXiv](https://arxiv.org/abs/2502.19279) &nbsp;|&nbsp; [Code](https://github.com/KYLN24/CritiQ)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GAOKAO-Eval: Does high scores truly reflect strong capabilities in LLMs?**  
+Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Hanglei Hu, Jin Zhang, Yunhua Zhou, Yunfan Shao, Linyang Li, Chenchui Li, Changbo Wang, Hang Yan, Qipeng Guo  
+<sup>&#8224;</sup>Equal contribution  
+[arXiv](https://arxiv.org/abs/2412.10056) <!-- TODO: Replace with actual arXiv ID when available -->
+
+</div>
+</div>
+
+
+
+
+
+
+# 💼 Professional Experience
+
+- *2024.5 - Present*: **Shanghai Artificial Intelligence Laboratory**, LLM Algorithm Research Intern
+  - Research on Open-Compass [GAOKAO evaluation](https://github.com/open-compass/GAOKAO-Eval) and [InternLM2-WQX-VL-20B](https://modelscope.cn/models/Shanghai_AI_Laboratory/internlm2-wqx-vl-20b/summary)
+  - Developed an innovative Verifier-Guided workflow for quality control of Web Data and PDF corpora in InternLM3 project. Proposed a novel reflection-based criteria optimization method, improving bad case detection F1-score from 66% to 86%. More details can be found in [CritiQ](https://github.com/KYLN24/CritiQ).
+  - Conducting research on LLM-as-Judge and synthetic data generation for [large language model pre-training](https://github.com/InternLM/InternLM). Implemented domain filtering and Verifier-Guided Rephrase techniques, reducing required training data by 85% while maintaining model performance.
+
+<!-- - *2023.5 - 2023.12*: **Shanghai i.Lion Educational Technology Co., Ltd.**, Technical Partner
+  - Developed an education-focused knowledge retrieval system for youth scientific innovation projects
+  - Implemented parallel search and summary generation systems -->
+
+<!-- - *2019.7 - 2019.8*: **DeepBlue Technology Research Institute**, Computer Vision Engineer Intern
+  - Implemented DotFile+Docker for rapid deployment and testing
+  - Built buffer for asynchronous requests using Tornado framework, increasing frame rate from 5 to 30 fps -->
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.7* Shanghai Outstanding Graduate & Outstanding Thesis Award
+- *2019.12* National College Student Mathematical Modeling Competition, Shanghai Region First Prize
+- *2019.12* National Scholarship
+- *2018.12* Shanghai Scholarship
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- # 📖 Education
+- *2024.9 - 2028.7*, PhD in Shanghai Institute of Intelligent Education, East China Normal University
+- *2021.9 - 2024.11*, Academic Master in Computer Science and Technology, East China Normal University (GPA: 91.7/100.0)
+- *2017.9 - 2021.7*, Undergraduate in Mathematics & Applied Mathematics and Computer Science, East China University of Science and Technology (GPA: 3.73/4.0, Ranking: 2/97, Top 2%) -->
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<!-- # 💻 Technical Skills
+- **Software Development**: PyTorch, Computer Vision Frameworks (Advanced), Data Processing
+- **Backend**: FastAPI (API Development)
+- **Frontend**: Vue, React, Three.js (Interactive Demos)
+- **DevOps**: Docker (Advanced, Administrator)
+- **English Proficiency**: CET-6 (562) -->
