@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Tianyi Liang"
-description              : "Computer Graphics, 3D Modeling and Visualization Researcher"
+description              : "LLM/LVLM Agents and Image Synthesis Researcher"
 repository               : "tianyilt/tianyilt.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ author:
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=WXE7r3UAAAAJ"
   email            : "tianyilt@qq.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
