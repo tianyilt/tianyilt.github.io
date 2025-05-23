@@ -47,7 +47,7 @@
 <body>
 
 
-  <section class="hero">
+  <section class="hero is-light">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
@@ -58,15 +58,15 @@
               <span class="author-block">
                 <a href="https://openreview.net/profile?id=~Tianyi_Liang2" target="_blank">Tianyi Liang</a><sup>†</sup>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Jiangqi Liu</a><sup>†</sup>,</span>
+                Jiangqi Liu<sup>†</sup>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Yifei Huang</a>,</span>
+                <a href="https://scholar.google.com.co/citations?user=L444eYsAAAAJ" target="_blank">Yifei Huang</a>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Shiqi Jiang</a>,</span>
+                <a href="https://scholar.google.com/citations?user=Gyw0IL0AAAAJ" target="_blank">Shiqi Jiang</a>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Jianshen Shi</a>,</span>
+                Jianshen Shi,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Changbo Wang</a>,</span>
+                Changbo Wang,</span>
               <span class="author-block">
                 <a href="mailto:chli@cs.ecnu.edu.cn" target="_blank">Chenhui Li</a><sup>*</sup>
               </span>
@@ -137,7 +137,7 @@
 
 
 <!-- 图片展示 -->
-<section class="hero is-small is-light">
+<section class="hero is-small is-white">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3"></h2>
@@ -161,7 +161,7 @@ model, avoiding visual confusion caused by the main objects overlapping with UI 
 <!-- End 图片展示 -->
 
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="section hero is-white">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -198,41 +198,49 @@ our proposed Visual-Textual Concordance Metric
 </section>
 <!-- End paper abstract -->
 
-
-<!-- 图片展示 -->
-<section class="hero is-small is-light">
+<!-- Demos -->
+<section class="hero is-small is-white">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Comparison with Previous Works</h2>
+      <h2 class="title is-3">Demos</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
+          <h3 class="title is-4">Logo with Adaptive Natural Background</h3>
           <div class="publication-image">
-            <!-- 替换为你的图片文件 -->
-            <img src="static/images/2.png" alt="描述文字" style="width: 100%; height: auto;">
+            <img src="static/images/tcgteaser.png" alt="Logo with Adaptive Natural Background"
+              style="width: 100%; height: auto;">
           </div>
-          <p class="image-description">
-            We compared TextCenGen with several potential models to
-evaluate its efficiency. The baseline models included: Native
-Stable Diffusion (Rombach et al., 2022), Dall-E 3 (Ramesh
-et al., 2022), AnyText (Tuo et al., 2023) and Desigen (Weng
-et al., 2024). Dall-E used the prompt "text-friendly in the
-{position}" to specify the region R. Similar to AnyText, we
-chose to randomly generate several masks in a fixed pattern
-across the map to simulate regions need to be edited.
-          </p>
+
+          <h3 class="title is-4">Mobile Devices Wallpaper</h3>
+          <div class="publication-image">
+            <img src="static/images/teaser_mobile.png" alt="Mobile Devices Wallpaper"
+              style="width: 100%; height: auto;">
+          </div>
+
+          <!-- <h3 class="title is-4">Comparison with Previous Works</h3>
+          <div class="publication-image">
+            <img src="static/images/result_compare_2p6m.jpg" alt="Comparison with Previous Works"
+              style="width: 100%; height: auto;">
+          </div> -->
+
+          <h3 class="title is-4">More Results</h3>
+          <div class="publication-image">
+            <img src="static/images/more_results.jpg" alt="More Results" style="width: 100%; height: auto;">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End 图片展示 -->
+<!-- End Demos -->
+
 
 
 
 
 <!-- Youtube video -->
 <!-- 图片展示 -->
-<section class="hero is-small is-light">
+<section class="hero is-small is-white">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Force-Directed Cross-Attention Guidance</h2>
@@ -261,7 +269,7 @@ excluding cross-attention constraint is integrated into the cross-attention map.
 
 
   <!-- 图片展示 -->
-<section class="hero is-small is-light">
+<section class="hero is-small is-white">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3"></h2>
@@ -286,9 +294,33 @@ attention constraint. Separation (a3) isn't required to process.
 </section>
 <!-- End 图片展示 -->
 
-
-
-
+<!-- 图片展示 -->
+<section class="hero is-small is-white">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Comparison with Previous Works</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-image">
+            <!-- 替换为你的图片文件 -->
+            <img src="static/images/result_compare_2p6m.jpg" alt="描述文字" style="width: 100%; height: auto;">
+          </div>
+          <p class="image-description">
+            We compared TextCenGen with several potential models to
+            evaluate its efficiency. The baseline models included: Native
+            Stable Diffusion (Rombach et al., 2022), Dall-E 3 (Ramesh
+            et al., 2022), AnyText (Tuo et al., 2023) and Desigen (Weng
+            et al., 2024). Dall-E used the prompt "text-friendly in the
+            {position}" to specify the region R. Similar to AnyText, we
+            chose to randomly generate several masks in a fixed pattern
+            across the map to simulate regions need to be edited.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End 图片展示 -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
