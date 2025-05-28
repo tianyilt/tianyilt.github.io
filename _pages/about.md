@@ -31,7 +31,7 @@ I am a PhD student starting from September 2024, supervised by [Prof. Chenhui Li
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/2025_icml_poster.jpg' alt="TextCenGen" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><a href='images/2025_icml_poster.jpg'><img src='images/2025_icml_poster.jpg' alt="TextCenGen" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TextCenGen: Attention-Guided Text-Centric Background Adaptation for Text-to-Image Generation**  
@@ -43,7 +43,7 @@ ICML 2025, Accepted (CCF A)
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/2025_acl_critiq.png' alt="CritiQ" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><a href='images/2025_acl_critiq.png'><img src='images/2025_acl_critiq.png' alt="CritiQ" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **CritiQ: Mining Data Quality Criteria from Human Preferences**  
@@ -55,13 +55,26 @@ ACL 2025, Accepted (Main Conference)
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_consensus_entropy.png'><img src='images/2025_consensus_entropy.png' alt="Consensus Entropy" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR**  
+Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Gongshen Liu  
+<sup>&#8224;</sup>Equal contribution  
+[arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [Code](https://github.com/Aslan-yulong/consencus-entropy)
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2024_gaokao_eval_arxiv.png'><img src='images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GAOKAO-Eval: Does high scores truly reflect strong capabilities in LLMs?**  
-Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Hanglei Hu, Jin Zhang, Yunhua Zhou, Yunfan Shao, Linyang Li, Chenchui Li, Changbo Wang, Hang Yan, Qipeng Guo  
+Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Hanglei Hu<sup>&#8224;</sup>, Jin Zhang, Yunhua Zhou, Yunfan Shao, Linyang Li, Chenchui Li, Changbo Wang, Hang Yan, Qipeng Guo  
 <sup>&#8224;</sup>Equal contribution  
-[arXiv](https://arxiv.org/abs/2412.10056) <!-- TODO: Replace with actual arXiv ID when available -->
+[arXiv](https://arxiv.org/abs/2412.10056) &nbsp;|&nbsp; [Code](https://github.com/open-compass/GAOKAO-Eval) &nbsp;|&nbsp; [Model](https://huggingface.co/internlm/internlm2-wqx-20b)
 
 </div>
 </div>
@@ -71,7 +84,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 
 
 
-# 💼 Professional Experience
+# 💼 Internships
 
 - *2024.5 - Present*: **Shanghai Artificial Intelligence Laboratory**, LLM Algorithm Research Intern
   - Research on Open-Compass [GAOKAO evaluation](https://github.com/open-compass/GAOKAO-Eval) and [InternLM2-WQX-VL-20B](https://modelscope.cn/models/Shanghai_AI_Laboratory/internlm2-wqx-vl-20b/summary)
