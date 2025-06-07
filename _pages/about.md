@@ -22,6 +22,7 @@ I am a PhD student starting from September 2024, supervised by [Prof. Chenhui Li
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉 1 paper conditionally accepted to IEEE VIS 2025.
 - *2025.05*: &nbsp;🎉 1 paper accepted to ICML 2025.
 - *2025.05*: &nbsp;🎉 1 paper accepted to ACL (main) 2025.
 - *2024.03*: &nbsp;🎓 Secured a admission offer through the Spring Camp selection at the Shanghai Innovation Institute; expected to enroll in September 2025.
@@ -98,6 +99,29 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 <!-- - *2019.7 - 2019.8*: **DeepBlue Technology Research Institute**, Computer Vision Engineer Intern
   - Implemented DotFile+Docker for rapid deployment and testing
   - Built buffer for asynchronous requests using Tornado framework, increasing frame rate from 5 to 30 fps -->
+
+
+# 💻 Projects
+
+## Open Source Course Sharing Initiatives
+
+- **[ECUST-CourseShare](https://github.com/tianyilt/ecust-CourseShare)** 
+  
+  ![GitHub stars](https://img.shields.io/github/stars/tianyilt/ecust-CourseShare?style=social) ![GitHub forks](https://img.shields.io/github/forks/tianyilt/ecust-CourseShare?style=social)  
+  A comprehensive course resource sharing platform for East China University of Science and Technology. This project aims to build a collaborative platform where students can share course materials, exam papers, and study resources. It covers various departments and provides historical exam papers, review materials, teacher courseware, and homework answers.
+
+- **[ECNU-PGCourseShare](https://github.com/tianyilt/ecnu-PGCourseShare)**  
+  
+  ![GitHub stars](https://img.shields.io/github/stars/tianyilt/ecnu-PGCourseShare?style=social) ![GitHub forks](https://img.shields.io/github/forks/tianyilt/ecnu-PGCourseShare?style=social)  
+  Graduate course resource sharing platform for East China Normal University. This project extends beyond basic course materials to include academic intelligence resources, helping graduate students navigate research fields, discover collaboration opportunities, and access cutting-edge academic tools and best practices.
+
+## Community Platform
+
+- **[ECNU Forum](https://github.com/ECNU-Forum/ECNU-Forum)**  
+  
+  ![GitHub stars](https://img.shields.io/github/stars/ECNU-Forum/ECNU-Forum?style=social) ![GitHub forks](https://img.shields.io/github/forks/ECNU-Forum/ECNU-Forum?style=social)  
+  A modern forum platform based on Flarum for East China Normal University students. The live forum is accessible at [ecnu.im](https://ecnu.im), providing a space where ECNU students can freely communicate and exchange ideas. This is an unofficial community-driven platform that fosters academic and social interaction among students.
+
 
 # 🎖 Honors and Awards
 - *2021.7* Shanghai Outstanding Graduate & Outstanding Thesis Award
