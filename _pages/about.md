@@ -57,6 +57,18 @@ ACL 2025, Accepted (Main Conference)
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_mm_music2.png'><img src='images/2025_mm_music2.png' alt="Music2Palette" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Music2Palette: Emotion-aligned Color Palette Generation via Cross-Modal Representation Learning**  
+Jiayun Hu, Yueyi He, <span style="color:#8c1d1d">Tianyi Liang</span>, Changbo Wang, Chenhui Li  
+MM 2025, Accepted (CCF A)
+[arXiv](https://arxiv.org/abs/2507.04758)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_consensus_entropy.png'><img src='images/2025_consensus_entropy.png' alt="Consensus Entropy" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
