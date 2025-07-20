@@ -23,7 +23,7 @@ I am a PhD student starting from September 2024, supervised by [Prof. Chenhui Li
 
 # 🔥 News
 - *2025.07*: &nbsp;🎉 1 paper accepted to ACM MM 2025.
-- *2025.06*: &nbsp;🎉 1 paper conditionally accepted to IEEE VIS 2025.
+- *2025.07*: &nbsp;🎉 1 paper accepted to IEEE VIS 2025.
 - *2025.05*: &nbsp;🎉 1 paper accepted to ICML 2025.
 - *2025.05*: &nbsp;🎉 1 paper accepted to ACL (main) 2025.
 - *2024.03*: &nbsp;🎓 Secured a admission offer through the Spring Camp selection at the Shanghai Innovation Institute; expected to enroll in September 2025.
