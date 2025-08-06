@@ -30,7 +30,7 @@ I am in the second year of my PhD at the Shanghai Innovation Institute, supervis
 - *2024.05*: &nbsp;💼 Joined the InternLM group at Shanghai Artificial Intelligence Laboratory as a LLM Research Intern.
 
 
-# 🛠️ Academic Services
+# 🔧 Academic Services
 <div class="mainitem" id="academic-services">
     <div class="newsitem">
         <table style="border-collapse: collapse; border: none;">
