@@ -5,6 +5,9 @@ main:
 
   - title: "News"
     url: "/#-news"
+  
+  - title: "Academic Services"
+    url: "/#-academic-services"
 
   - title: "Publications"
     url: "/#-publications"

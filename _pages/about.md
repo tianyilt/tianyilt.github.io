@@ -17,8 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student starting from September 2024, supervised by [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/), and also working with the InternLM team led by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en) at the [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/) and Shanghai Innovation Institute. I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/)  and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on cross-modal LLM Agents, multimodal image editing, and computer graphics. I have served as a reviewer for top-tier conferences including IEEE VIS, CVPR and NeurIPS.
-
+I am in the second year of my PhD at the Shanghai Innovation Institute, supervised by Dr. Qipeng Guo at the Shanghai AI Laboratory and Prof. Xipeng Qiu at FudanNLP ([homepage](https://xpqiu.github.io/)), and supervised by [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/). I spent my first PhD year with the InternLM team at the Shanghai Artificial Intelligence Laboratory. I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/) and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on cross-modal LLM Agents, multimodal image editing, and computer graphics. I have served as a reviewer for top-tier conferences including IEEE VIS, CVPR and NeurIPS.
 
 
 # 🔥 News
@@ -30,6 +29,40 @@ I am a PhD student starting from September 2024, supervised by [Prof. Chenhui Li
 - *2024.09*: &nbsp;🎓 Starting my PhD at Shanghai Institute of AI Education, East China Normal University.
 - *2024.05*: &nbsp;💼 Joined the InternLM group at Shanghai Artificial Intelligence Laboratory as a LLM Research Intern.
 
+
+# 🛠️ Academic Services
+<div class="mainitem" id="academic-services">
+    <div class="newsitem">
+        <table style="border-collapse: collapse; border: none;">
+            <tbody>
+                <tr style="border: none;">
+                    <td valign="TOP" width="200px" align="LEFT" style="border: none;">
+                        <div class="newsdate" style="font-variant: small-caps;font-size: 14px;">
+                        &nbsp;&nbsp; Program Committee Member:
+                        </div>
+                    </td>
+                    <td valign="TOP" align="LEFT" style="border: none;">
+                        <div class="newstext" style="font-size: 14px;">
+                             AAAI 2026
+                        </div>
+                    </td>
+                </tr>
+                <tr style="border: none;">
+                    <td valign="TOP" width="200px" align="LEFT" style="border: none;">
+                        <div class="newsdate" style="font-variant: small-caps;font-size: 14px;">
+                        &nbsp;&nbsp; Reviewer:
+                        </div>
+                    </td>
+                    <td valign="TOP" align="LEFT" style="border: none;">
+                        <div class="newstext" style="font-size: 14px;">
+                             IEEE TVCG, IEEE VIS, CVPR, AAAI, NeurIPS
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
 # 📝 Publications
 
@@ -44,9 +77,22 @@ ICML 2025, Accepted (CCF A)
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE VIS 2025</div><a href='images/2026_tvcg_sel3dcraft.png'><img src='images/2026_tvcg_sel3dcraft.png' alt="Sel3DCraft" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Sel3DCraft: Interactive Visual Prompts for User-Friendly Text-to-3D Generation**  
+Nan Xiang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Haiwen Huang, Shiqi Jiang, Hao Huang, Liangyu Chen, Changbo Wang, and Chenhui Li  
+IEEE Transactions on Visualization and Computer Graphics, 2026 (IEEE VIS'25) (CCF A, JCR Q1)  
+[arXiv](https://arxiv.org/abs/2508.00428)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><a href='images/2025_acl_critiq.png'><img src='images/2025_acl_critiq.png' alt="CritiQ" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
+
+
+
 
 **CritiQ: Mining Data Quality Criteria from Human Preferences**  
 Honglin Guo, Kai Lv, Qipeng Guo, <span style="color:#8c1d1d">Tianyi Liang</span>, Zhiheng Xi, Demin Song, Qiuyinzhe Zhang, Yu Sun, Kai Chen, Xipeng Qiu, Tao Gui  
