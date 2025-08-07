@@ -81,7 +81,7 @@ ICML 2025, Accepted (CCF A)
 <div class='paper-box-text' markdown="1">
 
 **Sel3DCraft: Interactive Visual Prompts for User-Friendly Text-to-3D Generation**  
-Nan Xiang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Haiwen Huang, Shiqi Jiang, Hao Huang, Liangyu Chen, Changbo Wang, and Chenhui Li  
+Nan Xiang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Haiwen Huang, Shiqi Jiang, Hao Huang, Liangyu Chen, Changbo Wang, and Chenhui Li*  
 IEEE Transactions on Visualization and Computer Graphics, 2026 (IEEE VIS'25) (CCF A, JCR Q1)  
 [arXiv](https://arxiv.org/abs/2508.00428)
 
@@ -95,7 +95,7 @@ IEEE Transactions on Visualization and Computer Graphics, 2026 (IEEE VIS'25) (CC
 
 
 **CritiQ: Mining Data Quality Criteria from Human Preferences**  
-Honglin Guo, Kai Lv, Qipeng Guo, <span style="color:#8c1d1d">Tianyi Liang</span>, Zhiheng Xi, Demin Song, Qiuyinzhe Zhang, Yu Sun, Kai Chen, Xipeng Qiu, Tao Gui  
+Honglin Guo, Kai Lv, Qipeng Guo, <span style="color:#8c1d1d">Tianyi Liang</span>, Zhiheng Xi, Demin Song, Qiuyinzhe Zhang, Yu Sun, Kai Chen, Xipeng Qiu, Tao Gui*  
 ACL 2025, Accepted (Main Conference)  
 [arXiv](https://arxiv.org/abs/2502.19279) &nbsp;|&nbsp; [Code](https://github.com/KYLN24/CritiQ)
 
@@ -103,23 +103,35 @@ ACL 2025, Accepted (Main Conference)
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_mm_music2.png'><img src='images/2025_mm_music2.png' alt="Music2Palette" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><a href='images/2025_mm_music2.png'><img src='images/2025_mm_music2.png' alt="Music2Palette" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Music2Palette: Emotion-aligned Color Palette Generation via Cross-Modal Representation Learning**  
-Jiayun Hu, Yueyi He, <span style="color:#8c1d1d">Tianyi Liang</span>, Changbo Wang, Chenhui Li  
+Jiayun Hu, Yueyi He, <span style="color:#8c1d1d">Tianyi Liang</span>, Changbo Wang, Chenhui Li*  
 MM 2025, Accepted (CCF A)
 [arXiv](https://arxiv.org/abs/2507.04758)
 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_IFDecorator.png'><img src='images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards**  
+Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu*, Qipeng Guo*, Kai Chen*  
+<sup>&#8224;</sup>Equal contribution  
+[arXiv](https://arxiv.org/abs/2508.04632) &nbsp;|&nbsp; [Code](https://github.com/guox18/IFDecorator) &nbsp;|&nbsp; [Project Page](https://tianyilt.github.io/ifdecorator/)
+
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_consensus_entropy.png'><img src='images/2025_consensus_entropy.png' alt="Consensus Entropy" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR**  
-Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Gongshen Liu  
+Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Gongshen Liu*  
 <sup>&#8224;</sup>Equal contribution  
 [arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [Code](https://github.com/Aslan-yulong/consencus-entropy)
 
@@ -132,7 +144,7 @@ Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><
 <div class='paper-box-text' markdown="1">
 
 **GAOKAO-Eval: Does high scores truly reflect strong capabilities in LLMs?**  
-Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Hanglei Hu<sup>&#8224;</sup>, Jin Zhang, Yunhua Zhou, Yunfan Shao, Linyang Li, Chenchui Li, Changbo Wang, Hang Yan, Qipeng Guo  
+Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Hanglei Hu<sup>&#8224;</sup>, Jin Zhang, Yunhua Zhou, Yunfan Shao, Linyang Li, Chenchui Li, Changbo Wang, Hang Yan*, Qipeng Guo  
 <sup>&#8224;</sup>Equal contribution  
 [arXiv](https://arxiv.org/abs/2412.10056) &nbsp;|&nbsp; [Code](https://github.com/open-compass/GAOKAO-Eval) &nbsp;|&nbsp; [Model](https://huggingface.co/internlm/internlm2-wqx-20b)
 
