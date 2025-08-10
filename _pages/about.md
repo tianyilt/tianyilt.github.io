@@ -174,6 +174,8 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 
 # 💻 Projects
 
+
+
 ## Open Source Course Sharing Initiatives
 
 - **[ECUST-CourseShare](https://github.com/tianyilt/ecust-CourseShare)** 
@@ -193,6 +195,12 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
   ![GitHub stars](https://img.shields.io/github/stars/ECNU-Forum/ECNU-Forum?style=social) ![GitHub forks](https://img.shields.io/github/forks/ECNU-Forum/ECNU-Forum?style=social)  
   A modern forum platform based on Flarum for East China Normal University students. The live forum is accessible at [ecnu.im](https://ecnu.im), providing a space where ECNU students can freely communicate and exchange ideas. This is an unofficial community-driven platform that fosters academic and social interaction among students.
 
+## Research Projects
+
+- **[GAOKAO-Eval](https://github.com/open-compass/GAOKAO-Eval)**  
+  
+  ![GitHub stars](https://img.shields.io/github/stars/open-compass/GAOKAO-Eval?style=social) ![GitHub forks](https://img.shields.io/github/forks/open-compass/GAOKAO-Eval?style=social)  
+  An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem.
 
 # 🎖 Honors and Awards
 - *2021.7* Shanghai Outstanding Graduate & Outstanding Thesis Award
