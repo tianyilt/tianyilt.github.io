@@ -43,7 +43,7 @@ I am in the second year of my PhD at the Shanghai Innovation Institute, supervis
                     </td>
                     <td valign="TOP" align="LEFT" style="border: none;">
                         <div class="newstext" style="font-size: 14px;">
-                             AAAI 2026
+                             ICLR 2026, AAAI 2026
                         </div>
                     </td>
                 </tr>
@@ -203,10 +203,11 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
   An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem.
 
 # 🎖 Honors and Awards
-- *2021.7* Shanghai Outstanding Graduate & Outstanding Thesis Award
+- *2025.10* PhD Outstanding Academic Scholarship, First Prize (2%)
+- *2021.7* Shanghai Outstanding Graduate & Outstanding Thesis Award (5%)
 - *2019.12* National College Student Mathematical Modeling Competition, Shanghai Region First Prize
-- *2019.12* National Scholarship
-- *2018.12* Shanghai Scholarship
+- *2019.12* National Scholarship (1%)
+- *2018.12* Shanghai Scholarship (1%)
 
 <!-- # 📖 Education
 - *2024.9 - 2028.7*, PhD in Shanghai Institute of Intelligent Education, East China Normal University
