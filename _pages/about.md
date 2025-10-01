@@ -44,7 +44,7 @@ I am in the second year of my PhD at the Shanghai Innovation Institute, supervis
                     </td>
                     <td valign="TOP" align="LEFT" style="border: none;">
                         <div class="newstext" style="font-size: 14px;">
-                             ICLR 2026, AAAI 2026
+                             AAAI 2026
                         </div>
                     </td>
                 </tr>
@@ -56,7 +56,7 @@ I am in the second year of my PhD at the Shanghai Innovation Institute, supervis
                     </td>
                     <td valign="TOP" align="LEFT" style="border: none;">
                         <div class="newstext" style="font-size: 14px;">
-                             IEEE TVCG, IEEE VIS, CVPR, AAAI, NeurIPS
+                             ICLR, IEEE TVCG, IEEE VIS, CVPR, AAAI, NeurIPS
                         </div>
                     </td>
                 </tr>
