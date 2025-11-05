@@ -84,7 +84,7 @@ ICML 2025, Accepted (CCF A)
 **Sel3DCraft: Interactive Visual Prompts for User-Friendly Text-to-3D Generation**  
 Nan Xiang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Haiwen Huang, Shiqi Jiang, Hao Huang, Liangyu Chen, Changbo Wang, and Chenhui Li*  
 IEEE Transactions on Visualization and Computer Graphics, 2026 (IEEE VIS'25) (CCF A, JCR Q1)  
-[arXiv](https://arxiv.org/abs/2508.00428)
+[arXiv](https://arxiv.org/abs/2508.00428) &nbsp;|&nbsp; [Code](https://github.com/tianyilt/Sel3DCraft)
 
 </div>
 </div>
