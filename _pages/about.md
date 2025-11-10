@@ -21,6 +21,7 @@ I am in the second year of my PhD at the Shanghai Innovation Institute, supervis
 
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉 1 paper accepted to AAAI 2026.
 - *2025.10*: &nbsp;🎖️ Received PhD Outstanding Academic Scholarship, First Prize (2%).
 - *2025.07*: &nbsp;🎉 1 paper accepted to ACM MM 2025.
 - *2025.07*: &nbsp;🎉 1 paper accepted to IEEE VIS 2025.
