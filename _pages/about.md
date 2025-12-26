@@ -25,6 +25,7 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
 
 
 # 🔥 News
+- *2025.12*: &nbsp;🎉 Selected as the CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划).
 - *2025.11*: &nbsp;🎉 1 paper accepted to AAAI 2026.
 - *2025.10*: &nbsp;🎖️ Received PhD Outstanding Academic Scholarship, First Prize (2%).
 - *2025.07*: &nbsp;🎉 1 paper accepted to ACM MM 2025.
@@ -209,6 +210,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
   An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem.
 
 # 🎖 Honors and Awards
+- *2025.12*: The CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划)
 - *2025.10* PhD Outstanding Academic Scholarship, First Prize (2%)
 - *2021.7* Shanghai Outstanding Graduate & Outstanding Thesis Award (5%)
 - *2019.12* National College Student Mathematical Modeling Competition, Shanghai Region First Prize
