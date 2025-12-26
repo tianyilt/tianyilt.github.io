@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am in the second year of my PhD at the Shanghai Innovation Institute, supervised by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en) at the Shanghai AI Laboratory and [Prof. Xipeng Qiu at FudanNLP](https://xpqiu.github.io/), and supervised by [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/). I spent my first PhD year with the InternLM team at the Shanghai Artificial Intelligence Laboratory. I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/) and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on cross-modal LLM Agents, multimodal image editing, and computer graphics. 
+I am in the second year of my PhD at the Shanghai Innovation Institute, supervised by [Prof. Xipeng Qiu at FudanNLP](https://xpqiu.github.io/) and [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/). I spent my first PhD year with the InternLM team at the Shanghai Artificial Intelligence Laboratory supervised by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en). I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/) and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on cross-modal LLM Agents, multimodal image editing, and computer graphics. 
 
 I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, CVPR, and NeurIPS. I spend no less than 4 hours reviewing each paper, respond to rebuttals actively, recognize innovative work, give scores above the community average, so I do not fear De-anonymization, and my review quality is appreciated by authors and ACs.
 
@@ -165,10 +165,10 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 
 # 💼 Internships
 
-- *2024.5 - Present*: **Shanghai Artificial Intelligence Laboratory**, LLM Algorithm Research Intern
+- *2024.5 - 2025.8*: **Shanghai Artificial Intelligence Laboratory**, LLM Algorithm Research Intern
   - Research on Open-Compass [GAOKAO evaluation](https://github.com/open-compass/GAOKAO-Eval) and [InternLM2-WQX-VL-20B](https://modelscope.cn/models/Shanghai_AI_Laboratory/internlm2-wqx-vl-20b/summary)
   - Developed an innovative Verifier-Guided workflow for quality control of Web Data and PDF corpora in InternLM3 project. Proposed a novel reflection-based criteria optimization method, improving bad case detection F1-score from 66% to 86%. More details can be found in [CritiQ](https://github.com/KYLN24/CritiQ).
-  - Conducting research on LLM-as-Judge and synthetic data generation for [large language model pre-training](https://github.com/InternLM/InternLM). Implemented domain filtering and Verifier-Guided Rephrase techniques, reducing required training data by 85% while maintaining model performance.
+  - Conducting research on LLM-as-Judge and synthetic data generation for [large language model pre-training](https://github.com/InternLM/InternLM). Implemented domain filtering and Verifier-Guided Rephrase techniques, reducing required training data by 85% while maintaining model performance. Supervised by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en) at the Shanghai AI Laboratory.
 
 <!-- - *2023.5 - 2023.12*: **Shanghai i.Lion Educational Technology Co., Ltd.**, Technical Partner
   - Developed an education-focused knowledge retrieval system for youth scientific innovation projects
