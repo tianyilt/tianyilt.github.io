@@ -23,6 +23,7 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
 
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉 Released MOVA, an open-source video-audio joint generation model, as team leader; received day-0 support from sglang community.
 - *2025.12*: &nbsp;🎉 Selected as the CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划).
 - *2025.11*: &nbsp;🎉 1 paper accepted to AAAI 2026.
 - *2025.10*: &nbsp;🎖️ Received PhD Outstanding Academic Scholarship, First Prize (2%).
