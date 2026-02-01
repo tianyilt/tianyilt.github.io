@@ -21,8 +21,6 @@ I am in the second year of my PhD at the Shanghai Innovation Institute, supervis
 
 I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, CVPR, and NeurIPS. I spend no less than 4 hours reviewing each paper, respond to rebuttals actively, recognize innovative work, give scores above the community average, so I do not fear De-anonymization, and my review quality is appreciated by authors and ACs.
 
-(翻译：我担任了 ICLR、IEEE VIS、CVPR 和 NeurIPS 等顶级会议的审稿人。我对每篇论文的审稿时间不少于4小时，有rebuttal必回应，会认可有创新性工作，给分高于社区平均水平，不惧公开审稿人身份，审稿质量受到作者和AC的认可。)
-
 
 # 🔥 News
 - *2025.12*: &nbsp;🎉 Selected as the CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划).
@@ -70,6 +68,22 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
         </table>
     </div>
 </div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">⭐ 343 Stars</div><img src='images/mova.png' alt="MOVA" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MOVA: Towards Scalable and Synchronized Video-Audio Generation**  
+Role: **Team Leader**  
+A foundation model for synchronized video-audio generation, breaking the "silent era" of open-source video generation. MOVA generates high-fidelity video and synchronized audio in a single inference pass with state-of-the-art lip-sync performance.  
+[GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [Project Page](https://mosi.cn/models/mova)
+
+</div>
+</div>
+
+
+
 
 # 📝 Publications
 
@@ -120,6 +134,18 @@ MM 2025, Accepted (CCF A)
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">⭐ 140 Stars</div><img src='images/dirl.jpg' alt="DiRL" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**DiRL: An Efficient Post-Training Framework for Diffusion Language Models**  
+Role: Contributor  
+An open-source post-training framework for Diffusion Language Models with SFT and RL stages. DiRL-8B-Instruct achieves state-of-the-art results at the 8B scale on mathematical reasoning benchmarks, outperforming 32B models on most tasks.  
+[GitHub](https://github.com/OpenMOSS/DiRL) &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2512.22234)
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_IFDecorator.png'><img src='images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
