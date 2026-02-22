@@ -80,16 +80,7 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/MOVA?style=social" alt="GitHub stars"></div><img src='images/mova.png' alt="MOVA" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**MOVA: Towards Scalable and Synchronized Video-Audio Generation**  
-Role: **Team Leader**  
-A foundation model for synchronized video-audio generation, breaking the "silent era" of open-source video generation. MOVA generates high-fidelity video and synchronized audio in a single inference pass with state-of-the-art lip-sync performance.  
-[arXiv](https://arxiv.org/abs/2602.08794) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [Project Page](https://mosi.cn/models/mova)
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><a href='images/2025_icml_poster.jpg'><img src='images/2025_icml_poster.jpg' alt="TextCenGen" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -162,16 +153,7 @@ MM 2025, Accepted (CCF A)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"><img src="https://img.shields.io/github/stars/OpenMOSS/DiRL?style=social" alt="GitHub stars"></div><img src='images/dirl.jpg' alt="DiRL" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**DiRL: An Efficient Post-Training Framework for Diffusion Language Models**  
-Role: Contributor  
-An open-source post-training framework for Diffusion Language Models with SFT and RL stages. DiRL-8B-Instruct achieves state-of-the-art results at the 8B scale on mathematical reasoning benchmarks, outperforming 32B models on most tasks.  
-[GitHub](https://github.com/OpenMOSS/DiRL) &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2512.22234)
-
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_IFDecorator.png'><img src='images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
@@ -224,7 +206,27 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 
 # 💻 Projects
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/MOVA?style=social" alt="GitHub stars"></div><img src='images/mova.png' alt="MOVA" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+**MOVA: Towards Scalable and Synchronized Video-Audio Generation**  
+Role: **Team Leader**  
+A foundation model for synchronized video-audio generation, breaking the "silent era" of open-source video generation. MOVA generates high-fidelity video and synchronized audio in a single inference pass with state-of-the-art lip-sync performance.  
+[arXiv](https://arxiv.org/abs/2602.08794) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [Project Page](https://mosi.cn/models/mova)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/DiRL?style=social" alt="GitHub stars"></div><img src='images/DiRL.jpg' alt="DiRL" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**DiRL: An Efficient Post-Training Framework for Diffusion Language Models**  
+Role: Contributor  
+An open-source post-training framework for Diffusion Language Models with SFT and RL stages. DiRL-8B-Instruct achieves state-of-the-art results at the 8B scale on mathematical reasoning benchmarks, outperforming 32B models on most tasks.  
+[GitHub](https://github.com/OpenMOSS/DiRL) &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2512.22234)
+
+</div>
+</div>
 
 ## Open Source Course Sharing Initiatives
 
