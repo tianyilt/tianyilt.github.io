@@ -17,12 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am in the second year of my PhD at the Shanghai Innovation Institute, supervised by [Prof. Xipeng Qiu at FudanNLP](https://xpqiu.github.io/) and [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/). I spent my first PhD year with the InternLM team at the Shanghai Artificial Intelligence Laboratory supervised by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en). I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/) and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on cross-modal LLM Agents, multimodal image editing, and computer graphics. 
+I am in the second year of my PhD at the Shanghai Innovation Institute in (OpenMoss Team)[https://openmoss.github.io/], supervised by [Prof. Xipeng Qiu at FudanNLP](https://xpqiu.github.io/) and [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/). I spent my first PhD year with the InternLM team at the Shanghai Artificial Intelligence Laboratory supervised by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en). I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/) and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on cross-modal LLM Agents, multimodal image editing, and computer graphics. 
 
 I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, CVPR, and NeurIPS. I spend no less than 4 hours reviewing each paper, respond to rebuttals actively, recognize innovative work, give scores above the community average, so I do not fear De-anonymization, and my review quality is appreciated by authors and ACs.
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉 2 papers accepted to CVPR 2026.
 - *2026.01*: &nbsp;🎉 Released MOVA, an open-source video-audio joint generation model, as team leader; received day-0 support from sglang community.
 - *2025.12*: &nbsp;🎉 Selected as the CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划).
 - *2025.11*: &nbsp;🎉 1 paper accepted to AAAI 2026.
@@ -61,7 +62,7 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
                     </td>
                     <td valign="TOP" align="LEFT" style="border: none;">
                         <div class="newstext" style="font-size: 14px;">
-                             ICLR, IEEE TVCG, IEEE VIS, CVPR, AAAI, NeurIPS
+                             ICLR, IEEE TVCG, IEEE VIS, CVPR, AAAI, NeurIPS, ICML
                         </div>
                     </td>
                 </tr>
@@ -72,21 +73,23 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">⭐ 343 Stars</div><img src='images/mova.png' alt="MOVA" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**MOVA: Towards Scalable and Synchronized Video-Audio Generation**  
-Role: **Team Leader**  
-A foundation model for synchronized video-audio generation, breaking the "silent era" of open-source video generation. MOVA generates high-fidelity video and synchronized audio in a single inference pass with state-of-the-art lip-sync performance.  
-[GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [Project Page](https://mosi.cn/models/mova)
-
-</div>
-</div>
 
 
 
 
 # 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/MOVA?style=social" alt="GitHub stars"></div><img src='images/mova.png' alt="MOVA" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MOVA: Towards Scalable and Synchronized Video-Audio Generation**  
+Role: **Team Leader**  
+A foundation model for synchronized video-audio generation, breaking the "silent era" of open-source video generation. MOVA generates high-fidelity video and synchronized audio in a single inference pass with state-of-the-art lip-sync performance.  
+[arXiv](https://arxiv.org/abs/2602.08794) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [Project Page](https://mosi.cn/models/mova)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><a href='images/2025_icml_poster.jpg'><img src='images/2025_icml_poster.jpg' alt="TextCenGen" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -99,6 +102,18 @@ ICML 2025, Accepted (CCF A)
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href='images/2025_consensus_entropy.png'><img src='images/2025_consensus_entropy.png' alt="Consensus Entropy" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR**  
+Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Guoqing Wang, Guanhua Tian, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Gongshen Liu*  
+<sup>&#8224;</sup>Equal contribution  
+[arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [Code](https://github.com/Aslan-yulong/consencus-entropy)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE VIS 2025</div><a href='images/2026_tvcg_sel3dcraft.png'><img src='images/2026_tvcg_sel3dcraft.png' alt="Sel3DCraft" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -106,6 +121,17 @@ ICML 2025, Accepted (CCF A)
 Nan Xiang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Haiwen Huang, Shiqi Jiang, Hao Huang, Liangyu Chen, Changbo Wang, and Chenhui Li*  
 IEEE Transactions on Visualization and Computer Graphics, 2026 (IEEE VIS'25) (CCF A, JCR Q1)  
 [arXiv](https://arxiv.org/abs/2508.00428) &nbsp;|&nbsp; [Code](https://github.com/tianyilt/Sel3DCraft)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href='images/2025_cvpr_thinkingwithvideo.png'><img src='images/2025_cvpr_thinkingwithvideo.png' alt="Thinking with Video" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm**  
+Jingqi Tong<sup>&#8224;</sup>, Yurong Mou<sup>&#8224;</sup>, Hangcheng Li<sup>&#8224;</sup>, Mingzhe Li<sup>&#8224;</sup>, Yongzhuo Yang<sup>&#8224;</sup>, Ming Zhang, Qiguang Chen, <span style="color:#8c1d1d">Tianyi Liang</span>, Xiaomeng Hu, Yining Zheng, Xinchi Chen, Jun Zhao*, Xuanjing Huang, Xipeng Qiu*  
+CVPR 2026, Accepted (CCF A)  
+[arXiv](https://arxiv.org/abs/2511.04570) &nbsp;|&nbsp; [Code](https://github.com/OpenMOSS/Thinking-with-Video) &nbsp;|&nbsp; [Project Page](https://thinking-with-video.github.io/)
 
 </div>
 </div>
@@ -136,7 +162,7 @@ MM 2025, Accepted (CCF A)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">⭐ 140 Stars</div><img src='images/dirl.jpg' alt="DiRL" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"><img src="https://img.shields.io/github/stars/OpenMOSS/DiRL?style=social" alt="GitHub stars"></div><img src='images/dirl.jpg' alt="DiRL" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DiRL: An Efficient Post-Training Framework for Diffusion Language Models**  
@@ -161,16 +187,6 @@ Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_consensus_entropy.png'><img src='images/2025_consensus_entropy.png' alt="Consensus Entropy" width="100%"></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR**  
-Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Gongshen Liu*  
-<sup>&#8224;</sup>Equal contribution  
-[arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [Code](https://github.com/Aslan-yulong/consencus-entropy)
-
-</div>
-</div>
 
 
 
