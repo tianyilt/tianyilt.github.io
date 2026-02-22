@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Tianyi Liang"
-  avatar           : "images/maverick_lang.png"
+  avatar           : "/images/maverick_lang.png"
   bio              : "PhD Student at East China Normal University"
   location         : "Shanghai, China"
   employer         :
