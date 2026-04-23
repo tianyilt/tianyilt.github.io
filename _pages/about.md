@@ -262,6 +262,12 @@ An open-source post-training framework for Diffusion Language Models with SFT an
 - *2019.12* National Scholarship (1%)
 - *2018.12* Shanghai Scholarship (1%)
 
+# 🌍 Visitor Map
+
+<div style="width: 90%; margin: 20px auto;">
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=00YF6nQZy-OWftKbOwtqckMKJjdErQZmJ5LlZ9ZIVuQ&cl=ffffff&w=a"></script>
+</div>
+
 <!-- # 📖 Education
 - *2024.9 - 2028.7*, PhD in Shanghai Institute of Intelligent Education, East China Normal University
 - *2021.9 - 2024.11*, Academic Master in Computer Science and Technology, East China Normal University (GPA: 91.7/100.0)
