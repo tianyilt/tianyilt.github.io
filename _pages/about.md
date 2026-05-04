@@ -97,9 +97,9 @@ ICML 2025, Accepted (CCF A)
 <div class='paper-box-text' markdown="1">
 
 **Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR**  
-Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Guoqing Wang, Xu Guo, Chenhui Li, Gongshen Liu*  
-<sup>&#8224;</sup>Equal contribution  
-[arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [Code](https://github.com/Aslan-yulong/consencus-entropy)
+Yulong Zhang, <span style="color:#8c1d1d">Tianyi Liang</span>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Wenhai Wang, and Gongshen Liu  
+CVPR 2026, Accepted (CCF A)  
+[arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [Code](https://github.com/Aslan-yulong/consensus-entropy) &nbsp;|&nbsp; [PyPI](https://pypi.org/project/consensus-entropy/) &nbsp;|&nbsp; [Project Page](/consensus-entropy/)
 
 </div>
 </div>

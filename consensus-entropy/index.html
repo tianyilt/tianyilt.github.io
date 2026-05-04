@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR">
+  <meta property="og:title" content="Consensus Entropy"/>
+  <meta property="og:description" content="A training-free, model-agnostic metric and CE-OCR framework for self-verifying and self-improving OCR with multiple VLMs."/>
+  <meta property="og:url" content="https://tianyilt.github.io/consensus-entropy/"/>
+  <meta property="og:image" content="https://tianyilt.github.io/consensus-entropy/static/images/framework.png" />
+  <meta property="og:image:width" content="1142"/>
+  <meta property="og:image:height" content="480"/>
+
+  <meta name="twitter:title" content="Consensus Entropy">
+  <meta name="twitter:description" content="Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR">
+  <meta name="twitter:image" content="https://tianyilt.github.io/consensus-entropy/static/images/framework.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="Consensus Entropy, OCR, Vision-Language Models, VLM, Self-Verification, Multi-Model Agreement">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Consensus Entropy</title>
+  <link rel="icon" type="image/x-icon" href="../textcengen/static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="../textcengen/static/css/bulma.min.css">
+  <link rel="stylesheet" href="../textcengen/static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../textcengen/static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../textcengen/static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../textcengen/static/css/index.css">
+  <style>
+    .hero.is-light {
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+    }
+
+    .publication-title {
+      line-height: 1.12;
+    }
+
+    .news-box {
+      border-left: 4px solid #3273dc;
+      background: #f8fbff;
+      padding: 1rem 1.25rem;
+      border-radius: 6px;
+      text-align: left;
+    }
+
+    .overview-card {
+      height: 100%;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 1.25rem;
+      background: #ffffff;
+      text-align: left;
+    }
+
+    .overview-card .icon {
+      color: #3273dc;
+      margin-bottom: 0.6rem;
+    }
+
+    .overview-card h3 {
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .code-snippet {
+      text-align: left;
+      border-radius: 8px;
+      background: #f6f8fa;
+      border: 1px solid #e5e7eb;
+      padding: 1rem;
+      overflow-x: auto;
+    }
+
+    .image-description {
+      margin-top: 1rem;
+      color: #4a4a4a;
+      text-align: justify;
+    }
+  </style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="../textcengen/static/js/fontawesome.all.min.js"></script>
+  <script src="../textcengen/static/js/bulma-carousel.min.js"></script>
+  <script src="../textcengen/static/js/bulma-slider.min.js"></script>
+  <script src="../textcengen/static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR</h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Yulong Zhang,</span>
+            <span class="author-block"><a href="https://tianyilt.github.io" target="_blank">Tianyi Liang</a>,</span>
+            <span class="author-block">Xinyue Huang,</span>
+            <span class="author-block">Erfei Cui,</span>
+            <span class="author-block">Xu Guo,</span>
+            <span class="author-block">Pei Chu,</span>
+            <span class="author-block"><a href="https://chenhui.li/" target="_blank">Chenhui Li</a>,</span>
+            <span class="author-block">Ru Zhang,</span>
+            <span class="author-block">Wenhai Wang,</span>
+            <span class="author-block">Gongshen Liu</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><strong>CVPR 2026</strong></span>
+            <span class="author-block">Accepted</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2504.11101" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2504.11101" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/Aslan-yulong/consensus-entropy" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://pypi.org/project/consensus-entropy/" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-python"></i></span>
+                  <span>PyPI</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-white">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div class="news-box">
+          <strong>News.</strong> Consensus Entropy has been accepted to CVPR 2026.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small is-white">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">CE-OCR Framework</h2>
+          <div class="publication-image">
+            <img src="static/images/framework.png" alt="Overview of the CE-OCR framework" style="width: 100%; height: auto;">
+          </div>
+          <p class="image-description">
+            Given an input image, multiple VLMs independently generate OCR predictions. Pairwise similarities among these predictions define a consensus distribution, from which Consensus Entropy is derived. A threshold gate accepts low-entropy ensemble outputs and routes high-entropy cases to stronger rephrasing, enabling self-verifying and self-improving OCR without supervision.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-white">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            OCR is a core capability for vision-language models and an important source of high-quality data for LLM training, yet strong VLMs still lack reliable sample-level quality control. Consensus Entropy (CE) is a training-free and model-agnostic reliability metric that measures agreement entropy across multiple VLM predictions. Building on CE, CE-OCR verifies OCR results through ensemble agreement, selects low-entropy outputs, and improves efficiency with adaptive routing. The method requires no supervision and can be integrated as a plug-and-play quality-control layer for OCR pipelines.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small is-white">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Why Consensus Entropy Works</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-half">
+          <div class="publication-image">
+            <img src="static/images/entropy-behavior.png" alt="Prediction behaviors across entropy levels" style="width: 100%; height: auto;">
+          </div>
+          <p class="image-description">
+            Low-entropy predictions form a tight cluster around the ground truth, while medium- and high-entropy cases show increasing disagreement among VLMs.
+          </p>
+        </div>
+        <div class="column is-half">
+          <div class="publication-image">
+            <img src="static/images/entropy-analysis.png" alt="Normalized entropy analysis" style="width: 100%; height: auto;">
+          </div>
+          <p class="image-description">
+            Normalized entropy analysis compares combination strategies and motivates CE as a compact agreement signal bounded between single-point and uniform prediction distributions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-white">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Main Results</h2>
+    <div class="columns is-centered">
+      <div class="column is-one-third">
+        <div class="overview-card">
+          <h3>OCR verification</h3>
+          <p><strong>+20.0% to +42.1%</strong> overall F1 improvement over VLM-as-Judge across GPT-4o, Qwen2-VL-7B, and Qwen2-VL-72B reference settings.</p>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="overview-card">
+          <h3>CE-Ensemble</h3>
+          <p>Positive gains in most 3-5 model ensembles on OCRBench, with larger ensembles producing higher and more stable improvements.</p>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="overview-card">
+          <h3>CE-OCR routing</h3>
+          <p>On OCRBench-V2, CE-OCR improves over CE-Ensemble and the best single model across English OCR, Math, Element Parsing, and Chinese OCR.</p>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered" style="margin-top: 1.5rem;">
+      <div class="column is-half">
+        <div class="publication-image">
+          <img src="static/images/threshold-performance.png" alt="OCRBench performance under CE thresholds" style="width: 100%; height: auto; max-width: 520px;">
+        </div>
+        <p class="image-description">
+          OCRBench performance under different CE thresholds shows how routing uncertain cases improves accuracy while controlling the rephrasing budget.
+        </p>
+      </div>
+      <div class="column is-half">
+        <div class="publication-image">
+          <img src="static/images/token-length-performance.png" alt="Performance comparison across token lengths" style="width: 100%; height: auto; max-width: 520px;">
+        </div>
+        <p class="image-description">
+          CE-based routing remains effective across token lengths compared with self-consistency and single-model baselines.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-white">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method Overview</h2>
+    <div class="columns">
+      <div class="column">
+        <div class="overview-card">
+          <span class="icon is-large"><i class="fas fa-users fa-2x"></i></span>
+          <h3>Multi-VLM Agreement</h3>
+          <p>Run multiple VLMs on the same OCR input and compare their textual predictions in output space.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="overview-card">
+          <span class="icon is-large"><i class="fas fa-chart-area fa-2x"></i></span>
+          <h3>Consensus Entropy</h3>
+          <p>Compute normalized disagreement scores that capture whether predictions converge or fragment across models.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="overview-card">
+          <span class="icon is-large"><i class="fas fa-route fa-2x"></i></span>
+          <h3>CE-OCR Routing</h3>
+          <p>Use entropy thresholds to verify confident outputs, route uncertain samples, and assemble better OCR results.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-white">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Usage</h2>
+        <pre class="code-snippet"><code>pip install consensus-entropy
+
+from consensus_entropy import calculate_consensus_entropy, get_best_ocr_result
+
+ocr_results = ["Hello World", "Hello Wrld", "Hallo World"]
+entropy_values = calculate_consensus_entropy(ocr_results, task_type="ocr")
+best_result, best_entropy = get_best_ocr_result(ocr_results, task_type="ocr")</code></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{zhang2025consensusentropyharnessingmultivlm,
+  title={Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR},
+  author={Yulong Zhang and Tianyi Liang and Xinyue Huang and Erfei Cui and Xu Guo and Pei Chu and Chenhui Li and Ru Zhang and Wenhai Wang and Gongshen Liu},
+  year={2025},
+  eprint={2504.11101},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2504.11101}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page follows the style of the local TextCenGen project page and uses the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>, adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
