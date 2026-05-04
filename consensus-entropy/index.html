@@ -173,6 +173,13 @@
                   <span>PyPI</span>
                 </a>
               </span>
+
+              <span class="link-block">
+                <a href="https://github.com/Aslan-yulong/consensus-entropy/tree/master/Code_Demo_CE_Ensemble_and_Filtering" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-terminal"></i></span>
+                  <span>Demo</span>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -380,6 +387,48 @@ ocr_results = ["Hello World", "Hello Wrld", "Hallo World"]
 entropy_values = calculate_consensus_entropy(ocr_results, task_type="ocr")
 best_result, best_entropy = get_best_ocr_result(ocr_results, task_type="ocr")</code></pre>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-white">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Supplementary Findings</h2>
+    <div class="content">
+      <p>
+        The supplementary material further validates Consensus Entropy beyond the main OCRBench setting, including calibration, stochastic same-model ensembles, output cleaning, distance metrics, computational cost, and human-labeled OCR evaluation.
+      </p>
+      <div class="table-container">
+        <table class="table is-bordered is-striped is-hoverable result-table">
+          <thead>
+            <tr><th>Analysis</th><th>Takeaway</th><th>Evidence</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Same-family / identical-model ensembles</td><td>CE remains effective even when candidates come from similar model families or stochastic runs of the same model.</td><td>Identical model with T=0.7: <strong>+2.1%</strong> average gain, <strong>+3.2%</strong> max gain, positive in <strong>100%</strong> of cases.</td></tr>
+            <tr><td>CE vs. ROVER</td><td>Traditional voting-style OCR fusion can fail on open-ended VQA/OCR tasks, while CE maintains positive gains.</td><td>CE-Ensemble average: <strong>66.3</strong> vs. Best Single 60.3 and ROVER 50.4.</td></tr>
+            <tr><td>Non-OCR VQA tasks</td><td>CE generalizes to semantic settings when paired with an appropriate distance metric.</td><td>Reported gains include Science-VQA <strong>+3.9%</strong>, Math-VQA <strong>+14.0%</strong>, and Visual Understanding <strong>+8.9%</strong>.</td></tr>
+            <tr><td>Computational cost</td><td>Edit-distance CE is extremely lightweight for long OCR strings.</td><td>1,000 long-text pairs: edit distance total <strong>0.163s</strong> on CPU, compared with embedding-based metrics requiring GPU memory.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-white">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Reproducible Demo</h2>
+    <div class="content has-text-justified">
+      <p>
+        The released supplementary package includes a compact OCRBench demo for CE filtering and CE-based multi-model ensembling. It consumes VLMEvalKit-style OCRBench Excel outputs and produces JSON/XLSX analysis files.
+      </p>
+      <pre class="code-snippet"><code>pip install pandas Levenshtein numpy openpyxl
+
+# CE threshold analysis
+python cal_avg_scores_CE_thresholds.py   ./samples/InternVL2_5-8B_OCRBench.xlsx   ./samples/Qwen2-VL-7B-Instruct_OCRBench.xlsx   -o ./res_avg_scores_CE/test.json
+
+# CE-based multi-model ensemble
+python ensemble_consensus_entropy_from_xlsx.py   ./samples/InternVL2_5-8B_OCRBench.xlsx   ./samples/Qwen2-VL-7B-Instruct_OCRBench.xlsx   ./samples/Qwen2.5-VL-7B_OCRBench.xlsx   -o ./res_ensemble/</code></pre>
     </div>
   </div>
 </section>
