@@ -23,6 +23,8 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
 
 
 # 🔥 News
+- *2026.05*: &nbsp;🚀 MOVA 1.0, the open-source video-audio joint generation model I lead, has surpassed **150K+ downloads** on [HuggingFace](https://huggingface.co/OpenMOSS-Team/MOVA-360p) and **1K+ stars** on [GitHub](https://github.com/OpenMOSS/MOVA); now officially supported by [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio/tree/main/examples/mova).
+- *2026.05*: &nbsp;🏅 Selected as an ICML 2026 Golden Reviewer (Top Reviewer Award).
 - *2026.02*: &nbsp;🎉 2 papers accepted to CVPR (main) 2026.
 - *2026.01*: &nbsp;🎉 Released MOVA, an open-source video-audio joint generation model, as team leader; received day-0 support from sglang community.
 - *2025.12*: &nbsp;🎉 Selected as the CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划).
@@ -255,6 +257,7 @@ An open-source post-training framework for Diffusion Language Models with SFT an
   An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem.
 
 # 🎖 Honors and Awards
+- *2026.05*: ICML 2026 Golden Reviewer (Top Reviewer Award)
 - *2025.12*: The CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划)
 - *2025.10* PhD Outstanding Academic Scholarship, First Prize (2%)
 - *2021.7* Shanghai Outstanding Graduate & Outstanding Thesis Award (5%)

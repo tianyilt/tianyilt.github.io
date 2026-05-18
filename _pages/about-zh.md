@@ -20,6 +20,8 @@ author_profile: true
 
 
 # 🔥 最新动态
+- *2026.05*: &nbsp;🚀 我作为团队负责人发布的开源视频-音频联合生成模型 MOVA 1.0，在 [HuggingFace](https://huggingface.co/OpenMOSS-Team/MOVA-360p) 累计下载量突破 **15万+**，[GitHub](https://github.com/OpenMOSS/MOVA) 获得 **1k+ star**，并被 [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio/tree/main/examples/mova) 官方集成支持。
+- *2026.05*: &nbsp;🏅 入选 ICML 2026 Golden Reviewer（顶级审稿人奖）。
 - *2026.02*: &nbsp;🎉 2篇论文被 CVPR 2026 录用。
 - *2026.01*: &nbsp;🎉 作为团队负责人发布 MOVA，一个开源视频-音频联合生成模型，获得 sglang 社区 day-0 支持。
 - *2025.12*: &nbsp;🎉 入选2025年中国科协青年科技人才培育工程博士生专项计划（录取率0.5%）。
@@ -224,6 +226,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
   面向大语言模型的中国高考任务评测基准，在 OpenCompass 生态中提供数据集、评测流程和可复现脚本。
 
 # 🎖 荣誉奖项
+- *2026.05*：ICML 2026 Golden Reviewer（顶级审稿人奖）
 - *2025.12*：2025年中国科协青年科技人才培育工程博士生专项计划（录取率0.5%）
 - *2025.10*：博士研究生优秀学业奖学金一等奖（前2%）
 - *2021.7*：上海市优秀毕业生 & 优秀毕业论文（前5%）
