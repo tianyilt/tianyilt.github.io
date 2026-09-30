@@ -121,6 +121,18 @@ IEEE Transactions on Visualization and Computer Graphics, 2026 (IEEE VIS'25) (CC
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><a href='images/2025_IFDecorator.png'><img src='images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards**  
+Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu*, Qipeng Guo*, Kai Chen*  
+NeurIPS 2026, Accepted (Main Track)  
+<sup>&#8224;</sup>Equal contribution  
+[arXiv](https://arxiv.org/abs/2508.04632) &nbsp;|&nbsp; [Code](https://github.com/guox18/IFDecorator) &nbsp;|&nbsp; [Project Page](https://tianyilt.github.io/ifdecorator/)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href='images/2025_cvpr_thinkingwithvideo.png'><img src='images/2025_cvpr_thinkingwithvideo.png' alt="Thinking with Video" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -160,18 +172,6 @@ MM 2025, Accepted (CCF A)
 
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><a href='images/2025_IFDecorator.png'><img src='images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-**IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards**  
-Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu*, Qipeng Guo*, Kai Chen*  
-NeurIPS 2026, Accepted (Main Track)  
-<sup>&#8224;</sup>Equal contribution  
-[arXiv](https://arxiv.org/abs/2508.04632) &nbsp;|&nbsp; [Code](https://github.com/guox18/IFDecorator) &nbsp;|&nbsp; [Project Page](https://tianyilt.github.io/ifdecorator/)
-
-</div>
-</div>
 
 
 
