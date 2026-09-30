@@ -111,6 +111,18 @@ IEEE Transactions on Visualization and Computer Graphics, 2026（IEEE VIS'25）�
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><a href='/images/2025_IFDecorator.png'><img src='/images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards**
+Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&#8224;</sup>, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu*, Qipeng Guo*, Kai Chen*
+NeurIPS 2026，已录用（主会）
+<sup>&#8224;</sup>同等贡献
+[arXiv](https://arxiv.org/abs/2508.04632) &nbsp;|&nbsp; [代码](https://github.com/guox18/IFDecorator) &nbsp;|&nbsp; [项目主页](https://tianyilt.github.io/ifdecorator/)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><a href='/images/2025_cvpr_thinkingwithvideo.png'><img src='/images/2025_cvpr_thinkingwithvideo.png' alt="Thinking with Video" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -145,18 +157,6 @@ ACM MM 2025，已录用（CCF A）
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><a href='/images/2025_IFDecorator.png'><img src='/images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-**IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards**
-Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&#8224;</sup>, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu*, Qipeng Guo*, Kai Chen*
-NeurIPS 2026，已录用（主会）
-<sup>&#8224;</sup>同等贡献
-[arXiv](https://arxiv.org/abs/2508.04632) &nbsp;|&nbsp; [代码](https://github.com/guox18/IFDecorator) &nbsp;|&nbsp; [项目主页](https://tianyilt.github.io/ifdecorator/)
-
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='/images/2024_gaokao_eval_arxiv.png'><img src='/images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></a></div></div>
