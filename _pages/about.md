@@ -102,8 +102,9 @@ ICML 2025, Accepted (CCF A)
 <div class='paper-box-text' markdown="1">
 
 **Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR**  
-Yulong Zhang, <span style="color:#8c1d1d">Tianyi Liang</span>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Wenhai Wang, and Gongshen Liu  
+Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Wenhai Wang, and Gongshen Liu  
 CVPR 2026, Accepted (CCF A)  
+<sup>&#8224;</sup>Equal contribution  
 [arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [Code](https://github.com/Aslan-yulong/consensus-entropy) &nbsp;|&nbsp; [PyPI](https://pypi.org/project/consensus-entropy/) &nbsp;|&nbsp; [Project Page](/consensus-entropy/)
 
 </div>
@@ -283,7 +284,7 @@ A jointly trained audio-video variational autoencoder that aligns audio and vide
   An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem.
 
 # 🎖 Honors and Awards
-- *2026.09*: PhD National Scholarship
+- *2026.09*: PhD National Scholarship (1%)
 - *2026.05*: ICML 2026 Golden Reviewer (Top Reviewer Award)
 - *2025.12*: The CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划)
 - *2025.10* PhD Outstanding Academic Scholarship, First Prize (2%)
