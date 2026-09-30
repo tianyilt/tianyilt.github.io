@@ -94,6 +94,7 @@ ICML 2025，已录用（CCF A）
 **Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR**
 Yulong Zhang<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&#8224;</sup>, Xinyue Huang, Erfei Cui, Xu Guo, Pei Chu, Chenhui Li, Ru Zhang, Wenhai Wang, Gongshen Liu
 CVPR 2026，已录用（CCF A）
+<sup>&#8224;</sup>同等贡献
 [arXiv](https://arxiv.org/abs/2504.11101) &nbsp;|&nbsp; [代码](https://github.com/Aslan-yulong/consensus-entropy) &nbsp;|&nbsp; [PyPI](https://pypi.org/project/consensus-entropy/) &nbsp;|&nbsp; [项目主页](/consensus-entropy/)
 
 </div>
@@ -252,7 +253,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
   面向大语言模型的中国高考任务评测基准，在 OpenCompass 生态中提供数据集、评测流程和可复现脚本。
 
 # 🎖 荣誉奖项
-- *2026.09*：博士研究生国家奖学金
+- *2026.09*：博士研究生国家奖学金（1%）
 - *2026.05*：ICML 2026 Golden Reviewer（顶级审稿人奖）
 - *2025.12*：2025年中国科协青年科技人才培育工程博士生专项计划（录取率0.5%）
 - *2025.10*：博士研究生优秀学业奖学金一等奖（前2%）
