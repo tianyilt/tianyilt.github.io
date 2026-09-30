@@ -20,9 +20,9 @@ author_profile: true
 
 
 # 🔥 最新动态
-- *2026.09*: &nbsp;🚀 [MOVA-360p](https://huggingface.co/OpenMOSS-Team/MOVA-360p) 在 Hugging Face 的累计下载量突破 **72万+**，最近一个月下载量达 **14万+**（截至2026年9月30日）。
-- *2026*: &nbsp;🎉 IFDECORATOR 被 **NeurIPS 2026 主赛道（Main Track）**录用。
-- *2026*: &nbsp;🎖️ 获得**博士研究生国家奖学金**。
+- *2026.09*: &nbsp;🚀 我作为团队负责人发布的开源视频-音频联合生成模型 MOVA 1.0，在 [HuggingFace](https://huggingface.co/OpenMOSS-Team/MOVA-360p) 累计下载量突破 **72万+**。
+- *2026.09*: &nbsp;🎉 1篇论文被 NeurIPS 2026（主会）录用。
+- *2026.09*: &nbsp;🎖️ 获得博士研究生国家奖学金。
 - *2026.05*: &nbsp;🚀 我作为团队负责人发布的开源视频-音频联合生成模型 MOVA 1.0，在 [HuggingFace](https://huggingface.co/OpenMOSS-Team/MOVA-360p) 累计下载量突破 **15万+**，[GitHub](https://github.com/OpenMOSS/MOVA) 获得 **1k+ star**，并被 [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio/tree/main/examples/mova) 官方集成支持。
 - *2026.05*: &nbsp;🏅 入选 ICML 2026 Golden Reviewer（顶级审稿人奖）。
 - *2026.02*: &nbsp;🎉 2篇论文被 CVPR 2026 录用。
@@ -151,7 +151,7 @@ ACM MM 2025，已录用（CCF A）
 
 **IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards**
 Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&#8224;</sup>, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu*, Qipeng Guo*, Kai Chen*
-NeurIPS 2026，已录用（主赛道 / Main Track）
+NeurIPS 2026，已录用（主会）
 <sup>&#8224;</sup>同等贡献
 [arXiv](https://arxiv.org/abs/2508.04632) &nbsp;|&nbsp; [代码](https://github.com/guox18/IFDecorator) &nbsp;|&nbsp; [项目主页](https://tianyilt.github.io/ifdecorator/)
 
@@ -187,7 +187,6 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 **MOVA: Towards Scalable and Synchronized Video-Audio Generation**
 角色：**团队负责人**
 一个用于同步视频-音频生成的基础模型，打破了开源视频生成领域的"无声时代"。MOVA 能够在单次推理中生成高保真视频与同步音频，达到最先进的唇形同步性能。
-MOVA-360p 在 [Hugging Face](https://huggingface.co/OpenMOSS-Team/MOVA-360p) 的累计下载量为 **721,987**（截至2026年9月30日）。
 [arXiv](https://arxiv.org/abs/2602.08794) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [项目主页](https://mosi.cn/models/mova)
 
 </div>
@@ -231,7 +230,7 @@ MOVA-360p 在 [Hugging Face](https://huggingface.co/OpenMOSS-Team/MOVA-360p) 的
   面向大语言模型的中国高考任务评测基准，在 OpenCompass 生态中提供数据集、评测流程和可复现脚本。
 
 # 🎖 荣誉奖项
-- *2026*：博士研究生国家奖学金
+- *2026.09*：博士研究生国家奖学金
 - *2026.05*：ICML 2026 Golden Reviewer（顶级审稿人奖）
 - *2025.12*：2025年中国科协青年科技人才培育工程博士生专项计划（录取率0.5%）
 - *2025.10*：博士研究生优秀学业奖学金一等奖（前2%）
