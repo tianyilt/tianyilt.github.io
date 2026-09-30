@@ -144,6 +144,17 @@ CVPR 2026, Accepted (CCF A)
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><a href='images/2026_aaai_mpjudge.png'><img src='images/2026_aaai_mpjudge.png' alt="MPJudge" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MPJudge: Towards Perceptual Assessment of Music-Induced Paintings**  
+Shiqi Jiang, <span style="color:#8c1d1d">Tianyi Liang</span>, Huayuan Ye, Changbo Wang\*, Chenhui Li\*  
+AAAI 2026, Accepted (CCF A)  
+[arXiv](https://arxiv.org/abs/2511.07137) &nbsp;|&nbsp; [Code](https://github.com/Erinqi/MPJudge) &nbsp;|&nbsp; [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37459)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><a href='images/2025_acl_critiq.png'><img src='images/2025_acl_critiq.png' alt="CritiQ" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -230,6 +241,17 @@ A foundation model for synchronized video-audio generation, breaking the "silent
 Role: Contributor  
 An open-source post-training framework for Diffusion Language Models with SFT and RL stages. DiRL-8B-Instruct achieves state-of-the-art results at the 8B scale on mathematical reasoning benchmarks, outperforming 32B models on most tasks.  
 [GitHub](https://github.com/OpenMOSS/DiRL) &nbsp;|&nbsp; [arXiv](https://arxiv.org/abs/2512.22234)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/OmniVAE?style=social" alt="GitHub stars"></div><img src='images/omnivae.png' alt="OmniVAE" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**OmniVAE: An Audio-Video VAE with Cross-Modal Alignment for Joint Generation**  
+Role: Contributor  
+A jointly trained audio-video variational autoencoder that aligns audio and video latent representations through cross-modal contrastive learning and semantic distillation. OmniVAE improves generation quality and synchronization for downstream text-to-audio-video generation.  
+[arXiv](https://arxiv.org/abs/2607.23855) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/OmniVAE) &nbsp;|&nbsp; [Project Page](https://openmoss.ai/OmniVAE.github.io/)
 
 </div>
 </div>
