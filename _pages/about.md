@@ -296,7 +296,7 @@ A jointly trained audio-video variational autoencoder that aligns audio and vide
 # 🌍 Visitor Map
 
 <div style="width: 90%; margin: 20px auto;">
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=00YF6nQZy-OWftKbOwtqckMKJjdErQZmJ5LlZ9ZIVuQ&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=sHnoDs_9h4ky-ho9oMsiwzvezL1aiwi7M__8JoGqCMI&cl=ffffff&w=a"></script>
 </div>
 
 <!-- # 📖 Education
