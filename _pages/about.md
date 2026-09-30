@@ -17,12 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am in the second year of my PhD at the Shanghai Innovation Institute [OpenMoss Team](https://openmoss.github.io/), supervised by [Prof. Xipeng Qiu at FudanNLP](https://xpqiu.github.io/) and [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/). I spent my first PhD year with the InternLM team at the Shanghai Artificial Intelligence Laboratory supervised by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en). I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/) and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on image generation, video generation, multimodal LLM test-time scaling, and computer graphics. 
+I am in the third year of my PhD at the Shanghai Innovation Institute [OpenMoss Team](https://openmoss.github.io/), supervised by [Prof. Xipeng Qiu at FudanNLP](https://xpqiu.github.io/) and [Prof. Chenhui Li](http://chenhui.li/) at the [Shanghai Institute of AI Education, East China Normal University](https://aiedu.ecnu.edu.cn/). I spent my first PhD year with the InternLM team at the Shanghai Artificial Intelligence Laboratory supervised by [Dr. Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en). I completed my Academic Master's degree in Computer Science and Technology at East China Normal University supervised by [Prof. Chenhui Li](http://chenhui.li/) and Prof. Changbo Wang (2021-2024) and my undergraduate studies in Mathematics & Applied Mathematics and Computer Science at East China University of Science and Technology (2017-2021). My research focuses on image generation, video generation, multimodal LLM test-time scaling, and computer graphics.
 
 I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, CVPR, and NeurIPS. I spend no less than 4 hours reviewing each paper, respond to rebuttals actively, recognize innovative work, give scores above the community average, so I do not fear De-anonymization, and my review quality is appreciated by authors and ACs.
 
 
 # 🔥 News
+- *2026.09*: &nbsp;🚀 [MOVA-360p](https://huggingface.co/OpenMOSS-Team/MOVA-360p) has surpassed **720K+ cumulative downloads** on Hugging Face, with **140K+ downloads in the last month** (as of September 30, 2026).
+- *2026*: &nbsp;🎉 IFDECORATOR accepted to **NeurIPS 2026 (Main Track)**.
+- *2026*: &nbsp;🎖️ Received the **National Scholarship for Doctoral Students**.
 - *2026.05*: &nbsp;🚀 MOVA 1.0, the open-source video-audio joint generation model I lead, has surpassed **150K+ downloads** on [HuggingFace](https://huggingface.co/OpenMOSS-Team/MOVA-360p) and **1K+ stars** on [GitHub](https://github.com/OpenMOSS/MOVA); now officially supported by [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio/tree/main/examples/mova).
 - *2026.05*: &nbsp;🏅 Selected as an ICML 2026 Golden Reviewer (Top Reviewer Award).
 - *2026.02*: &nbsp;🎉 2 papers accepted to CVPR (main) 2026.
@@ -158,11 +161,12 @@ MM 2025, Accepted (CCF A)
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><a href='images/2025_IFDecorator.png'><img src='images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><a href='images/2025_IFDecorator.png'><img src='images/2025_IFDecorator.png' alt="IFDecorator" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards**  
 Xu Guo<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><sup>&#8224;</sup>, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu*, Qipeng Guo*, Kai Chen*  
+NeurIPS 2026, Accepted (Main Track)<br>
 <sup>&#8224;</sup>Equal contribution  
 [arXiv](https://arxiv.org/abs/2508.04632) &nbsp;|&nbsp; [Code](https://github.com/guox18/IFDecorator) &nbsp;|&nbsp; [Project Page](https://tianyilt.github.io/ifdecorator/)
 
@@ -214,6 +218,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 **MOVA: Towards Scalable and Synchronized Video-Audio Generation**  
 Role: **Team Leader**  
 A foundation model for synchronized video-audio generation, breaking the "silent era" of open-source video generation. MOVA generates high-fidelity video and synchronized audio in a single inference pass with state-of-the-art lip-sync performance.  
+MOVA-360p: **721,987 cumulative downloads** on [Hugging Face](https://huggingface.co/OpenMOSS-Team/MOVA-360p) (as of September 30, 2026).<br>
 [arXiv](https://arxiv.org/abs/2602.08794) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [Project Page](https://mosi.cn/models/mova)
 
 </div>
@@ -257,6 +262,7 @@ An open-source post-training framework for Diffusion Language Models with SFT an
   An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem.
 
 # 🎖 Honors and Awards
+- *2026*: National Scholarship for Doctoral Students
 - *2026.05*: ICML 2026 Golden Reviewer (Top Reviewer Award)
 - *2025.12*: The CAST Youth Science and Technology Talent Cultivation Program for Doctoral Students (0.5%, 2025年中国科协青年科技人才培育工程博士生专项计划)
 - *2025.10* PhD Outstanding Academic Scholarship, First Prize (2%)
