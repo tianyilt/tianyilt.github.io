@@ -118,3 +118,34 @@ h1:before, .anchor:before {
     background-color: #ffffff;
     font-size: .8em;
 }
+
+// Keep live project badges together in the thumbnail frame without covering the artwork.
+.paper-box .paper-box-image {
+    .project-image {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .project-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        position: static;
+        margin: 0 0 6px;
+        padding: 0;
+        background: transparent;
+
+        a {
+            display: inline-flex;
+            max-width: 100%;
+        }
+
+        img {
+            display: block;
+            width: auto;
+            height: 20px;
+            max-width: 100%;
+            box-shadow: none;
+        }
+    }
+}
