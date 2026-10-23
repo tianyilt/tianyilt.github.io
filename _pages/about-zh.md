@@ -20,6 +20,7 @@ author_profile: true
 
 
 # 🔥 最新动态
+- *2026.10*: &nbsp;🚀 我参与的开源文生图模型 MOSS-Image，在 [HuggingFace 的 ComfyUI 适配仓库](https://huggingface.co/Comfy-Org/MOSS-Image) 近一个月下载量已达 **146万+**。
 - *2026.09*: &nbsp;🚀 我作为团队负责人发布的开源视频-音频联合生成模型 MOVA 1.0，在 [HuggingFace](https://huggingface.co/OpenMOSS-Team/MOVA-360p) 累计下载量突破 **72万+**。
 - *2026.09*: &nbsp;🎉 1篇论文被 NeurIPS 2026（主会）录用。
 - *2026.09*: &nbsp;🎖️ 获得博士研究生国家奖学金。
@@ -200,6 +201,17 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 角色：**团队负责人**
 一个用于同步视频-音频生成的基础模型，打破了开源视频生成领域的"无声时代"。MOVA 能够在单次推理中生成高保真视频与同步音频，达到最先进的唇形同步性能。
 [arXiv](https://arxiv.org/abs/2602.08794) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [项目主页](https://mosi.cn/models/mova)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/MOSS-Image?style=social" alt="GitHub stars"></div><img src='/images/moss-image.webp' alt="MOSS-Image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MOSS-Image**
+角色：贡献者
+一个采用5B骨干网络的开源文生图模型系列，支持中英文文字渲染，以及文字和物体位置的布局控制。
+[arXiv](https://arxiv.org/abs/2610.23374) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOSS-Image) &nbsp;|&nbsp; [项目主页](https://openmoss.github.io/MOSS-Image/) &nbsp;|&nbsp; [ComfyUI 模型](https://huggingface.co/Comfy-Org/MOSS-Image)
 
 </div>
 </div>
