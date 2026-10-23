@@ -194,7 +194,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 
 # 💻 项目
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/MOVA?style=social" alt="GitHub stars"></div><img src='/images/mova.png' alt="MOVA" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/OpenMOSS/MOVA" aria-label="MOVA GitHub stars"><img src="https://img.shields.io/github/stars/OpenMOSS/MOVA?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/OpenMOSS-Team/MOVA-360p" title="OpenMOSS-Team/MOVA-360p：Hugging Face 近一个月下载量" aria-label="OpenMOSS-Team/MOVA-360p：Hugging Face 近一个月下载量"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FOpenMOSS-Team%2FMOVA-360p&amp;query=%24.downloads&amp;label=HF%20downloads%2Fmonth&amp;style=social&amp;cacheSeconds=3600" alt="HF downloads/month"></a></div><img src='/images/mova.png' alt="MOVA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **MOVA: Towards Scalable and Synchronized Video-Audio Generation**
@@ -205,7 +205,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/MOSS-Image?style=social" alt="GitHub stars"></div><img src='/images/moss-image.webp' alt="MOSS-Image" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/OpenMOSS/MOSS-Image" aria-label="MOSS-Image GitHub stars"><img src="https://img.shields.io/github/stars/OpenMOSS/MOSS-Image?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/Comfy-Org/MOSS-Image" title="Comfy-Org/MOSS-Image：Hugging Face 近一个月下载量（ComfyUI 适配仓库）" aria-label="Comfy-Org/MOSS-Image：Hugging Face 近一个月下载量（ComfyUI 适配仓库）"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FComfy-Org%2FMOSS-Image&amp;query=%24.downloads&amp;label=HF%20downloads%2Fmonth&amp;style=social&amp;cacheSeconds=3600" alt="HF downloads/month"></a></div><img src='/images/moss-image.webp' alt="MOSS-Image" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **MOSS-Image**
@@ -216,7 +216,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/DiRL?style=social" alt="GitHub stars"></div><img src='/images/DiRL.jpg' alt="DiRL" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/OpenMOSS/DiRL" aria-label="DiRL GitHub stars"><img src="https://img.shields.io/github/stars/OpenMOSS/DiRL?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct" title="OpenMOSS-Team/DiRL-8B-Instruct：Hugging Face 近一个月下载量" aria-label="OpenMOSS-Team/DiRL-8B-Instruct：Hugging Face 近一个月下载量"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FOpenMOSS-Team%2FDiRL-8B-Instruct&amp;query=%24.downloads&amp;label=HF%20downloads%2Fmonth&amp;style=social&amp;cacheSeconds=3600" alt="HF downloads/month"></a></div><img src='/images/DiRL.jpg' alt="DiRL" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DiRL: An Efficient Post-Training Framework for Diffusion Language Models**
@@ -227,7 +227,7 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/OmniVAE?style=social" alt="GitHub stars"></div><img src='/images/omnivae.png' alt="OmniVAE" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/OpenMOSS/OmniVAE" aria-label="OmniVAE GitHub stars"><img src="https://img.shields.io/github/stars/OpenMOSS/OmniVAE?style=social" alt="GitHub stars"></a></div><img src='/images/omnivae.png' alt="OmniVAE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **OmniVAE: An Audio-Video VAE with Cross-Modal Alignment for Joint Generation**
