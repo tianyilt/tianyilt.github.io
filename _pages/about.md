@@ -23,6 +23,7 @@ I have served as a reviewer for top-tier conferences including ICLR, IEEE VIS, C
 
 
 # 🔥 News
+- *2026.10*: &nbsp;🚀 MOSS-Image, the open-source text-to-image model I contribute to, has reached **1.46M+ downloads in the past month** through its [ComfyUI distribution on HuggingFace](https://huggingface.co/Comfy-Org/MOSS-Image).
 - *2026.09*: &nbsp;🚀 MOVA 1.0, the open-source video-audio joint generation model I lead, has surpassed **720K+ downloads** on [HuggingFace](https://huggingface.co/OpenMOSS-Team/MOVA-360p).
 - *2026.09*: &nbsp;🎉 1 paper accepted to NeurIPS (main) 2026.
 - *2026.09*: &nbsp;🎖️ Received PhD National Scholarship.
@@ -231,6 +232,17 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 Role: **Team Leader**  
 A foundation model for synchronized video-audio generation, breaking the "silent era" of open-source video generation. MOVA generates high-fidelity video and synchronized audio in a single inference pass with state-of-the-art lip-sync performance.  
 [arXiv](https://arxiv.org/abs/2602.08794) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOVA) &nbsp;|&nbsp; [Project Page](https://mosi.cn/models/mova)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-github"><img src="https://img.shields.io/github/stars/OpenMOSS/MOSS-Image?style=social" alt="GitHub stars"></div><img src='images/moss-image.webp' alt="MOSS-Image" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MOSS-Image**  
+Role: Contributor  
+An open-source text-to-image model family with a 5B backbone, supporting Chinese and English text rendering and layout control over text and object placement.  
+[arXiv](https://arxiv.org/abs/2610.23374) &nbsp;|&nbsp; [GitHub](https://github.com/OpenMOSS/MOSS-Image) &nbsp;|&nbsp; [Project Page](https://openmoss.github.io/MOSS-Image/) &nbsp;|&nbsp; [ComfyUI Models](https://huggingface.co/Comfy-Org/MOSS-Image)
 
 </div>
 </div>
