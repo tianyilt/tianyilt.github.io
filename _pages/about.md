@@ -225,6 +225,8 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">Tianyi Liang</span><su
 
 # 💻 Projects
 
+<script src="/assets/js/project-downloads.js" defer></script>
+
 <div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/OpenMOSS/MOVA" aria-label="MOVA GitHub stars"><img src="https://img.shields.io/github/stars/OpenMOSS/MOVA?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/OpenMOSS-Team/MOVA-360p" title="OpenMOSS-Team/MOVA-360p: Hugging Face all-time downloads" aria-label="OpenMOSS-Team/MOVA-360p: Hugging Face all-time downloads"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FOpenMOSS-Team%2FMOVA-360p%3Fexpand%255B%255D%3Ddownloads%26expand%255B%255D%3DdownloadsAllTime&amp;query=%24.downloadsAllTime&amp;label=HF%20total%20downloads&amp;style=social&amp;cacheSeconds=3600" alt="HF total downloads"></a></div><img src='images/mova.png' alt="MOVA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -290,10 +292,16 @@ A jointly trained audio-video variational autoencoder that aligns audio and vide
 
 ## Research Projects
 
-- **[GAOKAO-Eval](https://github.com/open-compass/GAOKAO-Eval)**  
-  
-  ![GitHub stars](https://img.shields.io/github/stars/open-compass/GAOKAO-Eval?style=social) ![GitHub forks](https://img.shields.io/github/forks/open-compass/GAOKAO-Eval?style=social)  
-  An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem.
+<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/open-compass/GAOKAO-Eval" aria-label="GAOKAO-Eval GitHub stars"><img src="https://img.shields.io/github/stars/open-compass/GAOKAO-Eval?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/internlm/internlm2-wqx-20b" data-hf-models="internlm/internlm2-wqx-20b,internlm/internlm2-wqx-vl-20b" data-downloads-label="HF total (20B + VL)" data-downloads-title="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B" title="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B: 5,688 (checked 2026-10-23)" aria-label="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B: 5,688 (checked 2026-10-23)"><img src="https://img.shields.io/badge/HF%20total%20%2820B%20%2B%20VL%29-5.69k-blue?style=social" alt="HF total (20B + VL): 5.69k"></a><a href="https://github.com/open-compass/GAOKAO-Eval/forks" aria-label="GAOKAO-Eval GitHub forks"><img src="https://img.shields.io/github/forks/open-compass/GAOKAO-Eval?style=social" alt="GitHub forks"></a></div><img src='images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**InternLM2-WQX & GAOKAO-Eval**  
+Role: Contributor  
+An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem. The InternLM2-WQX series includes the text-only 20B and multimodal VL-20B models; the download badge combines both model repositories.  
+[GitHub](https://github.com/open-compass/GAOKAO-Eval) &nbsp;|&nbsp; [20B Model](https://huggingface.co/internlm/internlm2-wqx-20b) &nbsp;|&nbsp; [VL-20B Model](https://huggingface.co/internlm/internlm2-wqx-vl-20b)
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2026.09*: PhD National Scholarship (1%)
