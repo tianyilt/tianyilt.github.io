@@ -240,6 +240,17 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/open-compass/GAOKAO-Eval" aria-label="GAOKAO-Eval GitHub stars"><img src="https://img.shields.io/github/stars/open-compass/GAOKAO-Eval?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/internlm/internlm2-wqx-20b" data-hf-models="internlm/internlm2-wqx-20b,internlm/internlm2-wqx-vl-20b" data-downloads-label="HF total (20B + VL)" data-downloads-title="InternLM2-WQX-20B 与 InternLM2-WQX-VL-20B 两个仓库的累计下载量之和" title="InternLM2-WQX-20B 与 InternLM2-WQX-VL-20B 两个仓库的累计下载量之和: 5,688（2026-10-23 核验）" aria-label="InternLM2-WQX-20B 与 InternLM2-WQX-VL-20B 两个仓库的累计下载量之和: 5,688（2026-10-23 核验）"><img src="https://img.shields.io/badge/HF%20total%20%2820B%20%2B%20VL%29-5.69k-blue?style=social" alt="HF total (20B + VL): 5.69k"></a><a href="https://github.com/open-compass/GAOKAO-Eval/forks" aria-label="GAOKAO-Eval GitHub forks"><img src="https://img.shields.io/github/forks/open-compass/GAOKAO-Eval?style=social" alt="GitHub forks"></a></div><img src='/images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**InternLM2-WQX & GAOKAO-Eval**
+角色：贡献者
+面向大语言模型的中国高考任务评测基准，在 OpenCompass 生态中提供数据集、评测流程和可复现脚本。 文曲星系列包含纯文本 20B 与多模态 VL-20B 模型；下载徽标合计两个模型仓库。
+[GitHub](https://github.com/open-compass/GAOKAO-Eval) &nbsp;|&nbsp; [20B 模型](https://huggingface.co/internlm/internlm2-wqx-20b) &nbsp;|&nbsp; [VL-20B 模型](https://huggingface.co/internlm/internlm2-wqx-vl-20b)
+
+</div>
+</div>
+
 ## 开源课程共享项目
 
 - **[ECUST-CourseShare](https://github.com/tianyilt/ecust-CourseShare)**
@@ -258,19 +269,6 @@ Zhikai Lei<sup>&#8224;</sup>, <span style="color:#8c1d1d">梁天一</span><sup>&
 
   ![GitHub stars](https://img.shields.io/github/stars/ECNU-Forum/ECNU-Forum?style=social) ![GitHub forks](https://img.shields.io/github/forks/ECNU-Forum/ECNU-Forum?style=social)
   面向华东师范大学学生的现代化论坛平台，基于 Flarum 构建。论坛地址 [ecnu.im](https://ecnu.im)，为华师大学生提供一个自由交流、思想碰撞的空间。这是一个非官方的社区驱动平台，促进学生之间的学术与社交互动。
-
-## 研究项目
-
-<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/open-compass/GAOKAO-Eval" aria-label="GAOKAO-Eval GitHub stars"><img src="https://img.shields.io/github/stars/open-compass/GAOKAO-Eval?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/internlm/internlm2-wqx-20b" data-hf-models="internlm/internlm2-wqx-20b,internlm/internlm2-wqx-vl-20b" data-downloads-label="HF total (20B + VL)" data-downloads-title="InternLM2-WQX-20B 与 InternLM2-WQX-VL-20B 两个仓库的累计下载量之和" title="InternLM2-WQX-20B 与 InternLM2-WQX-VL-20B 两个仓库的累计下载量之和: 5,688（2026-10-23 核验）" aria-label="InternLM2-WQX-20B 与 InternLM2-WQX-VL-20B 两个仓库的累计下载量之和: 5,688（2026-10-23 核验）"><img src="https://img.shields.io/badge/HF%20total%20%2820B%20%2B%20VL%29-5.69k-blue?style=social" alt="HF total (20B + VL): 5.69k"></a><a href="https://github.com/open-compass/GAOKAO-Eval/forks" aria-label="GAOKAO-Eval GitHub forks"><img src="https://img.shields.io/github/forks/open-compass/GAOKAO-Eval?style=social" alt="GitHub forks"></a></div><img src='/images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**InternLM2-WQX & GAOKAO-Eval**
-角色：贡献者
-面向大语言模型的中国高考任务评测基准，在 OpenCompass 生态中提供数据集、评测流程和可复现脚本。 文曲星系列包含纯文本 20B 与多模态 VL-20B 模型；下载徽标合计两个模型仓库。
-[GitHub](https://github.com/open-compass/GAOKAO-Eval) &nbsp;|&nbsp; [20B 模型](https://huggingface.co/internlm/internlm2-wqx-20b) &nbsp;|&nbsp; [VL-20B 模型](https://huggingface.co/internlm/internlm2-wqx-vl-20b)
-
-</div>
-</div>
 
 # 🎖 荣誉奖项
 - *2026.09*：博士研究生国家奖学金（1%）
