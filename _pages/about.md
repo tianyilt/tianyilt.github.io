@@ -271,6 +271,17 @@ A jointly trained audio-video variational autoencoder that aligns audio and vide
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/open-compass/GAOKAO-Eval" aria-label="GAOKAO-Eval GitHub stars"><img src="https://img.shields.io/github/stars/open-compass/GAOKAO-Eval?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/internlm/internlm2-wqx-20b" data-hf-models="internlm/internlm2-wqx-20b,internlm/internlm2-wqx-vl-20b" data-downloads-label="HF total (20B + VL)" data-downloads-title="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B" title="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B: 5,688 (checked 2026-10-23)" aria-label="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B: 5,688 (checked 2026-10-23)"><img src="https://img.shields.io/badge/HF%20total%20%2820B%20%2B%20VL%29-5.69k-blue?style=social" alt="HF total (20B + VL): 5.69k"></a><a href="https://github.com/open-compass/GAOKAO-Eval/forks" aria-label="GAOKAO-Eval GitHub forks"><img src="https://img.shields.io/github/forks/open-compass/GAOKAO-Eval?style=social" alt="GitHub forks"></a></div><img src='images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**InternLM2-WQX & GAOKAO-Eval**  
+Role: Contributor  
+An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem. The InternLM2-WQX series includes the text-only 20B and multimodal VL-20B models; the download badge combines both model repositories.  
+[GitHub](https://github.com/open-compass/GAOKAO-Eval) &nbsp;|&nbsp; [20B Model](https://huggingface.co/internlm/internlm2-wqx-20b) &nbsp;|&nbsp; [VL-20B Model](https://huggingface.co/internlm/internlm2-wqx-vl-20b)
+
+</div>
+</div>
+
 ## Open Source Course Sharing Initiatives
 
 - **[ECUST-CourseShare](https://github.com/tianyilt/ecust-CourseShare)** 
@@ -289,19 +300,6 @@ A jointly trained audio-video variational autoencoder that aligns audio and vide
   
   ![GitHub stars](https://img.shields.io/github/stars/ECNU-Forum/ECNU-Forum?style=social) ![GitHub forks](https://img.shields.io/github/forks/ECNU-Forum/ECNU-Forum?style=social)  
   A modern forum platform based on Flarum for East China Normal University students. The live forum is accessible at [ecnu.im](https://ecnu.im), providing a space where ECNU students can freely communicate and exchange ideas. This is an unofficial community-driven platform that fosters academic and social interaction among students.
-
-## Research Projects
-
-<div class='paper-box'><div class='paper-box-image'><div class="project-image"><div class="badge-github project-badges"><a href="https://github.com/open-compass/GAOKAO-Eval" aria-label="GAOKAO-Eval GitHub stars"><img src="https://img.shields.io/github/stars/open-compass/GAOKAO-Eval?style=social" alt="GitHub stars"></a><a class="badge-downloads" href="https://huggingface.co/internlm/internlm2-wqx-20b" data-hf-models="internlm/internlm2-wqx-20b,internlm/internlm2-wqx-vl-20b" data-downloads-label="HF total (20B + VL)" data-downloads-title="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B" title="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B: 5,688 (checked 2026-10-23)" aria-label="Combined all-time downloads of InternLM2-WQX-20B and InternLM2-WQX-VL-20B: 5,688 (checked 2026-10-23)"><img src="https://img.shields.io/badge/HF%20total%20%2820B%20%2B%20VL%29-5.69k-blue?style=social" alt="HF total (20B + VL): 5.69k"></a><a href="https://github.com/open-compass/GAOKAO-Eval/forks" aria-label="GAOKAO-Eval GitHub forks"><img src="https://img.shields.io/github/forks/open-compass/GAOKAO-Eval?style=social" alt="GitHub forks"></a></div><img src='images/2024_gaokao_eval_arxiv.png' alt="GAOKAO-Eval" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**InternLM2-WQX & GAOKAO-Eval**  
-Role: Contributor  
-An evaluation benchmark for large language models on Chinese GAOKAO tasks, providing datasets, evaluation pipeline, and reproducible scripts within the OpenCompass ecosystem. The InternLM2-WQX series includes the text-only 20B and multimodal VL-20B models; the download badge combines both model repositories.  
-[GitHub](https://github.com/open-compass/GAOKAO-Eval) &nbsp;|&nbsp; [20B Model](https://huggingface.co/internlm/internlm2-wqx-20b) &nbsp;|&nbsp; [VL-20B Model](https://huggingface.co/internlm/internlm2-wqx-vl-20b)
-
-</div>
-</div>
 
 # 🎖 Honors and Awards
 - *2026.09*: PhD National Scholarship (1%)
