@@ -16,7 +16,7 @@ author_profile: true
 
 我是上海创智学院(SII) [OpenMoss 团队](https://openmoss.github.io/)的博士三年级研究生，师从[复旦大学邱锡鹏教授](https://xpqiu.github.io/)和[华东师范大学李晨晖教授](http://chenhui.li/)。博士一年级期间，我曾在上海人工智能实验室 InternLM 团队，师从[郭琦鹏博士](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en)从事研究工作。我于华东师范大学计算机科学与技术专业获得学术型硕士学位（2021-2024），师从李晨晖教授和王长波教授；本科就读于华东理工大学数学与应用数学、计算机科学专业（2017-2021）。我的研究方向包括图像生成、视频生成、多模态智能体的测试时规模化（test-time scaling）以及计算机图形学。
 
-我曾担任 ICLR、IEEE VIS、CVPR、NeurIPS 等顶级学术会议的审稿人。我对每篇论文的审稿时间不少于4小时，积极参与作者Rebuttal环节，鼓励创新且本质性的工作，打分高于社区平均水平，因此我不惧去匿名化，我的审稿质量也得到了作者和领域主席的认可。
+我曾担任 AAAI 2026 程序委员会委员，并为 ICLR、ICML、NeurIPS、CVPR、IEEE VIS 和 IEEE TVCG 等会议与期刊审稿。我重视审稿的完整性、建设性与时效性，并积极参与作者回复和审稿人讨论。因审稿表现入选 ICML 2026 Golden Reviewer。
 
 
 # 🔥 最新动态
